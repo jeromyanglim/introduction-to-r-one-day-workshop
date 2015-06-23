@@ -1,0 +1,152 @@
+# Initialise Project
+```{r knitr_configuration}
+library(knitr)
+opts_knit$set(root.dir = normalizePath('../')) # required when rmd is in subdirectory
+```
+
+```{r load_project}
+library(ProjectTemplate); load.project()
+
+# Activities
+# I will demonstrate RCmdr using the CASchools dataset
+library(AER)
+data("CASchools")
+
+# Load R commander
+library(Rcmdr)
+
+####################################################
+# Basic statistics
+# Get summary information
+# Statistics - summaries - statistics
+
+# Correlation matrix
+# Statistics - summaries - correlation matrix
+
+# Tables of frequencies
+# Statistics  - summaries - frequency distributions
+
+# Cross-tabulation
+# Statistics - Continency tables - two-way table
+
+####################################################
+# Regression models
+# Statistics - Fit models - Linear model
+# E.g., math ~ lunch + expenditure
+
+# Once a model is fit use the "Models" menu to extract
+# information.
+# Models - Summarise Model
+# Models - AIC
+# Models - Graphs - basic diagnostic plots
+
+####################################################
+# Graphs
+# Graphs are fairly basic but straightforward
+
+# Scatterplot
+# Graphs - scatterplot
+
+# Histogram
+# Graphs - histogram
+
+# Scatterplot matrix
+# Graphs - scatterplot matrix
+
+
+####################################################
+# Data manipulation
+# Make z-scores
+# Data - manage variables in active dataset - standarize variableshead
+
+# Re-order factors (categorical variables)
+# Data - manage variables in active dataset - record factor levels
+
+
+###################################################
+# Data Input / Output
+# Import from a range of external file formats
+# Data - import data - ...
+
+# Save data in native R format
+# Data - Active data set - save active dataset
+
+# Export as text file (e.g., csv)
+# Data - Active data set - export active dataset
+
+###################################################
+# View the dataset
+# Click view data set
+
+
+
+
+###################################################
+# General Points on using R Commander
+# R Commander is a form of training wheels for R
+# * There are many things that it does not do.
+# * It can be a useful fall back if you want to know 
+#   the code to do something.
+# * You can then copy the Script back into RStudio. 
+
+
+# Unload RCmdr
+# 1. Quit Rcmdr
+# 2. run
+detach(package:Rcmdr)
+```             
+
+# Rcmdr Exercises
+```{r}
+library(MASS)
+data(survey)
+library(Rcmdr)
+
+# 1. Make the active dataset survey from the MASS package
+
+# 2. Get a histogram of height and Age
+
+# 3. Get a boxplot Height grouped by Sex 
+
+# 4. Get a spearman correlation matrix for Age, Height, and Pulse
+#    Tip: Control click to select multiple variables
+
+# 5. Fit a linear  model: statistics - fit models - linear model
+#    predicting Pulse from Sex, Smoke, and Height
+
+# 6. Summarise the results of this model (models - summarise model)
+
+# 7. Copy the script from the RScript Window in R commander
+#    and paste it into RStudio (i.e., just below).
+
+# 8. Close Rcommander and detach the Rcmdr library
+
+# 9. Run the same commands now in RStudio
+
+
+```
+
+
+```{r}
+with(survey, Hist(Height, scale="frequency", 
+  breaks="Sturges", col="darkgray"))
+scatterplot(Age~Height, reg.line=lm, smooth=TRUE, 
+  spread=TRUE, id.method='mahal', id.n = 2, boxplots='xy', 
+  span=0.5, data=survey)
+scatterplot(Age~Height, reg.line=lm, smooth=TRUE, 
+  spread=TRUE, id.method='mahal', id.n = 2, boxplots='xy', 
+  span=0.5, data=survey)
+Boxplot(Height~Sex, data=survey, id.method="y")
+cor(survey[,c("Age","Height","Pulse")], method="spearman", 
+  use="complete")
+LinearModel.1 <- lm(Pulse ~ Sex + Smoke + Height, 
+  data=survey)
+summary(LinearModel.1)
+summary(LinearModel.1)
+
+
+```
+
+
+
+

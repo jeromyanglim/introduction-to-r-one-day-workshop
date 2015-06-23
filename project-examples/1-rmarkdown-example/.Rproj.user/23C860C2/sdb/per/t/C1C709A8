@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"Introduction to R Workshop: RMarkdown Example\"\nauthor: \"Dr Jeromy Anglim\"\noutput: html_document\n---\n\n# Overview of Markdown\n\n\n# Heading 1 with a hash\n## Heading 2 with a double hash\n### Heading 3 with a triple hash\n\nYou can type normal text and insert line breaks as you like.\n\nTo indicate a new paragraph, leave an empty line.\n\nYou can include dot points by adding an empty line and then using the\nstar * symbol.\n\n* Example dot point\n* Another example\n\nYou can also create numbered dot points.\n\n1. My first point that I want to make\n2. My second point that I want to make\n3. Another point\n\nYou can format text:\n\n* Enclose text in backticks to indicate code: e.g., `mycode`\n* Enclose text in double stars for bold: e.g., **bolded text**\n* Enclose text in single stars for italics: e.g., *bolded text*\n\nHyperlinks can be included:\n\n* Put text to display in brackets followed by url in parentheses\n  [text to display](http://jeromyanglim.blogspot.com)\n* Or you can just put a url: http://jeromyanglim.blogspot.com  \n\nIf you forget this, you can access the Markdown Quick Reference in Rstudio.\n\n\n# RMarkdown\n* RMarkdown is a document format that involves interspersing Markdown \nwith R Code chunks.\n\n* `knitr` then runs the R code and intersperses the resulting output (e.g., tables, figures, text) in the document.\n\n\nThe easiest way to create an R code chunk is to go to \"code - insert chunk\" in RStudio.\n\n* R code chunks begin with triple backtick, open brace, r, and then close back tick.\n  They can also includes some display options.\n* R code chunks end with a triple backtick.\n\n\nIt's generally a good idea to put all your library, data loading, and \ndata manipulation, code in the first chunk. \nThis allows you to minimise the dependencies between code chunks.\n\n```{r import_libraries, warning=FALSE, message=FALSE}\nlibrary(foreign) # read.spss\nlibrary(psych) # describe \n\ncars_raw <- foreign::read.spss('cars.sav', to.data.frame=TRUE)\n# get rid of missing data listwise\ncars <- na.omit(cars_raw[,c('accel', 'mpg', 'engine', 'horse', 'weight')])\n```\n\n\n\n# Quick look at data\n```{r quick_look}\n# What's my sample size\nnrow(cars)\n\n# Descriptive statistics\npsych::describe(cars)\n\n# Basic correlations\nround(cor(cars), 2)\n```\n\n# You can also include plots\n```{r}\npsych::pairs.panels(cars)\n```\n\n## Summary of model\n```{r}\nfit <- lm(accel ~ mpg + engine + horse + weight, data=cars)\n# r-square, adjusted r-square, std. error of estimate,\n# overall ANOVA, df, p, \n# unstandardised coefficients, sig tests\nsummary(fit)\n\n```\n",
+    "created" : 1435027701277.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1722064516",
+    "id" : "C1C709A8",
+    "lastKnownWriteTime" : 1435027727,
+    "path" : "~/teaching/r-training/r-training/project-examples/1-rmarkdown-example/01-multiple-regression.rmd",
+    "project_path" : "01-multiple-regression.rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

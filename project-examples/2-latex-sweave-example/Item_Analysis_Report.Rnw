@@ -1,0 +1,272 @@
+% 
+\documentclass[a4paper]{article}
+\usepackage[OT1]{fontenc}
+\usepackage{Sweave}
+\setkeys{Gin}{width=0.8\textwidth}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage[left=40mm, right=40mm, top=30mm, bottom=30mm, 
+      includefoot, headheight=13.6pt]{geometry} 
+      %set margins to be 30mm (needs to include page numbers
+\hypersetup{pdfpagelayout=SinglePage} 
+% http://www.tug.org/applications/hyperref/ftp/doc/manual.html                                
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black
+} % have links but print like standard text 
+% http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+
+\begin{document}
+\title{Sweave Example: Item Analysis Report}
+\author{Jeromy Anglim}
+
+\maketitle
+
+
+<<initial_settings, echo=FALSE>>=
+options(stringsAsFactors=FALSE)
+options(width=80)
+library(psych) # used scoring and alpha
+library(CTT) # used for spearman brown prophecy
+@
+
+
+<<import_data, echo=FALSE>>=
+cases <- read.delim("data/cases.tsv")
+items <- read.delim("meta/items.tsv")
+items$variable <- paste("item", items$item, sep="")
+@
+
+
+\begin{abstract}
+This document provides an example of using Sweave 
+to record console input and output.
+Such a format is useful for several purposes including
+R tutorials, informal analyses, and analyses that will be consumed
+by readers knowledgeable about a specific project and about R.
+The example involves performing an item analysis of 
+responses of \Sexpr{nrow(cases)} students 
+to a set of \Sexpr{nrow(items)} multiple choice test items.
+The test items were developed by students as part of an informal
+class exercise.
+They are by design of widely varying quality and difficulty.
+For a copy and explanation of the source code, go to
+\url{http://jeromyanglim.blogspot.com/2010/11/sweave-tutorial-3-console-input-and.html}
+\end{abstract}
+
+\section{Import Data}
+The following code imports the data,
+initial settings, loading needed packages and
+loading data and metadata.
+<<>>=
+<<initial_settings>>
+<<import_data>>
+@
+
+
+\section{Initial Inspection of Items}
+<<score_test>>=
+itemstats <- score.multiple.choice(key = items$correct, 
+			data = cases[,items$variable])
+@
+
+The following output shows the item,
+correct response (key), the proportion
+giving response 1, 2, 3, and 4, the item total correlation(r)
+the sample size (n), and the proportion correct (mean).
+<<print_main_item_stats>>=
+itemstats$item.stats[,c("key", "1", "2", "3", "4", "r", "n", "mean")]
+@
+
+Item 23 appears to be easy.
+The absence of variability means that item-total correlations 
+can not be calculated for this item.
+A quick look at the item suggests why this might be the case:
+
+<<inspect_item23>>=
+t(items[items$item == 23, ])
+@
+
+Using all 50 items the scale has modest reliabilty
+(alpha = \Sexpr{itemstats$alpha}).
+
+<<50item_alpha>>=
+itemstats$alpha
+@
+
+The following figure plots proportion answering the item
+correct by item-total correlation.
+The horizontal and vertical lines represent rough rules of thumb
+ dividing poorer from better items
+ (i.e., those with a mean that differentiates
+ and an item-total correlation that suggests that the item
+ is measuring a meaningful construct).
+Thus, items in the middle upper section might be regarded as better items.
+
+However, several caveats should be mentioned.
+(a) these are only sample estimates,
+(b) what constitutes a good item depends on purpose,
+(c) inferences are best made when the external sample is the
+ same as the norm sample.
+
+
+<<plot_mean_by_r, fig=TRUE>>=
+plot(r ~ mean , itemstats$item.stats, type="n")
+text(itemstats$item.stats$mean, itemstats$item.stats$r, 1:50)
+abline(h=.2, v=c(.5, .9))
+@
+
+
+Before seeing whether items need deleting,
+the distribution of scores are presented.
+The stem and leaf plot shows a couple of cases
+who performed at close to chance levels.  
+
+<<distribution_of_scores>>=
+scases <- data.frame(score.multiple.choice(key = items$correct, 
+			data = cases[,items$variable], score=FALSE))
+scases$correct <-	apply(scases, 1, mean)
+scases$id <- cases$id
+psych::describe(scases$correct)
+stem(scases$correct)
+@
+
+The id numbers of these cases are shown below.
+<<ids_of_outliers>>=  
+(outlierIds <- scases[scases$correct < .35, "id"])
+@
+
+
+
+
+\section{Simple Attempt to Improve Scale}
+\subsection{Removal of outlier cases}
+<<cases_outliers_removed>>=
+orcases <- cases[!cases$id %in% outlierIds, ]
+oritemstats <- score.multiple.choice(key = items$correct, 
+		data = orcases[,items$variable])
+@
+
+With the outlier cases the scale reliability was estimated to be 
+\Sexpr{itemstats[["alpha"]]}
+with the outlier cases removed scale reliability 
+was estimated to be \Sexpr{oritemstats[["alpha"]]}
+The lesson to be learnt here is that failure to remove outlier
+cases can lead to a gross overestimation of the reliability of a scale.
+
+\subsection{Removal of poor items}
+There are many ways of identifying poor items.
+
+<<flag_bad_items>>=
+rules <- list(
+		tooEasy = .95,
+		tooHard = .3,
+		lowR = .15)
+oritemstats$item.stats$lowR <- 
+		oritemstats$item.stats$r < rules$lowR
+oritemstats$item.stats$lowR[is.na(oritemstats$item.stats$lowR)] <- TRUE 
+oritemstats$item.stats$tooEasy <- 
+		oritemstats$item.stats$mean > rules$tooEasy
+oritemstats$item.stats$tooHard <- 
+		oritemstats$item.stats$mean < rules$tooHard
+
+oritemstats$item.stats$baditem <-
+		with(oritemstats$item.stats,
+				(lowR | tooHard | tooEasy))
+
+baditems <- row.names(oritemstats$item.stats[
+						oritemstats$item.stats$baditem, ])
+gooditems <- row.names(oritemstats$item.stats[
+						!oritemstats$item.stats$baditem, ])
+@
+
+The code above uses some simple heuristics to flag bad items.
+Items were flagged as bad based on the following rules:
+
+\begin{itemize}
+\item \emph{Too Easy}: mean correct $>$
+\Sexpr{rules$tooEasy}.
+\Sexpr{sum(oritemstats$item.stats$tooEasy)}
+items were bad by this definition.
+
+\item \emph{Too Hard}: mean correct $<$ 
+\Sexpr{rules$tooHard}.
+\Sexpr{sum(oritemstats$item.stats$tooHard)}
+items were bad by this definition. 
+
+\item \emph{Low Item--Total Correlation}: item total correlation $<$ 
+\Sexpr{rules$lowR}.
+\Sexpr{sum(oritemstats$item.stats$lowR)} 
+items were bad by this definition. 
+\end{itemize}
+
+Overall, these three rules flagged 
+\Sexpr{sum(oritemstats$item.stats$baditem)} of 
+\Sexpr{length(oritemstats$item.stats$baditem)} items as bad.
+
+
+The following shows a couple of examples of items flagged as poor
+and a couple flagged as good.
+
+<<examples_of_good_and_bad_items>>=
+oritemstats$item.stats[gooditems[c(1,6)], ]
+t(items[items$variable == gooditems[1], ])
+t(items[items$variable == gooditems[6], ])
+
+oritemstats$item.stats[baditems[c(1,6)], ]
+t(items[items$variable == baditems[1], ])
+t(items[items$variable == baditems[6], ])
+@ 
+
+The reliability can then be calculated on the modified scale 
+with the items flagged as bad removed.
+<<reduced_items_itemstats>>=
+reditemstats <- score.multiple.choice(
+  key = items[items$variable %in% gooditems, "correct"], 
+		data = orcases[,gooditems])
+@
+
+The resulting reliability was 
+\Sexpr{reditemstats$alpha} up from
+\Sexpr{oritemstats$alpha}.
+
+While this is an improvement, it is still poor.
+
+The Spearman Brown prophecy formula provides a means of
+estimating the number of items required to achieve a given alpha. 
+
+<<calculate_spearman_brown>>=
+sbrown <- list()
+sbrown$targetAlpha <- .8
+sbrown$actualAlpha <- reditemstats$alpha
+sbrown$multiple <- CTT::spearman.brown(sbrown$actualAlpha , .8, "r")$n.new 
+sbrown$refinedItemCount <- nrow(reditemstats$item.stats) * sbrown$multiple
+sbrown$totalItemCount <- nrow(itemstats$item.stats) * sbrown$multiple 
+@
+
+The formula suggests  that in order to obtain
+an alpha of \Sexpr{sbrown$targetAlpha},
+\Sexpr{round(sbrown$multiple, 2)} times as many items are required.
+Thus, the final scale would need around
+\Sexpr{ceiling(sbrown$refinedItemCount)} items.
+Assuming a similar number of good and bad items,
+this would require an initial pool of around
+\Sexpr{ceiling(sbrown$totalItemCount)} items.  
+It should also be noted that these are probably under estimates
+given (a) the relatively small sample size, 
+and (b) item total correlations
+and alpha are likely to be positively biased due to the selection 
+procedure used for identifying good test items. 
+
+
+\section{Conclusion}
+If you get a bunch of students 
+and give them five minutes to write a bunch of random test items,
+don't expect the resulting scale to have
+good psychometric properties.  
+But of course, this document was intended more as an example of 
+using Sweave than as an example of best practice in test construction. 
+\end{document}

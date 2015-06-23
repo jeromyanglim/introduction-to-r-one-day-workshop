@@ -1,0 +1,25 @@
+# Initialise Project
+```{r knitr_configuration}
+library(knitr)
+opts_knit$set(root.dir = normalizePath('../')) # required when rmd is in subdirectory
+```
+
+```{r load_project}
+library(ProjectTemplate); load.project()
+```             
+
+# Explore
+```{r}
+psych::describe(cas)
+head(cas)
+```
+
+
+# Correlation matrix
+```{r}
+# example of using imported function in the lib folder
+correlationMatrixFormatted(cas[, v$variables] , v$variables)
+```
+
+
+

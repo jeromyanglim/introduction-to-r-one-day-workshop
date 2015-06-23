@@ -1,0 +1,311 @@
+# Preliminary analysies
+
+
+```{r knitr_configuration}
+# If you compile this rmd file in place, then the following line ensures that it treats the parent folder as the home directory.
+library(knitr)
+opts_knit$set(root.dir = normalizePath('../')) # required when rmd is in subdirectory
+```
+
+
+```{r}
+library("ProjectTemplate"); load.project()
+#  QUICK_ANALYSIS=TRUE means that bootstrap operation will be run 
+# on many fewer iterations than the paper; set to 
+QUICK_ANALYSIS <- TRUE
+# uncomment this line to run longer bootstrap analysis 
+# (this may take 30 minutes or more to run depending on your computer)
+# QUICK_ANALYSIS <- FALSE
+```
+
+# Demographics
+```{r demographics}
+# number of participants
+nrow(ccases)
+
+# gender breakdown count
+table(ccases$demog1, useNA="ifany")
+
+# Gender Proportions
+round(mean(ccases$male, na.rm=TRUE) * 100, 1)
+round((1 - mean(ccases$male, na.rm=TRUE)) * 100, 1)
+
+# Age descriptive statistics
+c(summary(ccases$age),  sd=sd(ccases$age, na.rm=TRUE))
+
+
+# not provided for confidentiality reasons
+# # raw sample size
+# nrow(rcases)
+# 
+# # cases removed from cleaned dataset
+# nrow(rcases) - nrow(ccases)
+# 
+# # number of cases who responded too quickly to 
+# sum(!rcases$retain) # not retained
+# sum(rcases$skip_count >=10) #skipped too many items
+# sum(rcases$na_count > 0)
+```
+
+# Reliability Analysis
+```{r reliability }
+descriptives_table <- data.frame(variable=c(v$ipip_factors, v$ipip_facets, v$wellbeing))
+
+wellbeingalpha <-  cbind(scored$swl$alpha,scored$panas$alpha, scored$pwb$alpha)
+descriptives_table$alpha <-  
+    c(scored$ipipscales$alpha[,v$ipip_factors], 
+    scored$ipipfacets$alpha[,v$ipip_facets],
+    wellbeingalpha[,v$wellbeing])
+# head(descriptives_table)
+
+
+descriptives_table$mean <-  apply(ccases[,c(v$ipip_factors, v$ipip_facets, v$wellbeing)], 2, mean)
+descriptives_table$sd <- apply(ccases[,c(v$ipip_factors, v$ipip_facets, v$wellbeing)], 2, sd)
+descriptives_table$variable <-  meta.scales[match(descriptives_table$variable, meta.scales$variable), 'label']
+
+descriptives_table_fw <- descriptives_table[c(1:5, 36:44), ]
+descriptives_table_facets <- descriptives_table[6:35, ]
+
+descriptives_table_fw
+write.csv(descriptives_table_fw, file='output/descriptives_table_fw.csv')
+
+descriptives_table_facets
+write.csv(descriptives_table_facets, file='output/descriptives_table_facets.csv')
+
+data.frame(descriptives_table[,1], sapply(descriptives_table[,2:4], function(X) round(X, 2)))
+
+# Mean alpha reliability
+round(mean(scored$ipipfacets$alpha[,v$ipip_facets]), 3)
+round(mean(scored$ipipscales$alpha[,v$ipip_factors]), 3)
+round(mean(wellbeingalpha[, v$wellbeing]), 3)
+```
+
+# Factor analysis of IPIP Facets
+```{r factoranalysis_ipip}
+fac <- list()
+fac$factanal <- factanal(ccases[,v$ipip_facets], factors=5, rotation='promax')
+fac$loadings <- unclass(fac$factanal$loadings)
+fac$scree <- scree(ccases[,v$ipip_facets])
+
+fac$clean_loadings <- round(fac$loadings, 2)
+fac$clean_loadings[abs(fac$clean_loadings) < .35] <- ""
+
+fac$clean_loadings
+write.csv(fac$clean_loadings, file='output/facloadings.csv')
+
+fac$abs_loadings <- data.frame(abs(fac$loadings))
+fac$abs_loadings$max_loading <- apply(fac$abs_loadings, 1, which.max)
+fac$abs_loadings$proposed <- rep(c(4,1,5,3,2), each=6)    
+fac$abs_loadings$primaryismax <- fac$abs_loadings$max_loading == fac$abs_loadings$proposed 
+fac$abs_loadings$corfacloading <-  apply(fac$abs_loadings, 1, function(X) X[X['proposed']])
+fac$abs_loadings$loadsabove.35 <- fac$abs_loadings$corfacloading > .35
+
+# Eigenvalues
+fa(cor(ccases[,v$ipip_facets]))$values
+fa(cor(ccases[,v$ipip_facets]), 5)
+fa.parallel(ccases[,v$ipip_facets])
+
+# number of facets loading maximally on theorised factor
+sum(fac$abs_loadings$primaryismax)
+
+# Proportion of variance explained
+fac$factanal
+
+# number of facets loading maximally on factor
+sum(fac$abs_loadings$loadsabove.35)
+
+# number of cross loadings above .35 out of 30 * 4 = 120
+sum(fac$abs_loadings[,1:5] > .35) - sum(fac$abs_loadings$loadsabove.35)
+(sum(fac$abs_loadings[,1:5] > .35) - sum(fac$abs_loadings$loadsabove.35)) / 120
+```
+
+
+# Descriptive statistics and entire intercorrelation matrix (for online supplement)
+```{r descriptives}
+# for Appendix
+cors <- list()
+cors$dat <- ccases[c(v$ipip_factors, v$ipip_facets, v$wellbeing)]
+cors$r <- cor(cors$dat)
+cors$mean <- sapply(cors$dat, mean)
+cors$sd <- sapply(cors$dat, sd)
+cors$alpha <- c(
+    scored$ipipscales$alpha[1,],
+    scored$ipipfacets$alpha[1,],
+    scored$swl$alpha[1,],
+    scored$panas$alpha[1,],
+    scored$pwb$alpha[1,])
+
+
+# check it's all in the same order
+# cbind(names(cors$alpha), names(cors$mean))
+
+cors$table <- cbind(mean=cors$mean, sd=cors$sd, alpha=cors$alpha, cors$r)
+
+cors$table
+write.csv(cors$table, file='output/correlation-matrix-all.csv')
+```
+
+
+# Correlations just well-being and Big 5
+```{r correlations_factor}
+corfactorwellbeing <-list()
+corfactorwellbeing$variables <- c(v$ipip_factors, v$wellbeing)
+corfactorwellbeing$labels <- relabel_lookup(corfactorwellbeing$variable, 
+                                            meta.scales[,c('variable', 'label')])
+
+corfactorwellbeing$table <- correlationMatrixFormatted(ccases[,corfactorwellbeing$variables], corfactorwellbeing$labels)
+
+corfactorwellbeing$table
+write.csv(corfactorwellbeing$table, file='output/corfactorwellbeing.csv')
+minimum_significant_r(n=nrow(ccases), alpha=.05)
+minimum_significant_r(n=nrow(ccases), alpha=.01)
+
+
+# marginalised cross correlations
+crfw <- list()
+crfw$cor <- cor( ccases[,v$wellbeing_reversed], ccases[,v$ipip_factors_reversed])
+crfw$marginalised <- marginalize_matrix(crfw$cor)
+row.names(crfw$marginalised$output) <- relabel_lookup(
+    row.names(crfw$marginalised$output), meta.scales[,c('variable', 'label')])
+colnames(crfw$marginalised$output) <- relabel_lookup(
+    colnames(crfw$marginalised$output), meta.scales[,c('variable', 'label')])
+
+crfw$marginalised$output
+write.csv(crfw$marginalised$output, file='output/crfw.csv')
+```
+
+# predict well-being from factors
+```{r predict_wellbeing_factors}
+wf <- list()
+wf$dvs <- v$wellbeing
+wf$ivs <- v$ipip_factors
+wf$lm <- lapply(wf$dvs, function(X) regression(X, wf$ivs, ccases))
+wf$betas <-  sapply( wf$lm, lm.beta)
+wf$adjrsq <- sapply(wf$lm, function(X) unlist(RsquareAdj(X)))['adj.r.squared',]
+wf$labels <- meta.scales$label[match(wf$dvs, meta.scales$variable)]
+wf$predictor_labels <- meta.scales$abbreviation[match(wf$ivs, meta.scales$variable)]
+row.names(wf$betas) <- wf$predictor_labels
+wf$table <- t(rbind(wf$betas,  rsqadj=wf$adjrsq))
+wf$table <- data.frame(variable=wf$labels, wf$table)
+
+wf$table
+round(mean(wf$table[1:3,'rsqadj']), 3)
+round(mean(wf$table[4:9,'rsqadj']), 3)
+
+wf$summary <- lapply(wf$lm, summary)
+
+sapply(wf$summary, coef)
+wf$pcoef <- lapply(wf$summary, function(X) X$coefficients[-1,4])
+wf$stars <- sapply(wf$pcoef, function(X)
+       as.character(symnum(X, corr = FALSE, na = FALSE, 
+       cutpoints = c(0, 0.001, 0.01, 0.05,  1),  
+              symbols = c("***", "**", "*",  " ")) ))
+wf$stars
+#  http://stackoverflow.com/a/12765046/180892
+noleadingzero <- function(val) { sub("^(-?)0.", "\\1.", sprintf("%.2f", val)) }
+wf$betas[] <- noleadingzero(wf$betas)
+wf$betas[] <- paste0(wf$betas, wf$stars)
+
+wf$sigtable <- wf$table[,-7]
+wf$sigtable[,2:6] <- t(wf$betas)
+
+wf$table
+write.csv(wf$table, file='output/wellbeingfactorregression.csv')
+wf$sigtable
+write.csv(wf$sigtable, file='output/wfsigtable.csv')
+write.csv(wf$sigtable, file='test.csv')
+```
+
+
+# Compare well-being prediction: facets factors
+```{r wellbeing_facets}
+set.seed(1234)
+incr <- list()
+incr$dvs <- v$wellbeing 
+incr$iterations <- 10000
+if (QUICK_ANALYSIS) { 
+    incr$iterations <- 100
+}
+                      
+incr$boot <- list()
+for (i in seq(incr$dvs)) {
+    print(incr$dvs[i])
+    incr$boot[[i]] <-   bootstrap_r_squared_change(ccases, dv=incr$dvs[i], ivs1=v$ipip_factors, 
+                                                ivs2=v$ipip_facets, iterations=incr$iterations,
+                                                method="olkinpratt")
+}
+
+incr$table <- data.frame(
+    DV = incr$dvs,
+    adjr2_factor = sapply(incr$boot, function(X) X$adjusted_rsquare$ivs1),
+    adjr2_facet = sapply(incr$boot, function(X) X$adjusted_rsquare$ivs2),
+    adjr2_change = sapply(incr$boot, function(X) X$sample_theta_hat),
+    adjr2_change_ci_lower = sapply(incr$boot, function(X) X$ci_values[1]),
+    adjr2_change_ci_upper=sapply(incr$boot, function(X) X$ci_values[2])
+    )
+
+if (exists("incr")) {
+    incr$table
+    write.csv(incr$table, 'output/incremental-rsquare-change.csv')
+}
+
+incr_sum <- read.csv('output/incremental-rsquare-change.csv')
+range(incr_sum$adjr2_change)
+
+mean(incr_sum$adjr2_change) # mean incremental well-being
+round(mean(incr_sum$adjr2_change[1:3]), 3) # mean incremental SWB
+round(mean(incr_sum$adjr2_change[4:9]), 3) # mean incremental PWB
+
+mean(incr_sum$adjr2_facet / incr_sum$adjr2_factor)
+
+round(mean(incr_sum$adjr2_change / incr_sum$adjr2_factor)*100,1) # mean incremental well-being
+# examination of whether there is a link between size of facet r-square and incremental r-square
+plot( incr_sum$adjr2_factor, incr_sum$adjr2_change)
+cor.test( incr_sum$adjr2_factor, incr_sum$adjr2_change)
+```
+
+
+
+
+# Semi partial correlations
+```{r semipartial}
+semipartials <- sapply(v$wellbeing, function(X)  
+    facets_semi_partial_r_table(X, v$ipip_facets, rep(v$ipip_factors, each=6), ccases)[,'sr_all_factors'])
+row.names(semipartials) <- v$ipip_facets
+
+# get unique variance
+row.names(semipartials) <-  meta.scales[match(row.names(semipartials), meta.scales$variable), 'label']
+colnames(semipartials) <- meta.scales[match(colnames(semipartials), meta.scales$variable), 'abbreviation']
+uniques <-  sapply(v$ipip_facets, function(X)
+    unique_variance(X, v$ipip_factors, data=ccases))
+semipartials <- cbind(semipartials, uniques)
+
+semipartials
+write.csv(semipartials, file='output/semipartials.csv')
+
+mean(semipartials[, 'uniques'])
+```
+
+# Significance of semi-partial r
+```{r}
+semi_partial_r_p <- function(y, x, controls, data, alpha = .01) {
+    Formula_1 <- formula(paste(y, '~',  paste(controls, collapse=" + ")))
+    Formula_2 <- formula(paste(y, '~',  paste(c(controls,x), collapse=" + ")))
+    lm_1 <- lm(Formula_1, data=data)
+    lm_2 <- lm(Formula_2, data=data)
+    fit <- anova(lm_1, lm_2)
+    fit$Pr[2] < alpha
+}
+srp <- matrix(FALSE, nrow=length(v$ipip_facets), ncol= length(v$wellbeing),
+       dimnames=list(v$ipip_facets, v$wellbeing))
+for (dv in v$wellbeing) {
+    for (facet in v$ipip_facets) {
+        srp[facet, dv] <- semi_partial_r_p(dv, facet, v$ipip_factors, ccases, .001)
+    }
+}
+
+write.csv(srp, file='output/semipartial_significance.csv')
+```
+
+
+

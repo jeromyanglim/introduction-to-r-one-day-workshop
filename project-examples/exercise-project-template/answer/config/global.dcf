@@ -1,0 +1,11 @@
+data_loading: TRUE
+cache_loading: FALSE
+munging: TRUE
+logging: FALSE
+load_libraries: TRUE
+libraries: psych, lattice, Hmisc
+as_factors: FALSE
+data_tables: FALSE
+recursive_loading: TRUE
+version: 0.6
+attach_internal_libraries: FALSE

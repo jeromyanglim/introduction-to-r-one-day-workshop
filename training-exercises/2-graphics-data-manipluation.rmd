@@ -1,0 +1,434 @@
+---
+title: "Introduction to R: Graphics and Data Manipulation Tutorial"
+author: "Dr Jeromy Anglim"
+output: pdf_document
+---
+
+# Initialise Project
+```{r load_project, message = FALSE, warning = FALSE}
+library(ProjectTemplate); load.project()
+library(MASS)
+data(survey)
+csurvey <- na.omit(survey)
+```             
+
+# Graphics systesms
+There are three main graphics packages in R:
+
+* Base graphics
+* lattice
+* ggplot2
+
+# Base graphics
+```{r base graphics}
+# scatterplot
+plot(csurvey$Pulse, csurvey$Age)
+plot(Age ~ Pulse, csurvey)
+plot(csurvey$Pulse)
+
+# distribution
+hist(csurvey$Pulse, 10) # histogram
+stem(csurvey$Pulse) # Stem and leaf plot
+plot(density(csurvey$Pulse)) # density plot
+boxplot(csurvey$Pulse) # box plot
+boxplot(csurvey$Pulse ~ csurvey$Sex) # box plot by group
+
+# categorical variables
+plot(csurvey$Smoke)
+plot(prop.table(table(csurvey$Smoke)))
+
+# plot covariation of multiple numeric variables 
+pairs( csurvey[, c("Wr.Hnd", "Pulse", "Height", "Age") ])
+psych::pairs.panels( csurvey[, c("Wr.Hnd", "Pulse", "Height", "Age") ])
+```
+
+# Graphics options
+```{r base graphics options}
+# Base graphics uses a "painting the page metaphor"
+
+# add options to the main plotting functions
+plot(csurvey$Pulse, csurvey$Age,
+     xlab = "Pulse",  # x-axis label
+     ylab = "Age",      # y-axis label
+     pch = 2,          # plotting character
+     las = 1,         # orientation of axis labels
+     xlim = c(0, 110), # x axis limits
+     ylim = c(0, 80)   # y axis limits
+)
+
+# overlay different elements
+title("Pulse by Age") # add title to top of plot
+abline(h = mean(csurvey$Age), lty = 2, col = "red") # add straight line
+abline(v= mean(csurvey$Pulse), lty = 2, col = "blue")  # add straight line
+text(70, 75, "outlier") # add text
+
+# There are various graphic parameters like 
+# lty for line type
+# col for colour
+# For further information, see
+# http://www.statmethods.net/advgraphs/parameters.html
+?par # built-in help for graphics parameters
+?plot.default # built-in help 
+
+
+# Arrange plots in grids
+par(mfrow = c(2, 2)) # create grid of plots with 2 rows and 2 columns
+plot(Pulse ~ Age, csurvey, main = "Pulse")
+plot(Wr.Hnd ~ Age, csurvey,  main = "Writing hand")
+plot(NW.Hnd ~ Age, csurvey, main = "Non-writing hand")
+plot(Height ~ Age, csurvey, main = "Height")
+par(mfrow = c(1, 1)) # return to standard settings
+```
+
+
+# Saving plot
+```{r saving base plots}
+# Option 1. Click on export in RStudio
+
+# Option 2. Use a graphics device
+?Devices # see list of graphics devices
+
+# Step 1. turn on graphics device
+# In this case I am using pdf
+pdf(file = "output/height-histogram.pdf") 
+# Step 2. Run plotting code
+hist(csurvey$Height) 
+
+# Step 3. Turn of graphics device
+dev.off()
+```
+
+# Exercise 1
+```{r exercise 1}
+# For this exercise will use the GSS7402 dataset
+library(AER)
+data("GSS7402")
+?GSS7402 # to learn about the dataset
+# It might be easier to work with a shorter variable name 
+gss <- GSS7402
+
+# 1. Use base graphics to create a boxplot for education
+
+# 2.  Create a boxplot for education split by year
+
+# 3. Add some elements to the plot
+#    (a) x and y labels,
+#    (b) a red horizontal line at 12 years of education
+
+# 4. Save the previous plot as a pdf in the output directory.
+#    Paste the document into a word processor (e.g., MS Word)
+```
+
+
+# Answer 1
+```{r answers for exercise 1}
+# For this exercise will use the GSS7402 dataset
+library(AER)
+data("GSS7402")
+?GSS7402 # to learn about the dataset
+# It might be easier to work with a shorter variable name 
+gss <- GSS7402
+
+# 1. Use base graphics to create a boxplot for education
+boxplot(gss$education)
+
+# 2.  Create a boxplot for education split by year
+boxplot(gss$education ~ gss$year)
+
+# 3. Add some elements to the plot
+#    (a) x and y labels,
+#    (b) a red horizontal line at 12 years of education
+boxplot(gss$education ~ gss$year, xlab = "Year", ylab = "Education (years)")
+abline(h = 12, col="red")
+
+# 4. Save the previous plot as a pdf in the output directory.
+#    Paste the document into a word processor (e.g., MS Word)
+pdf("output/graphics-boxplot.pdf")
+boxplot(gss$education ~ gss$year, xlab = "Year", ylab = "Education (years)")
+abline(h = 12, col="red")
+dev.off()
+```
+
+# Lattice Plots
+```{r lattice plots}
+library(lattice)
+head(csurvey)
+xyplot(Wr.Hnd ~ NW.Hnd, csurvey)
+xyplot(Wr.Hnd ~ NW.Hnd | Sex, csurvey)
+xyplot(Wr.Hnd ~ NW.Hnd | Sex + W.Hnd, csurvey)
+barchart(Wr.Hnd ~  Sex, csurvey)
+
+# saving lattice plots
+# same as base but you need to print the plot
+pdf(file = "output/lattice-plot.pdf") 
+# Step 2. Run plotting code with print
+print(xyplot(Wr.Hnd ~ NW.Hnd, csurvey))
+
+# Step 3. Turn of graphics device
+dev.off()
+```
+
+
+# ggplot2
+```{r ggplot2}
+library(ggplot2)
+
+# Let's look at the ais dataset
+library(DAAG)
+data(ais)
+?ais
+
+# See the Rstudio ggplot2 cheatsheet 
+# and the ggplot2 documentation: http://docs.ggplot2.org/current/
+
+# specify the data frame and the mapping of variables to plot attributes
+
+# scatter plot
+# 1. supply a data.frame
+# 2. add aesthetic mapping between variables in data.frame
+#    and 
+ggplot(ais, aes(x = ht, y = wt)) + geom_point()
+
+ggplot(ais, aes(x = ht, y= wt, colour = sex)) + 
+    geom_point() + 
+    geom_smooth() + 
+    xlab("Height") +
+    ylab("Weight")
+
+ggsave("output/height_weight.pdf", width = 5, height = 5) # save last plot
+    
+# distribution
+p <- ggplot(ais, aes(x = bmi)) 
+p + geom_histogram() #histogram
+p + geom_density(fill = "blue") # density plot
+
+# Show group differences
+p <- ggplot(ais, aes(x = sport, y = bmi)) 
+p + geom_boxplot()
+
+# Scatterplot matrix
+# Something like pairs and pairs.panels
+library(GGally)
+GGally::ggpairs(ais[1:4])
+```
+
+
+
+# Data Manipulation
+```{r data manipualtion}
+# We'll work with the GSS dataset and the bfi dataset
+library(AER)
+data("GSOEP9402")
+gss <- GSOEP9402
+
+library(psych)
+data(bfi)
+cbfi <- na.omit(bfi)
+dput(names(cbfi))
+v <- list()
+v$items <- c("A1", "A2", "A3", "A4", "A5", "C1", "C2", "C3", "C4", "C5", 
+    "E1", "E2", "E3", "E4", "E5", "N1", "N2", "N3", "N4", "N5", "O1", 
+    "O2", "O3", "O4", "O5")
+
+# Aggegate statistic over grouping variable
+aggregate(A1 ~ gender, cbfi, function(X) mean(X))
+aggregate(A1 ~ gender, cbfi, mean)
+aggregate(cbfi$A1, list(gender=cbfi$gender), function(X) mean(X))
+
+# calculate statistic on each row of data
+cbfi$average_response <- apply(cbfi[ v$items], 1, mean)
+cbfi$extreme_response <- apply(cbfi[ v$items], 1, function(X) sum(X %in% c(1,5)))
+hist(cbfi$extreme_response)
+
+# psych::scoreItems to score personality tests with a given key
+# or see the final personality example in session 4
+      
+# calculate statistic for each element in a vector, list or column of 
+# a data.frame
+
+# lapply returns a list
+lapply(cbfi[, v$items], function(X) mean(X))
+# sapply attempt to simplifies the result (e.g., to a vector)
+sapply(cbfi[, v$items], function(X) mean(X))
+
+# Most operations are vectorised anyway
+x <- 1:10
+x * 2
+# But this can be useful when they are not
+sapply(x, function(X) X * 2)
+
+# Works on lists
+fits <- list()
+fits$fit1 <- lm(income ~ gender, gss)
+fits$fit2 <- lm(income ~ gender + size, gss)
+fits$fit3 <- lm(income ~ gender + size + memployment, gss)
+sfits <- lapply(fits, summary)
+# sfits
+
+# Example, use it to extract same property from 
+# set of statistical models.
+# See how to extract one element with code completion
+sfits$fit1$adj.r.squared 
+# then apply elementwise
+sapply(sfits, function(X) X$adj.r.squared)
+
+
+# re-order a data.fraame
+# decreasing
+x <- cbfi[ order(cbfi$extreme_response, decreasing = TRUE), ]
+head(x)
+# or increasing
+x <- cbfi[ order(cbfi$extreme_response), ]
+head(x)
+
+
+# Extract subsets of data based on condition
+# Use logical vector in the rows
+cbfi_cleaned <- cbfi[ cbfi$extreme_response < 25, ]
+
+# Extract subset of variables
+# subset of column names
+cbfi_items <- cbfi[, v$items]
+
+# or subset provides another option
+x <- subset(cbfi, subset = extreme_response < 25, select = v$items)
+head(x); nrow(x); nrow(cbfi)
+
+
+mat <- matrix(c(1,2,
+                3,4), nrow= 2)
+mat
+# Add columns
+mat <- cbind(mat, c(8,8))
+mat
+
+# add rows
+mat <- rbind(mat, c(9,9,9))
+mat
+
+######################################
+# Merge 
+# Merge on common variable
+# Let's create an aggregate variable
+# to merge into the lower level data
+meankids <- aggregate(kids ~ birthyear,  gss, mean)
+names(meankids) <- c("birthyear", "mean_kids")
+
+temp <- merge(gss, meankids)
+dim(temp)
+dim(gss) 
+# it's good to check that the merge worked before
+# overriding the original data.frame
+gss <- merge(gss, meankids)
+head(gss)
+
+
+
+######################################
+# Reshape
+# http://www.ats.ucla.edu/stat/r/faq/reshape.htm
+# With longitudinal data we sometimes want to
+# reshape from wide to long and long to wide
+longfile <- aggregate(income ~ birthyear + kids,  gss, mean)
+head(longfile)
+
+widefile <- reshape(longfile, timevar = "kids", 
+        idvar = "birthyear", direction = "wide")
+widefile
+
+back2long <- reshape(widefile, 
+                     times =  c("income.1", "income.2", "income.3", 
+                         "income.4",  "income.5", "income.6"),
+                         direction = "long")
+head(back2long)
+
+
+#################################################
+# The Hadleyverse
+# http://had.co.nz/
+
+# Hadley Wickham is a celebrity in the R world 
+# and has developed many new packages that attempt
+# to make R more user friendly.
+# Most prominently these include the graphics package
+# ggplot2 
+# as well as several for data manipulation including
+# dplyr, tidyr
+# You may wish to examine the RStudio Data Wrangling cheat sheet.
+# The above data manipulation methods are built into base R.
+# Hadley's packages do similar things but you may find them more 
+# elegant and consistent.
+
+# examples
+library(dplyr)
+head(iris)
+
+# A bit like aggregate
+dplyr::summarise(cbfi[, v$items], 
+                 mean_A1 = mean(A1), sd_A1 = sd(A1))
+
+# Similar to sapply but returns a data.frame
+dplyr::summarise_each(cbfi[, v$items], funs(sd))
+```
+
+
+# Exercise 2
+```{r exercise 2}
+library(psych)
+data(bfi)
+cbfi <- na.omit(bfi)
+dput(names(cbfi))
+v <- list()
+v$items <- c("A1", "A2", "A3", "A4", "A5", "C1", "C2", "C3", "C4", "C5", 
+    "E1", "E2", "E3", "E4", "E5", "N1", "N2", "N3", "N4", "N5", "O1", 
+    "O2", "O3", "O4", "O5")
+
+# 1. Get the median of all items in cbfi
+
+# 2. Get the number of times each participant gave 
+#    the response of 3 and assign this to a new variable
+
+# 3. Produce frequency counts for each each
+
+# 4. Create a new dataset excluding those over 50
+#    and those under 18
+
+# 5. Get the mean of each item by age from this younger sample
+
+
+```
+
+# Answers 2
+```{r Answers for exercise 2}
+library(psych)
+data(bfi)
+cbfi <- na.omit(bfi)
+dput(names(cbfi))
+v <- list()
+v$items <- c("A1", "A2", "A3", "A4", "A5", "C1", "C2", "C3", "C4", "C5", 
+    "E1", "E2", "E3", "E4", "E5", "N1", "N2", "N3", "N4", "N5", "O1", 
+    "O2", "O3", "O4", "O5")
+
+# 1. Get the median of all items in cbfi
+sapply(cbfi[ ,v$items], median)
+
+# 2. Get the number of times each participant gave 
+#    the response of 3 and assign this to a new variable
+cbfi$response3 <- apply(cbfi[ ,v$items],1,  function(X) sum(X == 3))
+
+# 3. Produce frequency counts for each each
+table(cbfi$age)
+
+# 4. Create a new dataset excluding those over 50
+#    and those under 18
+cbfi_younger <- cbfi[ cbfi$age <= 50 & cbfi$age >= 18, ]
+
+# 5. Get the mean of each item by age from this younger sample
+x <- aggregate(cbfi_younger[,v$items], list(age = cbfi_younger$age), mean)
+
+
+```
+
+
+
+

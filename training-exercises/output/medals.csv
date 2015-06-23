@@ -1,0 +1,2312 @@
+"Year","City","Sport","Discipline","NOC","Event","Event.gender","Medal","isgold"
+1924,"Chamonix","Skating","Figure skating","AUT","individual","M","Silver",FALSE
+1924,"Chamonix","Skating","Figure skating","AUT","individual","W","Gold",TRUE
+1924,"Chamonix","Skating","Figure skating","AUT","pairs","X","Gold",TRUE
+1924,"Chamonix","Bobsleigh","Bobsleigh","BEL","four-man","M","Bronze",FALSE
+1924,"Chamonix","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Gold",TRUE
+1924,"Chamonix","Biathlon","Biathlon","FIN","military patrol","M","Silver",FALSE
+1924,"Chamonix","Skating","Figure skating","FIN","pairs","X","Silver",FALSE
+1924,"Chamonix","Skating","Speed skating","FIN","10000m","M","Gold",TRUE
+1924,"Chamonix","Skating","Speed skating","FIN","10000m","M","Silver",FALSE
+1924,"Chamonix","Skating","Speed skating","FIN","1500m","M","Gold",TRUE
+1924,"Chamonix","Skating","Speed skating","FIN","5000m","M","Gold",TRUE
+1924,"Chamonix","Skating","Speed skating","FIN","5000m","M","Silver",FALSE
+1924,"Chamonix","Skating","Speed skating","FIN","500m","M","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","FIN","combined (4 events)","M","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","FIN","combined (4 events)","M","Gold",TRUE
+1924,"Chamonix","Skiing","Cross Country S","FIN","18km","M","Bronze",FALSE
+1924,"Chamonix","Biathlon","Biathlon","FRA","military patrol","M","Bronze",FALSE
+1924,"Chamonix","Curling","Curling","FRA","curling","M","Bronze",FALSE
+1924,"Chamonix","Skating","Figure skating","FRA","pairs","X","Bronze",FALSE
+1924,"Chamonix","Bobsleigh","Bobsleigh","GBR","four-man","M","Silver",FALSE
+1924,"Chamonix","Curling","Curling","GBR","curling","M","Gold",TRUE
+1924,"Chamonix","Ice Hockey","Ice Hockey","GBR","ice hockey","M","Bronze",FALSE
+1924,"Chamonix","Skating","Figure skating","GBR","individual","W","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","10000m","M","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","5000m","M","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","500m","M","Bronze",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","500m","M","Silver",FALSE
+1924,"Chamonix","Skating","Speed skating","NOR","combined (4 events)","M","Silver",FALSE
+1924,"Chamonix","Skiing","Cross Country S","NOR","18km","M","Gold",TRUE
+1924,"Chamonix","Skiing","Cross Country S","NOR","18km","M","Silver",FALSE
+1924,"Chamonix","Skiing","Cross Country S","NOR","50km","M","Bronze",FALSE
+1924,"Chamonix","Skiing","Cross Country S","NOR","50km","M","Gold",TRUE
+1924,"Chamonix","Skiing","Cross Country S","NOR","50km","M","Silver",FALSE
+1924,"Chamonix","Skiing","Nordic Combined","NOR","individual","M","Bronze",FALSE
+1924,"Chamonix","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1924,"Chamonix","Skiing","Nordic Combined","NOR","individual","M","Silver",FALSE
+1924,"Chamonix","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1924,"Chamonix","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1924,"Chamonix","Biathlon","Biathlon","SUI","military patrol","M","Gold",TRUE
+1924,"Chamonix","Bobsleigh","Bobsleigh","SUI","four-man","M","Gold",TRUE
+1924,"Chamonix","Skating","Figure skating","SUI","individual","M","Bronze",FALSE
+1924,"Chamonix","Curling","Curling","SWE","curling","M","Silver",FALSE
+1924,"Chamonix","Skating","Figure skating","SWE","individual","M","Gold",TRUE
+1924,"Chamonix","Ice Hockey","Ice Hockey","USA","ice hockey","M","Silver",FALSE
+1924,"Chamonix","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1924,"Chamonix","Skating","Speed skating","USA","500m","M","Gold",TRUE
+1924,"Chamonix","Skiing","Ski Jumping","USA","K90 individual (70m)","M","Bronze",FALSE
+1928,"St. Moritz","Skating","Figure skating","AUT","individual","M","Silver",FALSE
+1928,"St. Moritz","Skating","Figure skating","AUT","individual","W","Silver",FALSE
+1928,"St. Moritz","Skating","Figure skating","AUT","pairs","X","Bronze",FALSE
+1928,"St. Moritz","Skating","Figure skating","AUT","pairs","X","Silver",FALSE
+1928,"St. Moritz","Skating","Figure skating","BEL","individual","M","Bronze",FALSE
+1928,"St. Moritz","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Gold",TRUE
+1928,"St. Moritz","Skating","Speed skating","FIN","1500m","M","Gold",TRUE
+1928,"St. Moritz","Skating","Speed skating","FIN","5000m","M","Silver",FALSE
+1928,"St. Moritz","Skating","Speed skating","FIN","500m","M","Bronze",FALSE
+1928,"St. Moritz","Skating","Speed skating","FIN","500m","M","Gold",TRUE
+1928,"St. Moritz","Skating","Figure skating","FRA","pairs","X","Gold",TRUE
+1928,"St. Moritz","Bobsleigh","Skeleton","GBR","individual","M","Bronze",FALSE
+1928,"St. Moritz","Bobsleigh","Bobsleigh","GER","five-man","M","Bronze",FALSE
+1928,"St. Moritz","Skating","Figure skating","NOR","individual","W","Gold",TRUE
+1928,"St. Moritz","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+1928,"St. Moritz","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1928,"St. Moritz","Skating","Speed skating","NOR","5000m","M","Bronze",FALSE
+1928,"St. Moritz","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1928,"St. Moritz","Skating","Speed skating","NOR","500m","M","Bronze",FALSE
+1928,"St. Moritz","Skating","Speed skating","NOR","500m","M","Gold",TRUE
+1928,"St. Moritz","Skiing","Cross Country S","NOR","18km","M","Bronze",FALSE
+1928,"St. Moritz","Skiing","Cross Country S","NOR","18km","M","Gold",TRUE
+1928,"St. Moritz","Skiing","Cross Country S","NOR","18km","M","Silver",FALSE
+1928,"St. Moritz","Skiing","Nordic Combined","NOR","individual","M","Bronze",FALSE
+1928,"St. Moritz","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1928,"St. Moritz","Skiing","Nordic Combined","NOR","individual","M","Silver",FALSE
+1928,"St. Moritz","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1928,"St. Moritz","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1928,"St. Moritz","Ice Hockey","Ice Hockey","SUI","ice hockey","M","Bronze",FALSE
+1928,"St. Moritz","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Silver",FALSE
+1928,"St. Moritz","Skating","Figure skating","SWE","individual","M","Gold",TRUE
+1928,"St. Moritz","Skiing","Cross Country S","SWE","50km","M","Bronze",FALSE
+1928,"St. Moritz","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1928,"St. Moritz","Skiing","Cross Country S","SWE","50km","M","Silver",FALSE
+1928,"St. Moritz","Skiing","Ski Jumping","TCH","K90 individual (70m)","M","Bronze",FALSE
+1928,"St. Moritz","Bobsleigh","Bobsleigh","USA","five-man","M","Gold",TRUE
+1928,"St. Moritz","Bobsleigh","Bobsleigh","USA","five-man","M","Silver",FALSE
+1928,"St. Moritz","Bobsleigh","Skeleton","USA","individual","M","Gold",TRUE
+1928,"St. Moritz","Bobsleigh","Skeleton","USA","individual","M","Silver",FALSE
+1928,"St. Moritz","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+1928,"St. Moritz","Skating","Speed skating","USA","500m","M","Bronze",FALSE
+1932,"Lake Placid","Skating","Figure skating","AUT","individual","M","Gold",TRUE
+1932,"Lake Placid","Skating","Figure skating","AUT","individual","W","Silver",FALSE
+1932,"Lake Placid","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Gold",TRUE
+1932,"Lake Placid","Skating","Figure skating","CAN","individual","M","Bronze",FALSE
+1932,"Lake Placid","Skating","Speed skating","CAN","10000m","M","Bronze",FALSE
+1932,"Lake Placid","Skating","Speed skating","CAN","1500m","M","Bronze",FALSE
+1932,"Lake Placid","Skating","Speed skating","CAN","1500m","M","Silver",FALSE
+1932,"Lake Placid","Skating","Speed skating","CAN","5000m","M","Bronze",FALSE
+1932,"Lake Placid","Skating","Speed skating","CAN","500m","M","Bronze",FALSE
+1932,"Lake Placid","Skiing","Cross Country S","FIN","18km","M","Bronze",FALSE
+1932,"Lake Placid","Skiing","Cross Country S","FIN","50km","M","Gold",TRUE
+1932,"Lake Placid","Skiing","Cross Country S","FIN","50km","M","Silver",FALSE
+1932,"Lake Placid","Skating","Figure skating","FRA","pairs","X","Gold",TRUE
+1932,"Lake Placid","Bobsleigh","Bobsleigh","GER","four-man","M","Bronze",FALSE
+1932,"Lake Placid","Ice Hockey","Ice Hockey","GER","ice hockey","M","Bronze",FALSE
+1932,"Lake Placid","Skating","Figure skating","HUN","pairs","X","Bronze",FALSE
+1932,"Lake Placid","Skating","Figure skating","NOR","individual","W","Gold",TRUE
+1932,"Lake Placid","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1932,"Lake Placid","Skating","Speed skating","NOR","500m","M","Silver",FALSE
+1932,"Lake Placid","Skiing","Cross Country S","NOR","50km","M","Bronze",FALSE
+1932,"Lake Placid","Skiing","Nordic Combined","NOR","individual","M","Bronze",FALSE
+1932,"Lake Placid","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1932,"Lake Placid","Skiing","Nordic Combined","NOR","individual","M","Silver",FALSE
+1932,"Lake Placid","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Bronze",FALSE
+1932,"Lake Placid","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1932,"Lake Placid","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1932,"Lake Placid","Bobsleigh","Bobsleigh","SUI","two-man","M","Silver",FALSE
+1932,"Lake Placid","Skating","Figure skating","SWE","individual","M","Silver",FALSE
+1932,"Lake Placid","Skiing","Cross Country S","SWE","18km","M","Gold",TRUE
+1932,"Lake Placid","Skiing","Cross Country S","SWE","18km","M","Silver",FALSE
+1932,"Lake Placid","Bobsleigh","Bobsleigh","USA","four-man","M","Gold",TRUE
+1932,"Lake Placid","Bobsleigh","Bobsleigh","USA","four-man","M","Silver",FALSE
+1932,"Lake Placid","Bobsleigh","Bobsleigh","USA","two-man","M","Bronze",FALSE
+1932,"Lake Placid","Bobsleigh","Bobsleigh","USA","two-man","M","Gold",TRUE
+1932,"Lake Placid","Ice Hockey","Ice Hockey","USA","ice hockey","M","Silver",FALSE
+1932,"Lake Placid","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+1932,"Lake Placid","Skating","Figure skating","USA","pairs","X","Silver",FALSE
+1932,"Lake Placid","Skating","Speed skating","USA","10000m","M","Gold",TRUE
+1932,"Lake Placid","Skating","Speed skating","USA","1500m","M","Gold",TRUE
+1932,"Lake Placid","Skating","Speed skating","USA","5000m","M","Gold",TRUE
+1932,"Lake Placid","Skating","Speed skating","USA","5000m","M","Silver",FALSE
+1932,"Lake Placid","Skating","Speed skating","USA","500m","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","AUT","individual","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","AUT","individual","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","AUT","pairs","X","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","AUT","10000m","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","FIN","10000m","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","FIN","1500m","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","FIN","5000m","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","FIN","5000m","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","FIN","18km","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","FIN","4x10km relay","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Alpine Skiing","FRA","alpine combined","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Bobsleigh","Bobsleigh","GBR","four-man","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Ice Hockey","Ice Hockey","GBR","ice hockey","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","GBR","individual","W","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","GER","individual","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","GER","pairs","X","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Alpine Skiing","GER","alpine combined","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Alpine Skiing","GER","alpine combined","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Alpine Skiing","GER","alpine combined","W","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Alpine Skiing","GER","alpine combined","W","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","HUN","pairs","X","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","NOR","individual","W","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","NOR","10000m","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","NOR","500m","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","NOR","500m","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Alpine Skiing","NOR","alpine combined","W","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","NOR","18km","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Nordic Combined","NOR","individual","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Nordic Combined","NOR","individual","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Bobsleigh","Bobsleigh","SUI","four-man","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Bobsleigh","Bobsleigh","SUI","four-man","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Bobsleigh","Bobsleigh","SUI","two-man","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Figure skating","SWE","individual","W","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","SWE","18km","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","SWE","4x10km relay","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","SWE","50km","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Skiing","Cross Country S","SWE","50km","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Skiing","Ski Jumping","SWE","K90 individual (70m)","M","Silver",FALSE
+1936,"Garmisch-Partenkirchen","Bobsleigh","Bobsleigh","USA","two-man","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Bobsleigh","Bobsleigh","USA","two-man","M","Gold",TRUE
+1936,"Garmisch-Partenkirchen","Ice Hockey","Ice Hockey","USA","ice hockey","M","Bronze",FALSE
+1936,"Garmisch-Partenkirchen","Skating","Speed skating","USA","500m","M","Bronze",FALSE
+1948,"St. Moritz","Skating","Figure skating","AUT","individual","M","Bronze",FALSE
+1948,"St. Moritz","Skating","Figure skating","AUT","individual","W","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","AUT","alpine combined","W","Bronze",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","AUT","alpine combined","W","Gold",TRUE
+1948,"St. Moritz","Skiing","Alpine Skiing","AUT","downhill","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","AUT","downhill","W","Bronze",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","AUT","downhill","W","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","AUT","slalom","W","Bronze",FALSE
+1948,"St. Moritz","Bobsleigh","Bobsleigh","BEL","four-man","M","Silver",FALSE
+1948,"St. Moritz","Skating","Figure skating","BEL","pairs","X","Gold",TRUE
+1948,"St. Moritz","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Gold",TRUE
+1948,"St. Moritz","Skating","Figure skating","CAN","individual","W","Gold",TRUE
+1948,"St. Moritz","Skating","Figure skating","CAN","pairs","X","Bronze",FALSE
+1948,"St. Moritz","Skating","Speed skating","FIN","10000m","M","Bronze",FALSE
+1948,"St. Moritz","Skating","Speed skating","FIN","10000m","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Cross Country S","FIN","4x10km relay","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Cross Country S","FIN","50km","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Nordic Combined","FIN","individual","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","FRA","alpine combined","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","FRA","alpine combined","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Alpine Skiing","FRA","downhill","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Alpine Skiing","FRA","slalom","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","FRA","slalom","M","Silver",FALSE
+1948,"St. Moritz","Bobsleigh","Skeleton","GBR","individual","M","Bronze",FALSE
+1948,"St. Moritz","Skating","Figure skating","GBR","individual","W","Bronze",FALSE
+1948,"St. Moritz","Skating","Figure skating","HUN","pairs","X","Silver",FALSE
+1948,"St. Moritz","Bobsleigh","Skeleton","ITA","individual","M","Gold",TRUE
+1948,"St. Moritz","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+1948,"St. Moritz","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1948,"St. Moritz","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1948,"St. Moritz","Skating","Speed skating","NOR","5000m","M","Silver",FALSE
+1948,"St. Moritz","Skating","Speed skating","NOR","500m","M","Gold",TRUE
+1948,"St. Moritz","Skating","Speed skating","NOR","500m","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Cross Country S","NOR","4x10km relay","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1948,"St. Moritz","Bobsleigh","Bobsleigh","SUI","two-man","M","Gold",TRUE
+1948,"St. Moritz","Bobsleigh","Bobsleigh","SUI","two-man","M","Silver",FALSE
+1948,"St. Moritz","Ice Hockey","Ice Hockey","SUI","ice hockey","M","Bronze",FALSE
+1948,"St. Moritz","Skating","Figure skating","SUI","individual","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","SUI","alpine combined","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","SUI","downhill","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","SUI","downhill","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","SUI","downhill","W","Gold",TRUE
+1948,"St. Moritz","Skiing","Alpine Skiing","SUI","slalom","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Alpine Skiing","SUI","slalom","W","Silver",FALSE
+1948,"St. Moritz","Skating","Speed skating","SWE","10000m","M","Gold",TRUE
+1948,"St. Moritz","Skating","Speed skating","SWE","1500m","M","Silver",FALSE
+1948,"St. Moritz","Skating","Speed skating","SWE","5000m","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Cross Country S","SWE","18km","M","Bronze",FALSE
+1948,"St. Moritz","Skiing","Cross Country S","SWE","18km","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Cross Country S","SWE","18km","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Cross Country S","SWE","4x10km relay","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1948,"St. Moritz","Skiing","Cross Country S","SWE","50km","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Nordic Combined","SWE","individual","M","Bronze",FALSE
+1948,"St. Moritz","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Silver",FALSE
+1948,"St. Moritz","Bobsleigh","Bobsleigh","USA","four-man","M","Bronze",FALSE
+1948,"St. Moritz","Bobsleigh","Bobsleigh","USA","four-man","M","Gold",TRUE
+1948,"St. Moritz","Bobsleigh","Bobsleigh","USA","two-man","M","Bronze",FALSE
+1948,"St. Moritz","Bobsleigh","Skeleton","USA","individual","M","Silver",FALSE
+1948,"St. Moritz","Skating","Figure skating","USA","individual","M","Gold",TRUE
+1948,"St. Moritz","Skating","Speed skating","USA","500m","M","Silver",FALSE
+1948,"St. Moritz","Skating","Speed skating","USA","500m","M","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","USA","alpine combined","W","Silver",FALSE
+1948,"St. Moritz","Skiing","Alpine Skiing","USA","slalom","W","Gold",TRUE
+1952,"Oslo","Skating","Figure skating","AUT","individual","M","Silver",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","downhill","M","Silver",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","downhill","W","Gold",TRUE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","giant slalom","M","Silver",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","giant slalom","W","Silver",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","AUT","slalom","M","Gold",TRUE
+1952,"Oslo","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Gold",TRUE
+1952,"Oslo","Skating","Speed skating","CAN","500m","M","Bronze",FALSE
+1952,"Oslo","Skiing","Cross Country S","FIN","10km","W","Bronze",FALSE
+1952,"Oslo","Skiing","Cross Country S","FIN","10km","W","Gold",TRUE
+1952,"Oslo","Skiing","Cross Country S","FIN","10km","W","Silver",FALSE
+1952,"Oslo","Skiing","Cross Country S","FIN","18km","M","Bronze",FALSE
+1952,"Oslo","Skiing","Cross Country S","FIN","18km","M","Silver",FALSE
+1952,"Oslo","Skiing","Cross Country S","FIN","4x10km relay","M","Gold",TRUE
+1952,"Oslo","Skiing","Cross Country S","FIN","50km","M","Gold",TRUE
+1952,"Oslo","Skiing","Cross Country S","FIN","50km","M","Silver",FALSE
+1952,"Oslo","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+1952,"Oslo","Skating","Figure skating","FRA","individual","W","Bronze",FALSE
+1952,"Oslo","Bobsleigh","Bobsleigh","FRG","four-man","M","Gold",TRUE
+1952,"Oslo","Bobsleigh","Bobsleigh","FRG","two-man","M","Gold",TRUE
+1952,"Oslo","Skating","Figure skating","GBR","individual","W","Gold",TRUE
+1952,"Oslo","Skating","Figure skating","GER","pairs","X","Gold",TRUE
+1952,"Oslo","Skiing","Alpine Skiing","GER","downhill","W","Silver",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","GER","giant slalom","W","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","GER","slalom","W","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","GER","slalom","W","Silver",FALSE
+1952,"Oslo","Skating","Figure skating","HUN","pairs","X","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","ITA","downhill","M","Gold",TRUE
+1952,"Oslo","Skiing","Alpine Skiing","ITA","downhill","W","Bronze",FALSE
+1952,"Oslo","Skating","Speed skating","NED","10000m","M","Silver",FALSE
+1952,"Oslo","Skating","Speed skating","NED","1500m","M","Silver",FALSE
+1952,"Oslo","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+1952,"Oslo","Skating","Speed skating","NOR","10000m","M","Gold",TRUE
+1952,"Oslo","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+1952,"Oslo","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1952,"Oslo","Skating","Speed skating","NOR","5000m","M","Bronze",FALSE
+1952,"Oslo","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1952,"Oslo","Skating","Speed skating","NOR","500m","M","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","NOR","giant slalom","M","Gold",TRUE
+1952,"Oslo","Skiing","Alpine Skiing","NOR","slalom","M","Bronze",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","NOR","slalom","M","Silver",FALSE
+1952,"Oslo","Skiing","Cross Country S","NOR","18km","M","Gold",TRUE
+1952,"Oslo","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1952,"Oslo","Skiing","Cross Country S","NOR","50km","M","Bronze",FALSE
+1952,"Oslo","Skiing","Nordic Combined","NOR","individual","M","Bronze",FALSE
+1952,"Oslo","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1952,"Oslo","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1952,"Oslo","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1952,"Oslo","Bobsleigh","Bobsleigh","SUI","four-man","M","Bronze",FALSE
+1952,"Oslo","Bobsleigh","Bobsleigh","SUI","two-man","M","Bronze",FALSE
+1952,"Oslo","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Bronze",FALSE
+1952,"Oslo","Skating","Speed skating","SWE","10000m","M","Bronze",FALSE
+1952,"Oslo","Skiing","Cross Country S","SWE","4x10km relay","M","Bronze",FALSE
+1952,"Oslo","Skiing","Ski Jumping","SWE","K90 individual (70m)","M","Bronze",FALSE
+1952,"Oslo","Bobsleigh","Bobsleigh","USA","four-man","M","Silver",FALSE
+1952,"Oslo","Bobsleigh","Bobsleigh","USA","two-man","M","Silver",FALSE
+1952,"Oslo","Ice Hockey","Ice Hockey","USA","ice hockey","M","Silver",FALSE
+1952,"Oslo","Skating","Figure skating","USA","individual","M","Bronze",FALSE
+1952,"Oslo","Skating","Figure skating","USA","individual","M","Gold",TRUE
+1952,"Oslo","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1952,"Oslo","Skating","Figure skating","USA","pairs","X","Silver",FALSE
+1952,"Oslo","Skating","Speed skating","USA","500m","M","Gold",TRUE
+1952,"Oslo","Skating","Speed skating","USA","500m","M","Silver",FALSE
+1952,"Oslo","Skiing","Alpine Skiing","USA","giant slalom","W","Gold",TRUE
+1952,"Oslo","Skiing","Alpine Skiing","USA","slalom","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","AUT","individual","W","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","AUT","pairs","X","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","downhill","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","giant slalom","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","giant slalom","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","giant slalom","W","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","giant slalom","W","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","slalom","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","AUT","slalom","W","Silver",FALSE
+1956,"Cortina d'Ampezzo","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","CAN","pairs","X","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","CAN","downhill","W","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","EUA","giant slalom","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Ski Jumping","EUA","K90 individual (70m)","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","FIN","1500m","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","FIN","30km mass start","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","FIN","3x5km relay","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","FIN","4x10km relay","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","FIN","50km","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","HUN","pairs","X","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Bobsleigh","Bobsleigh","ITA","four-man","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Bobsleigh","Bobsleigh","ITA","two-man","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Bobsleigh","Bobsleigh","ITA","two-man","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","JPN","slalom","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","NOR","500m","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","NOR","15km","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Nordic Combined","POL","individual","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Bobsleigh","Bobsleigh","SUI","four-man","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Bobsleigh","Bobsleigh","SUI","two-man","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","SUI","downhill","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","SUI","downhill","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","SUI","downhill","W","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","SUI","slalom","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","SWE","10000m","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","SWE","5000m","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","SWE","slalom","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","SWE","10km","W","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","SWE","15km","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","SWE","30km mass start","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","SWE","3x5km relay","W","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","SWE","4x10km relay","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Nordic Combined","SWE","individual","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","10000m","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","1500m","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","1500m","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","5000m","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","5000m","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","500m","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Speed skating","URS","500m","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Alpine Skiing","URS","slalom","W","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","10km","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","10km","W","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","15km","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","30km mass start","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","3x5km relay","W","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","4x10km relay","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skiing","Cross Country S","URS","50km","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Bobsleigh","Bobsleigh","USA","four-man","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Ice Hockey","Ice Hockey","USA","ice hockey","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","USA","individual","M","Bronze",FALSE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","USA","individual","M","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","USA","individual","M","Silver",FALSE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","USA","individual","W","Gold",TRUE
+1956,"Cortina d'Ampezzo","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","AUT","downhill","W","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","AUT","giant slalom","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","AUT","slalom","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Alpine Skiing","AUT","slalom","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Bronze",FALSE
+1960,"Squaw Valley","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Silver",FALSE
+1960,"Squaw Valley","Skating","Figure skating","CAN","individual","M","Bronze",FALSE
+1960,"Squaw Valley","Skating","Figure skating","CAN","pairs","X","Gold",TRUE
+1960,"Squaw Valley","Skiing","Alpine Skiing","CAN","slalom","W","Gold",TRUE
+1960,"Squaw Valley","Skating","Figure skating","EUA","pairs","X","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","EUA","1000m","W","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","EUA","500m","W","Gold",TRUE
+1960,"Squaw Valley","Skiing","Alpine Skiing","EUA","downhill","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","EUA","downhill","W","Gold",TRUE
+1960,"Squaw Valley","Skiing","Alpine Skiing","EUA","slalom","W","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Nordic Combined","EUA","individual","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Ski Jumping","EUA","K90 individual (70m)","M","Gold",TRUE
+1960,"Squaw Valley","Biathlon","Biathlon","FIN","20km","M","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","FIN","3000m","W","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","FIN","15km","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","FIN","3x5km relay","W","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","FIN","4x10km relay","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Cross Country S","FIN","50km","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Cross Country S","FIN","50km","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","FRA","downhill","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","FRA","downhill","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Alpine Skiing","FRA","slalom","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","ITA","giant slalom","W","Bronze",FALSE
+1960,"Squaw Valley","Skating","Figure skating","NED","individual","W","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","NED","5000m","M","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","NOR","10000m","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","NOR","5000m","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","NOR","15km","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Nordic Combined","NOR","individual","M","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","POL","1500m","W","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","POL","1500m","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","SUI","giant slalom","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Alpine Skiing","SUI","giant slalom","W","Gold",TRUE
+1960,"Squaw Valley","Biathlon","Biathlon","SWE","20km","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","SWE","10000m","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","SWE","15km","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","SWE","30km mass start","M","Gold",TRUE
+1960,"Squaw Valley","Skiing","Cross Country S","SWE","30km mass start","M","Silver",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","SWE","3x5km relay","W","Gold",TRUE
+1960,"Squaw Valley","Skiing","Cross Country S","SWE","50km","M","Bronze",FALSE
+1960,"Squaw Valley","Skating","Figure skating","TCH","individual","M","Silver",FALSE
+1960,"Squaw Valley","Biathlon","Biathlon","URS","20km","M","Bronze",FALSE
+1960,"Squaw Valley","Ice Hockey","Ice Hockey","URS","ice hockey","M","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","URS","10000m","M","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","URS","1000m","W","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","URS","1000m","W","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","URS","1500m","M","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","URS","1500m","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","URS","1500m","W","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","URS","3000m","W","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","URS","3000m","W","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","URS","5000m","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","URS","500m","M","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","URS","500m","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Speed skating","URS","500m","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","URS","10km","W","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","URS","10km","W","Gold",TRUE
+1960,"Squaw Valley","Skiing","Cross Country S","URS","10km","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","URS","30km mass start","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","URS","3x5km relay","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Cross Country S","URS","4x10km relay","M","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Nordic Combined","URS","individual","M","Bronze",FALSE
+1960,"Squaw Valley","Ice Hockey","Ice Hockey","USA","ice hockey","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Figure skating","USA","individual","M","Gold",TRUE
+1960,"Squaw Valley","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+1960,"Squaw Valley","Skating","Figure skating","USA","individual","W","Gold",TRUE
+1960,"Squaw Valley","Skating","Figure skating","USA","pairs","X","Bronze",FALSE
+1960,"Squaw Valley","Skating","Speed skating","USA","500m","M","Silver",FALSE
+1960,"Squaw Valley","Skating","Speed skating","USA","500m","W","Bronze",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","USA","downhill","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","USA","giant slalom","W","Silver",FALSE
+1960,"Squaw Valley","Skiing","Alpine Skiing","USA","slalom","W","Silver",FALSE
+1964,"Innsbruck","Bobsleigh","Bobsleigh","AUT","four-man","M","Silver",FALSE
+1964,"Innsbruck","Luge","Luge","AUT","doubles","X","Gold",TRUE
+1964,"Innsbruck","Luge","Luge","AUT","doubles","X","Silver",FALSE
+1964,"Innsbruck","Luge","Luge","AUT","singles","W","Bronze",FALSE
+1964,"Innsbruck","Skating","Figure skating","AUT","individual","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","downhill","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","downhill","W","Bronze",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","downhill","W","Gold",TRUE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","downhill","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","giant slalom","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","AUT","slalom","M","Gold",TRUE
+1964,"Innsbruck","Bobsleigh","Bobsleigh","CAN","four-man","M","Gold",TRUE
+1964,"Innsbruck","Skating","Figure skating","CAN","individual","W","Bronze",FALSE
+1964,"Innsbruck","Skating","Figure skating","CAN","pairs","X","Bronze",FALSE
+1964,"Innsbruck","Luge","Luge","EUA","singles","M","Bronze",FALSE
+1964,"Innsbruck","Luge","Luge","EUA","singles","M","Gold",TRUE
+1964,"Innsbruck","Luge","Luge","EUA","singles","M","Silver",FALSE
+1964,"Innsbruck","Luge","Luge","EUA","singles","W","Gold",TRUE
+1964,"Innsbruck","Luge","Luge","EUA","singles","W","Silver",FALSE
+1964,"Innsbruck","Skating","Figure skating","EUA","individual","M","Gold",TRUE
+1964,"Innsbruck","Skating","Figure skating","EUA","pairs","X","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","EUA","downhill","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Nordic Combined","EUA","individual","M","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","FIN","1000m","W","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","FIN","1500m","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","FIN","15km","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","FIN","30km mass start","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","FIN","3x5km relay","W","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","FIN","4x10km relay","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","FIN","50km","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","FIN","5km","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Gold",TRUE
+1964,"Innsbruck","Skating","Figure skating","FRA","individual","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","FRA","downhill","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","FRA","giant slalom","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Alpine Skiing","FRA","giant slalom","W","Gold",TRUE
+1964,"Innsbruck","Skiing","Alpine Skiing","FRA","giant slalom","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","FRA","slalom","W","Gold",TRUE
+1964,"Innsbruck","Skiing","Alpine Skiing","FRA","slalom","W","Silver",FALSE
+1964,"Innsbruck","Bobsleigh","Bobsleigh","GBR","two-man","M","Gold",TRUE
+1964,"Innsbruck","Bobsleigh","Bobsleigh","ITA","four-man","M","Bronze",FALSE
+1964,"Innsbruck","Bobsleigh","Bobsleigh","ITA","two-man","M","Bronze",FALSE
+1964,"Innsbruck","Bobsleigh","Bobsleigh","ITA","two-man","M","Silver",FALSE
+1964,"Innsbruck","Luge","Luge","ITA","doubles","X","Bronze",FALSE
+1964,"Innsbruck","Skating","Figure skating","NED","individual","W","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","NED","1500m","M","Silver",FALSE
+1964,"Innsbruck","Biathlon","Biathlon","NOR","20km","M","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","NOR","10000m","M","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","NOR","5000m","M","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","NOR","5000m","M","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","NOR","500m","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","NOR","15km","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","NOR","30km mass start","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Ski Jumping","NOR","K120 individual (90m)","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Ski Jumping","NOR","K120 individual (90m)","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","PRK","3000m","W","Silver",FALSE
+1964,"Innsbruck","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","SWE","10000m","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","SWE","15km","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","SWE","3x5km relay","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","SWE","4x10km relay","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","SWE","50km","M","Silver",FALSE
+1964,"Innsbruck","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Bronze",FALSE
+1964,"Innsbruck","Biathlon","Biathlon","URS","20km","M","Gold",TRUE
+1964,"Innsbruck","Biathlon","Biathlon","URS","20km","M","Silver",FALSE
+1964,"Innsbruck","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1964,"Innsbruck","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","URS","1000m","W","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","URS","1000m","W","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","URS","1500m","M","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","URS","1500m","W","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","URS","1500m","W","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","URS","3000m","W","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","URS","3000m","W","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","URS","500m","M","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","URS","500m","M","Silver",FALSE
+1964,"Innsbruck","Skating","Speed skating","URS","500m","W","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","URS","500m","W","Gold",TRUE
+1964,"Innsbruck","Skating","Speed skating","URS","500m","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","URS","10km","W","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","URS","10km","W","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","URS","10km","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","URS","30km mass start","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","URS","3x5km relay","W","Gold",TRUE
+1964,"Innsbruck","Skiing","Cross Country S","URS","4x10km relay","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","URS","5km","W","Bronze",FALSE
+1964,"Innsbruck","Skiing","Cross Country S","URS","5km","W","Gold",TRUE
+1964,"Innsbruck","Skiing","Nordic Combined","URS","individual","M","Silver",FALSE
+1964,"Innsbruck","Skating","Figure skating","USA","individual","M","Bronze",FALSE
+1964,"Innsbruck","Skating","Speed skating","USA","500m","M","Gold",TRUE
+1964,"Innsbruck","Skiing","Alpine Skiing","USA","giant slalom","W","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","USA","slalom","M","Bronze",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","USA","slalom","M","Silver",FALSE
+1964,"Innsbruck","Skiing","Alpine Skiing","USA","slalom","W","Bronze",FALSE
+1968,"Grenoble","Bobsleigh","Bobsleigh","AUT","four-man","M","Silver",FALSE
+1968,"Grenoble","Luge","Luge","AUT","doubles","X","Silver",FALSE
+1968,"Grenoble","Luge","Luge","AUT","singles","M","Gold",TRUE
+1968,"Grenoble","Skating","Figure skating","AUT","individual","M","Gold",TRUE
+1968,"Grenoble","Skiing","Alpine Skiing","AUT","downhill","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","AUT","downhill","W","Gold",TRUE
+1968,"Grenoble","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","AUT","slalom","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","AUT","slalom","M","Silver",FALSE
+1968,"Grenoble","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Silver",FALSE
+1968,"Grenoble","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","CAN","giant slalom","W","Gold",TRUE
+1968,"Grenoble","Skiing","Alpine Skiing","CAN","slalom","W","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","FIN","1500m","W","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","FIN","3000m","W","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","FIN","15km","M","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","FIN","30km mass start","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Cross Country S","FIN","4x10km relay","M","Bronze",FALSE
+1968,"Grenoble","Skating","Figure skating","FRA","individual","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","downhill","M","Gold",TRUE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","downhill","M","Silver",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","downhill","W","Silver",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","giant slalom","M","Gold",TRUE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","giant slalom","W","Silver",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","slalom","M","Gold",TRUE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","slalom","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","FRA","slalom","W","Gold",TRUE
+1968,"Grenoble","Bobsleigh","Bobsleigh","FRG","two-man","M","Silver",FALSE
+1968,"Grenoble","Luge","Luge","FRG","doubles","X","Bronze",FALSE
+1968,"Grenoble","Luge","Luge","FRG","singles","W","Bronze",FALSE
+1968,"Grenoble","Luge","Luge","FRG","singles","W","Silver",FALSE
+1968,"Grenoble","Skating","Figure skating","FRG","pairs","X","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","FRG","500m","M","Gold",TRUE
+1968,"Grenoble","Skiing","Nordic Combined","FRG","individual","M","Gold",TRUE
+1968,"Grenoble","Luge","Luge","GDR","doubles","X","Gold",TRUE
+1968,"Grenoble","Luge","Luge","GDR","singles","M","Bronze",FALSE
+1968,"Grenoble","Luge","Luge","GDR","singles","M","Silver",FALSE
+1968,"Grenoble","Skating","Figure skating","GDR","individual","W","Silver",FALSE
+1968,"Grenoble","Skiing","Nordic Combined","GDR","individual","M","Bronze",FALSE
+1968,"Grenoble","Bobsleigh","Bobsleigh","ITA","four-man","M","Gold",TRUE
+1968,"Grenoble","Bobsleigh","Bobsleigh","ITA","two-man","M","Gold",TRUE
+1968,"Grenoble","Luge","Luge","ITA","singles","W","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","ITA","30km mass start","M","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","NED","1000m","W","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","NED","1500m","M","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","NED","1500m","M","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","NED","1500m","W","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","NED","1500m","W","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","NED","3000m","W","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","NED","3000m","W","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","NED","5000m","M","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+1968,"Grenoble","Biathlon","Biathlon","NOR","20km","M","Gold",TRUE
+1968,"Grenoble","Biathlon","Biathlon","NOR","4x7.5km relay","M","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","NOR","500m","M","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","NOR","10km","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Cross Country S","NOR","10km","W","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","NOR","15km","M","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","NOR","30km mass start","M","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","NOR","3x5km relay","W","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","NOR","4x10km relay","M","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","NOR","50km","M","Gold",TRUE
+1968,"Grenoble","Skiing","Ski Jumping","NOR","K120 individual (90m)","M","Bronze",FALSE
+1968,"Grenoble","Bobsleigh","Bobsleigh","ROU","two-man","M","Bronze",FALSE
+1968,"Grenoble","Bobsleigh","Bobsleigh","SUI","four-man","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","SUI","downhill","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","SUI","giant slalom","M","Silver",FALSE
+1968,"Grenoble","Skiing","Alpine Skiing","SUI","giant slalom","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Cross Country S","SUI","50km","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Nordic Combined","SUI","individual","M","Silver",FALSE
+1968,"Grenoble","Biathlon","Biathlon","SWE","4x7.5km relay","M","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","SWE","10000m","M","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","SWE","10000m","M","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","SWE","10km","W","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","SWE","15km","M","Bronze",FALSE
+1968,"Grenoble","Skiing","Cross Country S","SWE","3x5km relay","W","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","SWE","4x10km relay","M","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","SWE","5km","W","Gold",TRUE
+1968,"Grenoble","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Silver",FALSE
+1968,"Grenoble","Skating","Figure skating","TCH","individual","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Ski Jumping","TCH","K120 individual (90m)","M","Silver",FALSE
+1968,"Grenoble","Skiing","Ski Jumping","TCH","K90 individual (70m)","M","Gold",TRUE
+1968,"Grenoble","Biathlon","Biathlon","URS","20km","M","Bronze",FALSE
+1968,"Grenoble","Biathlon","Biathlon","URS","20km","M","Silver",FALSE
+1968,"Grenoble","Biathlon","Biathlon","URS","4x7.5km relay","M","Gold",TRUE
+1968,"Grenoble","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1968,"Grenoble","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1968,"Grenoble","Skating","Figure skating","URS","pairs","X","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","URS","1000m","W","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","URS","500m","W","Gold",TRUE
+1968,"Grenoble","Skiing","Cross Country S","URS","3x5km relay","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Cross Country S","URS","50km","M","Silver",FALSE
+1968,"Grenoble","Skiing","Cross Country S","URS","5km","W","Bronze",FALSE
+1968,"Grenoble","Skiing","Cross Country S","URS","5km","W","Silver",FALSE
+1968,"Grenoble","Skiing","Ski Jumping","URS","K120 individual (90m)","M","Gold",TRUE
+1968,"Grenoble","Skating","Figure skating","USA","individual","M","Silver",FALSE
+1968,"Grenoble","Skating","Figure skating","USA","individual","W","Gold",TRUE
+1968,"Grenoble","Skating","Speed skating","USA","1000m","W","Bronze",FALSE
+1968,"Grenoble","Skating","Speed skating","USA","500m","M","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","USA","500m","W","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","USA","500m","W","Silver",FALSE
+1968,"Grenoble","Skating","Speed skating","USA","500m","W","Silver",FALSE
+1972,"Sapporo","Skating","Figure skating","AUT","individual","W","Gold",TRUE
+1972,"Sapporo","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","AUT","downhill","W","Silver",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","AUT","giant slalom","W","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","AUT","giant slalom","W","Silver",FALSE
+1972,"Sapporo","Skating","Figure skating","CAN","individual","W","Silver",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","ESP","slalom","M","Gold",TRUE
+1972,"Sapporo","Biathlon","Biathlon","FIN","4x7.5km relay","M","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","FIN","10km","W","Bronze",FALSE
+1972,"Sapporo","Skiing","Cross Country S","FIN","3x5km relay","W","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","FIN","5km","W","Silver",FALSE
+1972,"Sapporo","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+1972,"Sapporo","Skating","Figure skating","FRA","individual","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","FRA","slalom","W","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","FRA","slalom","W","Silver",FALSE
+1972,"Sapporo","Bobsleigh","Bobsleigh","FRG","four-man","M","Bronze",FALSE
+1972,"Sapporo","Bobsleigh","Bobsleigh","FRG","two-man","M","Gold",TRUE
+1972,"Sapporo","Bobsleigh","Bobsleigh","FRG","two-man","M","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","FRG","1000m","W","Gold",TRUE
+1972,"Sapporo","Skating","Speed skating","FRG","500m","M","Gold",TRUE
+1972,"Sapporo","Biathlon","Biathlon","GDR","20km","M","Silver",FALSE
+1972,"Sapporo","Biathlon","Biathlon","GDR","4x7.5km relay","M","Bronze",FALSE
+1972,"Sapporo","Luge","Luge","GDR","doubles","X","Bronze",FALSE
+1972,"Sapporo","Luge","Luge","GDR","doubles","X","Gold",TRUE
+1972,"Sapporo","Luge","Luge","GDR","singles","M","Bronze",FALSE
+1972,"Sapporo","Luge","Luge","GDR","singles","M","Gold",TRUE
+1972,"Sapporo","Luge","Luge","GDR","singles","M","Silver",FALSE
+1972,"Sapporo","Luge","Luge","GDR","singles","W","Bronze",FALSE
+1972,"Sapporo","Luge","Luge","GDR","singles","W","Gold",TRUE
+1972,"Sapporo","Luge","Luge","GDR","singles","W","Silver",FALSE
+1972,"Sapporo","Skating","Figure skating","GDR","pairs","X","Bronze",FALSE
+1972,"Sapporo","Skiing","Nordic Combined","GDR","individual","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Nordic Combined","GDR","individual","M","Gold",TRUE
+1972,"Sapporo","Skiing","Ski Jumping","GDR","K120 individual (90m)","M","Bronze",FALSE
+1972,"Sapporo","Bobsleigh","Bobsleigh","ITA","four-man","M","Silver",FALSE
+1972,"Sapporo","Luge","Luge","ITA","doubles","X","Gold",TRUE
+1972,"Sapporo","Skiing","Alpine Skiing","ITA","giant slalom","M","Gold",TRUE
+1972,"Sapporo","Skiing","Alpine Skiing","ITA","slalom","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","ITA","slalom","M","Silver",FALSE
+1972,"Sapporo","Skiing","Ski Jumping","JPN","K90 individual (70m)","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Ski Jumping","JPN","K90 individual (70m)","M","Gold",TRUE
+1972,"Sapporo","Skiing","Ski Jumping","JPN","K90 individual (70m)","M","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","NED","10000m","M","Gold",TRUE
+1972,"Sapporo","Skating","Speed skating","NED","10000m","M","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","NED","1000m","W","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","NED","1500m","M","Gold",TRUE
+1972,"Sapporo","Skating","Speed skating","NED","1500m","W","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","NED","1500m","W","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","NED","3000m","W","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","NED","3000m","W","Gold",TRUE
+1972,"Sapporo","Skating","Speed skating","NED","5000m","M","Gold",TRUE
+1972,"Sapporo","Biathlon","Biathlon","NOR","20km","M","Gold",TRUE
+1972,"Sapporo","Skating","Speed skating","NOR","10000m","M","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","NOR","5000m","M","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","NOR","5000m","M","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","NOR","15km","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Cross Country S","NOR","30km mass start","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Cross Country S","NOR","30km mass start","M","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","NOR","3x5km relay","W","Bronze",FALSE
+1972,"Sapporo","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","NOR","50km","M","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","NOR","50km","M","Silver",FALSE
+1972,"Sapporo","Skiing","Ski Jumping","POL","K120 individual (90m)","M","Gold",TRUE
+1972,"Sapporo","Bobsleigh","Bobsleigh","SUI","four-man","M","Gold",TRUE
+1972,"Sapporo","Bobsleigh","Bobsleigh","SUI","two-man","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","SUI","downhill","M","Gold",TRUE
+1972,"Sapporo","Skiing","Alpine Skiing","SUI","downhill","M","Silver",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","SUI","downhill","W","Gold",TRUE
+1972,"Sapporo","Skiing","Alpine Skiing","SUI","giant slalom","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","SUI","giant slalom","M","Silver",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","SUI","giant slalom","W","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","SUI","4x10km relay","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Ski Jumping","SUI","K120 individual (90m)","M","Silver",FALSE
+1972,"Sapporo","Biathlon","Biathlon","SWE","20km","M","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","SWE","1500m","M","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","SWE","500m","M","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","SWE","15km","M","Gold",TRUE
+1972,"Sapporo","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Bronze",FALSE
+1972,"Sapporo","Skating","Figure skating","TCH","individual","M","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","TCH","5km","W","Bronze",FALSE
+1972,"Sapporo","Biathlon","Biathlon","URS","4x7.5km relay","M","Gold",TRUE
+1972,"Sapporo","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1972,"Sapporo","Skating","Figure skating","URS","individual","M","Silver",FALSE
+1972,"Sapporo","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1972,"Sapporo","Skating","Figure skating","URS","pairs","X","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","URS","500m","M","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","URS","500m","W","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","URS","500m","W","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","URS","10km","W","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","URS","10km","W","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","URS","15km","M","Silver",FALSE
+1972,"Sapporo","Skiing","Cross Country S","URS","30km mass start","M","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","URS","3x5km relay","W","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","URS","4x10km relay","M","Gold",TRUE
+1972,"Sapporo","Skiing","Cross Country S","URS","50km","M","Bronze",FALSE
+1972,"Sapporo","Skiing","Cross Country S","URS","5km","W","Gold",TRUE
+1972,"Sapporo","Ice Hockey","Ice Hockey","USA","ice hockey","M","Silver",FALSE
+1972,"Sapporo","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","USA","1000m","W","Bronze",FALSE
+1972,"Sapporo","Skating","Speed skating","USA","1500m","W","Gold",TRUE
+1972,"Sapporo","Skating","Speed skating","USA","3000m","W","Silver",FALSE
+1972,"Sapporo","Skating","Speed skating","USA","500m","W","Gold",TRUE
+1972,"Sapporo","Skiing","Alpine Skiing","USA","downhill","W","Bronze",FALSE
+1972,"Sapporo","Skiing","Alpine Skiing","USA","slalom","W","Gold",TRUE
+1976,"Innsbruck","Luge","Luge","AUT","doubles","X","Bronze",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","AUT","downhill","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Alpine Skiing","AUT","downhill","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Figure skating","CAN","individual","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","CAN","500m","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","CAN","giant slalom","W","Gold",TRUE
+1976,"Innsbruck","Biathlon","Biathlon","FIN","20km","M","Silver",FALSE
+1976,"Innsbruck","Biathlon","Biathlon","FIN","4x7.5km relay","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","FIN","10km","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","FIN","15km","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","FIN","4x10km relay","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Cross Country S","FIN","4x5km relay","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","FIN","5km","W","Gold",TRUE
+1976,"Innsbruck","Skiing","Alpine Skiing","FRA","giant slalom","W","Bronze",FALSE
+1976,"Innsbruck","Bobsleigh","Bobsleigh","FRG","four-man","M","Bronze",FALSE
+1976,"Innsbruck","Bobsleigh","Bobsleigh","FRG","two-man","M","Silver",FALSE
+1976,"Innsbruck","Ice Hockey","Ice Hockey","FRG","ice hockey","M","Bronze",FALSE
+1976,"Innsbruck","Luge","Luge","FRG","doubles","X","Silver",FALSE
+1976,"Innsbruck","Luge","Luge","FRG","singles","M","Silver",FALSE
+1976,"Innsbruck","Luge","Luge","FRG","singles","W","Bronze",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","FRG","downhill","W","Gold",TRUE
+1976,"Innsbruck","Skiing","Alpine Skiing","FRG","giant slalom","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","FRG","slalom","W","Gold",TRUE
+1976,"Innsbruck","Skiing","Nordic Combined","FRG","individual","M","Silver",FALSE
+1976,"Innsbruck","Skating","Figure skating","GBR","individual","M","Gold",TRUE
+1976,"Innsbruck","Biathlon","Biathlon","GDR","4x7.5km relay","M","Bronze",FALSE
+1976,"Innsbruck","Bobsleigh","Bobsleigh","GDR","four-man","M","Gold",TRUE
+1976,"Innsbruck","Bobsleigh","Bobsleigh","GDR","two-man","M","Gold",TRUE
+1976,"Innsbruck","Luge","Luge","GDR","doubles","X","Gold",TRUE
+1976,"Innsbruck","Luge","Luge","GDR","singles","M","Bronze",FALSE
+1976,"Innsbruck","Luge","Luge","GDR","singles","M","Gold",TRUE
+1976,"Innsbruck","Luge","Luge","GDR","singles","W","Gold",TRUE
+1976,"Innsbruck","Luge","Luge","GDR","singles","W","Silver",FALSE
+1976,"Innsbruck","Skating","Figure skating","GDR","individual","W","Bronze",FALSE
+1976,"Innsbruck","Skating","Figure skating","GDR","pairs","X","Bronze",FALSE
+1976,"Innsbruck","Skating","Figure skating","GDR","pairs","X","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","GDR","3000m","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","GDR","4x5km relay","W","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","GDR","50km","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Nordic Combined","GDR","individual","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Nordic Combined","GDR","individual","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Ski Jumping","GDR","K120 individual (90m)","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Ski Jumping","GDR","K90 individual (70m)","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Ski Jumping","GDR","K90 individual (70m)","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","ITA","downhill","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","ITA","slalom","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Alpine Skiing","ITA","slalom","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","ITA","slalom","W","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","LIE","slalom","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","LIE","slalom","W","Bronze",FALSE
+1976,"Innsbruck","Skating","Figure skating","NED","individual","W","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","NED","10000m","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","NED","10000m","M","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","NED","1500m","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","NED","5000m","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","NOR","1000m","M","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","NOR","3000m","W","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","NOR","50km","M","Gold",TRUE
+1976,"Innsbruck","Bobsleigh","Bobsleigh","SUI","four-man","M","Silver",FALSE
+1976,"Innsbruck","Bobsleigh","Bobsleigh","SUI","two-man","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","SUI","downhill","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","SUI","giant slalom","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Alpine Skiing","SUI","giant slalom","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Alpine Skiing","SWE","giant slalom","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","SWE","50km","M","Bronze",FALSE
+1976,"Innsbruck","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Silver",FALSE
+1976,"Innsbruck","Biathlon","Biathlon","URS","20km","M","Bronze",FALSE
+1976,"Innsbruck","Biathlon","Biathlon","URS","20km","M","Gold",TRUE
+1976,"Innsbruck","Biathlon","Biathlon","URS","4x7.5km relay","M","Gold",TRUE
+1976,"Innsbruck","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1976,"Innsbruck","Skating","Figure skating","URS","ice dancing","X","Gold",TRUE
+1976,"Innsbruck","Skating","Figure skating","URS","ice dancing","X","Silver",FALSE
+1976,"Innsbruck","Skating","Figure skating","URS","individual","M","Silver",FALSE
+1976,"Innsbruck","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","URS","1000m","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","URS","1000m","W","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","URS","1500m","M","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","URS","1500m","W","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","URS","1500m","W","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","URS","3000m","W","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","URS","500m","M","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","URS","500m","M","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","URS","500m","W","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","URS","10km","W","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","URS","10km","W","Gold",TRUE
+1976,"Innsbruck","Skiing","Cross Country S","URS","15km","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Cross Country S","URS","15km","M","Silver",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","URS","30km mass start","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","URS","30km mass start","M","Gold",TRUE
+1976,"Innsbruck","Skiing","Cross Country S","URS","4x10km relay","M","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","URS","4x5km relay","W","Gold",TRUE
+1976,"Innsbruck","Skiing","Cross Country S","URS","5km","W","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","URS","5km","W","Silver",FALSE
+1976,"Innsbruck","Skating","Figure skating","USA","ice dancing","X","Bronze",FALSE
+1976,"Innsbruck","Skating","Figure skating","USA","individual","W","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","USA","1000m","M","Gold",TRUE
+1976,"Innsbruck","Skating","Speed skating","USA","1000m","W","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","USA","1000m","W","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","USA","1500m","W","Silver",FALSE
+1976,"Innsbruck","Skating","Speed skating","USA","500m","M","Bronze",FALSE
+1976,"Innsbruck","Skating","Speed skating","USA","500m","W","Gold",TRUE
+1976,"Innsbruck","Skiing","Alpine Skiing","USA","downhill","W","Bronze",FALSE
+1976,"Innsbruck","Skiing","Cross Country S","USA","30km mass start","M","Silver",FALSE
+1980,"Lake Placid","Luge","Luge","AUT","doubles","X","Bronze",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","AUT","downhill","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Alpine Skiing","AUT","downhill","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","AUT","downhill","W","Gold",TRUE
+1980,"Lake Placid","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","BUL","30km mass start","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","CAN","1000m","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","CAN","downhill","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","FIN","10km","W","Bronze",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","FIN","10km","W","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","FIN","15km","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","FIN","4x10km relay","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","FIN","50km","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","FIN","5km","W","Silver",FALSE
+1980,"Lake Placid","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Alpine Skiing","FRA","giant slalom","W","Bronze",FALSE
+1980,"Lake Placid","Biathlon","Biathlon","FRG","4x7.5km relay","M","Bronze",FALSE
+1980,"Lake Placid","Luge","Luge","FRG","singles","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Figure skating","FRG","individual","W","Bronze",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","FRG","giant slalom","W","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","FRG","slalom","W","Silver",FALSE
+1980,"Lake Placid","Skating","Figure skating","GBR","individual","M","Gold",TRUE
+1980,"Lake Placid","Biathlon","Biathlon","GDR","10km","M","Gold",TRUE
+1980,"Lake Placid","Biathlon","Biathlon","GDR","20km","M","Bronze",FALSE
+1980,"Lake Placid","Biathlon","Biathlon","GDR","20km","M","Silver",FALSE
+1980,"Lake Placid","Biathlon","Biathlon","GDR","4x7.5km relay","M","Silver",FALSE
+1980,"Lake Placid","Bobsleigh","Bobsleigh","GDR","four-man","M","Bronze",FALSE
+1980,"Lake Placid","Bobsleigh","Bobsleigh","GDR","four-man","M","Gold",TRUE
+1980,"Lake Placid","Bobsleigh","Bobsleigh","GDR","two-man","M","Bronze",FALSE
+1980,"Lake Placid","Bobsleigh","Bobsleigh","GDR","two-man","M","Silver",FALSE
+1980,"Lake Placid","Luge","Luge","GDR","doubles","X","Gold",TRUE
+1980,"Lake Placid","Luge","Luge","GDR","singles","M","Gold",TRUE
+1980,"Lake Placid","Luge","Luge","GDR","singles","W","Silver",FALSE
+1980,"Lake Placid","Skating","Figure skating","GDR","individual","M","Silver",FALSE
+1980,"Lake Placid","Skating","Figure skating","GDR","individual","W","Gold",TRUE
+1980,"Lake Placid","Skating","Figure skating","GDR","pairs","X","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","GDR","1000m","W","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","GDR","1500m","W","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","GDR","3000m","W","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","GDR","500m","W","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","GDR","10km","W","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","GDR","4x5km relay","W","Gold",TRUE
+1980,"Lake Placid","Skiing","Nordic Combined","GDR","individual","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Nordic Combined","GDR","individual","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Ski Jumping","GDR","K90 individual (70m)","M","Silver",FALSE
+1980,"Lake Placid","Skating","Figure skating","HUN","ice dancing","X","Silver",FALSE
+1980,"Lake Placid","Luge","Luge","ITA","doubles","X","Silver",FALSE
+1980,"Lake Placid","Luge","Luge","ITA","singles","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Ski Jumping","JPN","K90 individual (70m)","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","LIE","downhill","W","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","LIE","giant slalom","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","LIE","giant slalom","W","Gold",TRUE
+1980,"Lake Placid","Skiing","Alpine Skiing","LIE","slalom","W","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","NED","10000m","M","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","NED","1500m","W","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","NED","1500m","W","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","NED","500m","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","NOR","10000m","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","NOR","1000m","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","NOR","3000m","W","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","NOR","5000m","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","NOR","5000m","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","NOR","15km","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","NOR","4x5km relay","W","Bronze",FALSE
+1980,"Lake Placid","Bobsleigh","Bobsleigh","SUI","four-man","M","Silver",FALSE
+1980,"Lake Placid","Bobsleigh","Bobsleigh","SUI","two-man","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Alpine Skiing","SUI","downhill","W","Bronze",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","SUI","slalom","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","SUI","slalom","W","Bronze",FALSE
+1980,"Lake Placid","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","SWE","giant slalom","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Alpine Skiing","SWE","slalom","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","SWE","15km","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","TCH","5km","W","Bronze",FALSE
+1980,"Lake Placid","Biathlon","Biathlon","URS","10km","M","Bronze",FALSE
+1980,"Lake Placid","Biathlon","Biathlon","URS","10km","M","Silver",FALSE
+1980,"Lake Placid","Biathlon","Biathlon","URS","20km","M","Gold",TRUE
+1980,"Lake Placid","Biathlon","Biathlon","URS","4x7.5km relay","M","Gold",TRUE
+1980,"Lake Placid","Ice Hockey","Ice Hockey","URS","ice hockey","M","Silver",FALSE
+1980,"Lake Placid","Luge","Luge","URS","singles","W","Bronze",FALSE
+1980,"Lake Placid","Luge","Luge","URS","singles","W","Gold",TRUE
+1980,"Lake Placid","Skating","Figure skating","URS","ice dancing","X","Bronze",FALSE
+1980,"Lake Placid","Skating","Figure skating","URS","ice dancing","X","Gold",TRUE
+1980,"Lake Placid","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1980,"Lake Placid","Skating","Figure skating","URS","pairs","X","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","URS","1000m","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","URS","1000m","W","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","URS","500m","M","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","URS","500m","W","Bronze",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","URS","30km mass start","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","URS","30km mass start","M","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","URS","4x10km relay","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","URS","4x5km relay","W","Silver",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","URS","50km","M","Bronze",FALSE
+1980,"Lake Placid","Skiing","Cross Country S","URS","50km","M","Gold",TRUE
+1980,"Lake Placid","Skiing","Cross Country S","URS","5km","W","Gold",TRUE
+1980,"Lake Placid","Ice Hockey","Ice Hockey","USA","ice hockey","M","Gold",TRUE
+1980,"Lake Placid","Skating","Figure skating","USA","individual","M","Bronze",FALSE
+1980,"Lake Placid","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","USA","10000m","M","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","USA","1000m","M","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","USA","1000m","W","Silver",FALSE
+1980,"Lake Placid","Skating","Speed skating","USA","1500m","M","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","USA","3000m","W","Bronze",FALSE
+1980,"Lake Placid","Skating","Speed skating","USA","5000m","M","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","USA","500m","M","Gold",TRUE
+1980,"Lake Placid","Skating","Speed skating","USA","500m","W","Silver",FALSE
+1980,"Lake Placid","Skiing","Alpine Skiing","USA","slalom","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+1984,"Sarajevo","Skating","Figure skating","CAN","individual","M","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","CAN","1000m","M","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","CAN","1500m","M","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","CAN","500m","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","10km","W","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","15km","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","15km","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","20km","W","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","4x10km relay","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","4x5km relay","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","50km","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","FIN","5km","W","Gold",TRUE
+1984,"Sarajevo","Skiing","Nordic Combined","FIN","individual","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","FRA","giant slalom","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","FRA","slalom","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","FRA","slalom","W","Silver",FALSE
+1984,"Sarajevo","Biathlon","Biathlon","FRG","10km","M","Silver",FALSE
+1984,"Sarajevo","Biathlon","Biathlon","FRG","20km","M","Gold",TRUE
+1984,"Sarajevo","Biathlon","Biathlon","FRG","4x7.5km relay","M","Bronze",FALSE
+1984,"Sarajevo","Luge","Luge","FRG","doubles","X","Gold",TRUE
+1984,"Sarajevo","Skating","Figure skating","GBR","ice dancing","X","Gold",TRUE
+1984,"Sarajevo","Biathlon","Biathlon","GDR","10km","M","Bronze",FALSE
+1984,"Sarajevo","Biathlon","Biathlon","GDR","20km","M","Silver",FALSE
+1984,"Sarajevo","Bobsleigh","Bobsleigh","GDR","four-man","M","Gold",TRUE
+1984,"Sarajevo","Bobsleigh","Bobsleigh","GDR","four-man","M","Silver",FALSE
+1984,"Sarajevo","Bobsleigh","Bobsleigh","GDR","two-man","M","Gold",TRUE
+1984,"Sarajevo","Bobsleigh","Bobsleigh","GDR","two-man","M","Silver",FALSE
+1984,"Sarajevo","Luge","Luge","GDR","doubles","X","Bronze",FALSE
+1984,"Sarajevo","Luge","Luge","GDR","singles","W","Bronze",FALSE
+1984,"Sarajevo","Luge","Luge","GDR","singles","W","Gold",TRUE
+1984,"Sarajevo","Luge","Luge","GDR","singles","W","Silver",FALSE
+1984,"Sarajevo","Skating","Figure skating","GDR","individual","W","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","GDR","10000m","M","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","GDR","1000m","W","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","GDR","1000m","W","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","GDR","1500m","W","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","GDR","1500m","W","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","GDR","3000m","W","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","GDR","3000m","W","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","GDR","3000m","W","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","GDR","5000m","M","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","GDR","500m","W","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","GDR","500m","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Ski Jumping","GDR","K120 individual (90m)","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Ski Jumping","GDR","K90 individual (70m)","M","Gold",TRUE
+1984,"Sarajevo","Luge","Luge","ITA","singles","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Alpine Skiing","ITA","slalom","W","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","JPN","500m","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","LIE","giant slalom","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","LIE","slalom","W","Bronze",FALSE
+1984,"Sarajevo","Biathlon","Biathlon","NOR","10km","M","Gold",TRUE
+1984,"Sarajevo","Biathlon","Biathlon","NOR","20km","M","Bronze",FALSE
+1984,"Sarajevo","Biathlon","Biathlon","NOR","4x7.5km relay","M","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","NOR","1000m","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","NOR","10km","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","NOR","20km","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","NOR","4x5km relay","W","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","NOR","5km","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1984,"Sarajevo","Bobsleigh","Bobsleigh","SUI","four-man","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","SUI","downhill","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","SUI","downhill","W","Gold",TRUE
+1984,"Sarajevo","Skiing","Alpine Skiing","SUI","downhill","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","SUI","giant slalom","M","Gold",TRUE
+1984,"Sarajevo","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","SWE","10000m","M","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","SWE","5000m","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","SWE","15km","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","SWE","30km mass start","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","SWE","4x10km relay","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","SWE","50km","M","Silver",FALSE
+1984,"Sarajevo","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Silver",FALSE
+1984,"Sarajevo","Skating","Figure skating","TCH","individual","M","Bronze",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","TCH","downhill","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","TCH","4x5km relay","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","TCH","5km","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Ski Jumping","TCH","K120 individual (90m)","M","Bronze",FALSE
+1984,"Sarajevo","Biathlon","Biathlon","URS","4x7.5km relay","M","Gold",TRUE
+1984,"Sarajevo","Bobsleigh","Bobsleigh","URS","two-man","M","Bronze",FALSE
+1984,"Sarajevo","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1984,"Sarajevo","Luge","Luge","URS","doubles","X","Silver",FALSE
+1984,"Sarajevo","Luge","Luge","URS","singles","M","Bronze",FALSE
+1984,"Sarajevo","Luge","Luge","URS","singles","M","Silver",FALSE
+1984,"Sarajevo","Skating","Figure skating","URS","ice dancing","X","Bronze",FALSE
+1984,"Sarajevo","Skating","Figure skating","URS","ice dancing","X","Silver",FALSE
+1984,"Sarajevo","Skating","Figure skating","URS","individual","W","Bronze",FALSE
+1984,"Sarajevo","Skating","Figure skating","URS","pairs","X","Bronze",FALSE
+1984,"Sarajevo","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","URS","10000m","M","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","URS","1000m","M","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","URS","1000m","W","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","URS","1500m","M","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","URS","1500m","M","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","URS","1500m","W","Bronze",FALSE
+1984,"Sarajevo","Skating","Speed skating","URS","5000m","M","Silver",FALSE
+1984,"Sarajevo","Skating","Speed skating","URS","500m","M","Gold",TRUE
+1984,"Sarajevo","Skating","Speed skating","URS","500m","W","Bronze",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","URS","10km","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","URS","20km","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","URS","30km mass start","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Cross Country S","URS","30km mass start","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Cross Country S","URS","4x10km relay","M","Silver",FALSE
+1984,"Sarajevo","Skating","Figure skating","USA","individual","M","Gold",TRUE
+1984,"Sarajevo","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1984,"Sarajevo","Skating","Figure skating","USA","pairs","X","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","USA","downhill","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Alpine Skiing","USA","giant slalom","W","Gold",TRUE
+1984,"Sarajevo","Skiing","Alpine Skiing","USA","giant slalom","W","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","USA","slalom","M","Gold",TRUE
+1984,"Sarajevo","Skiing","Alpine Skiing","USA","slalom","M","Silver",FALSE
+1984,"Sarajevo","Skiing","Alpine Skiing","YUG","giant slalom","M","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","AUT","10000m","M","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","AUT","1500m","M","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","AUT","alpine combined","M","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","AUT","alpine combined","M","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","AUT","alpine combined","W","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","AUT","giant slalom","M","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","AUT","super-G","M","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","AUT","super-G","W","Gold",TRUE
+1988,"Calgary","Skiing","Nordic Combined","AUT","individual","M","Silver",FALSE
+1988,"Calgary","Skiing","Nordic Combined","AUT","Team","M","Bronze",FALSE
+1988,"Calgary","Skating","Figure skating","CAN","ice dancing","X","Bronze",FALSE
+1988,"Calgary","Skating","Figure skating","CAN","individual","M","Silver",FALSE
+1988,"Calgary","Skating","Figure skating","CAN","individual","W","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","CAN","downhill","W","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","CAN","super-G","W","Bronze",FALSE
+1988,"Calgary","Ice Hockey","Ice Hockey","FIN","ice hockey","M","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","FIN","10km","W","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","FIN","4x5km relay","W","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","FIN","5km","W","Gold",TRUE
+1988,"Calgary","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Gold",TRUE
+1988,"Calgary","Skiing","Ski Jumping","FIN","K120 team (90m)","M","Gold",TRUE
+1988,"Calgary","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","FRA","downhill","M","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","FRA","super-G","M","Gold",TRUE
+1988,"Calgary","Biathlon","Biathlon","FRG","4x7.5km relay","M","Silver",FALSE
+1988,"Calgary","Luge","Luge","FRG","doubles","X","Bronze",FALSE
+1988,"Calgary","Luge","Luge","FRG","singles","M","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","FRG","downhill","W","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","FRG","giant slalom","W","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","FRG","slalom","M","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","FRG","slalom","W","Bronze",FALSE
+1988,"Calgary","Skiing","Nordic Combined","FRG","Team","M","Gold",TRUE
+1988,"Calgary","Biathlon","Biathlon","GDR","10km","M","Gold",TRUE
+1988,"Calgary","Biathlon","Biathlon","GDR","20km","M","Gold",TRUE
+1988,"Calgary","Bobsleigh","Bobsleigh","GDR","four-man","M","Silver",FALSE
+1988,"Calgary","Bobsleigh","Bobsleigh","GDR","two-man","M","Bronze",FALSE
+1988,"Calgary","Bobsleigh","Bobsleigh","GDR","two-man","M","Silver",FALSE
+1988,"Calgary","Luge","Luge","GDR","doubles","X","Gold",TRUE
+1988,"Calgary","Luge","Luge","GDR","doubles","X","Silver",FALSE
+1988,"Calgary","Luge","Luge","GDR","singles","M","Gold",TRUE
+1988,"Calgary","Luge","Luge","GDR","singles","W","Bronze",FALSE
+1988,"Calgary","Luge","Luge","GDR","singles","W","Gold",TRUE
+1988,"Calgary","Luge","Luge","GDR","singles","W","Silver",FALSE
+1988,"Calgary","Skating","Figure skating","GDR","individual","W","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","GDR","1000m","M","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","1000m","W","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","GDR","1000m","W","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","1500m","M","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","GDR","1500m","W","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","1500m","W","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","3000m","W","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","3000m","W","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","5000m","W","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","5000m","W","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","500m","M","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","GDR","500m","W","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","GDR","500m","W","Silver",FALSE
+1988,"Calgary","Biathlon","Biathlon","ITA","20km","M","Bronze",FALSE
+1988,"Calgary","Biathlon","Biathlon","ITA","4x7.5km relay","M","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","ITA","giant slalom","M","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","ITA","slalom","M","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","ITA","50km","M","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","JPN","500m","M","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","LIE","slalom","M","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","NED","10000m","M","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","NED","1500m","W","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","NED","3000m","W","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","NED","5000m","M","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","NED","5000m","W","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","NED","500m","M","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","NOR","15km","M","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","NOR","30km mass start","M","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","NOR","4x5km relay","W","Silver",FALSE
+1988,"Calgary","Skiing","Ski Jumping","NOR","K120 individual (90m)","M","Silver",FALSE
+1988,"Calgary","Skiing","Ski Jumping","NOR","K120 team (90m)","M","Bronze",FALSE
+1988,"Calgary","Bobsleigh","Bobsleigh","SUI","four-man","M","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","alpine combined","M","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","alpine combined","W","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","alpine combined","W","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","downhill","M","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","downhill","M","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","downhill","W","Silver",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","giant slalom","M","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","giant slalom","W","Bronze",FALSE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","giant slalom","W","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","slalom","W","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","SUI","super-G","W","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","SUI","50km","M","Bronze",FALSE
+1988,"Calgary","Skiing","Nordic Combined","SUI","individual","M","Gold",TRUE
+1988,"Calgary","Skiing","Nordic Combined","SUI","Team","M","Silver",FALSE
+1988,"Calgary","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","SWE","10000m","M","Gold",TRUE
+1988,"Calgary","Skating","Speed skating","SWE","5000m","M","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","SWE","super-G","M","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","SWE","4x10km relay","M","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","SWE","50km","M","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","TCH","4x10km relay","M","Bronze",FALSE
+1988,"Calgary","Skiing","Ski Jumping","TCH","K90 individual (70m)","M","Bronze",FALSE
+1988,"Calgary","Skiing","Ski Jumping","TCH","K90 individual (70m)","M","Silver",FALSE
+1988,"Calgary","Biathlon","Biathlon","URS","10km","M","Bronze",FALSE
+1988,"Calgary","Biathlon","Biathlon","URS","10km","M","Silver",FALSE
+1988,"Calgary","Biathlon","Biathlon","URS","20km","M","Silver",FALSE
+1988,"Calgary","Biathlon","Biathlon","URS","4x7.5km relay","M","Gold",TRUE
+1988,"Calgary","Bobsleigh","Bobsleigh","URS","four-man","M","Bronze",FALSE
+1988,"Calgary","Bobsleigh","Bobsleigh","URS","two-man","M","Gold",TRUE
+1988,"Calgary","Ice Hockey","Ice Hockey","URS","ice hockey","M","Gold",TRUE
+1988,"Calgary","Luge","Luge","URS","singles","M","Bronze",FALSE
+1988,"Calgary","Skating","Figure skating","URS","ice dancing","X","Gold",TRUE
+1988,"Calgary","Skating","Figure skating","URS","ice dancing","X","Silver",FALSE
+1988,"Calgary","Skating","Figure skating","URS","individual","M","Bronze",FALSE
+1988,"Calgary","Skating","Figure skating","URS","pairs","X","Gold",TRUE
+1988,"Calgary","Skating","Figure skating","URS","pairs","X","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","URS","1000m","M","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","URS","1000m","M","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","URS","10km","W","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","URS","10km","W","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","15km","M","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","15km","M","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","URS","20km","W","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","20km","W","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","URS","20km","W","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","30km mass start","M","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","URS","30km mass start","M","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","4x10km relay","M","Silver",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","4x5km relay","W","Gold",TRUE
+1988,"Calgary","Skiing","Cross Country S","URS","5km","W","Bronze",FALSE
+1988,"Calgary","Skiing","Cross Country S","URS","5km","W","Silver",FALSE
+1988,"Calgary","Skiing","Nordic Combined","URS","individual","M","Bronze",FALSE
+1988,"Calgary","Skating","Figure skating","USA","individual","M","Gold",TRUE
+1988,"Calgary","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+1988,"Calgary","Skating","Figure skating","USA","pairs","X","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","USA","1000m","W","Bronze",FALSE
+1988,"Calgary","Skating","Speed skating","USA","1500m","M","Silver",FALSE
+1988,"Calgary","Skating","Speed skating","USA","500m","W","Gold",TRUE
+1988,"Calgary","Skiing","Alpine Skiing","YUG","slalom","W","Silver",FALSE
+1988,"Calgary","Skiing","Ski Jumping","YUG","K120 individual (90m)","M","Bronze",FALSE
+1988,"Calgary","Skiing","Ski Jumping","YUG","K120 team (90m)","M","Silver",FALSE
+1992,"Albertville","Bobsleigh","Bobsleigh","AUT","four-man","M","Gold",TRUE
+1992,"Albertville","Luge","Luge","AUT","singles","M","Bronze",FALSE
+1992,"Albertville","Luge","Luge","AUT","singles","M","Silver",FALSE
+1992,"Albertville","Luge","Luge","AUT","singles","W","Gold",TRUE
+1992,"Albertville","Luge","Luge","AUT","singles","W","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","AUT","3000m","W","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","alpine combined","W","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","alpine combined","W","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","downhill","M","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","downhill","W","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","giant slalom","W","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","slalom","M","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","AUT","slalom","W","Gold",TRUE
+1992,"Albertville","Skiing","Nordic Combined","AUT","individual","M","Bronze",FALSE
+1992,"Albertville","Skiing","Nordic Combined","AUT","Team","M","Bronze",FALSE
+1992,"Albertville","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Bronze",FALSE
+1992,"Albertville","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Silver",FALSE
+1992,"Albertville","Skiing","Ski Jumping","AUT","K120 team (90m)","M","Silver",FALSE
+1992,"Albertville","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Gold",TRUE
+1992,"Albertville","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","CAN","15km","W","Bronze",FALSE
+1992,"Albertville","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Silver",FALSE
+1992,"Albertville","Skating","Figure skating","CAN","pairs","X","Bronze",FALSE
+1992,"Albertville","Skating","Short Track S.","CAN","1000m","M","Silver",FALSE
+1992,"Albertville","Skating","Short Track S.","CAN","3000m relay","W","Gold",TRUE
+1992,"Albertville","Skating","Short Track S.","CAN","5000m relay","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","CAN","downhill","W","Gold",TRUE
+1992,"Albertville","Skating","Short Track S.","CHN","500m","W","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","CHN","1000m","W","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","CHN","500m","W","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","ESP","slalom","W","Bronze",FALSE
+1992,"Albertville","Biathlon","Biathlon","EUN","15km","W","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","EUN","20km","M","Gold",TRUE
+1992,"Albertville","Biathlon","Biathlon","EUN","3x7.5km relay","W","Bronze",FALSE
+1992,"Albertville","Biathlon","Biathlon","EUN","4x7.5km relay","M","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","EUN","7.5km","W","Bronze",FALSE
+1992,"Albertville","Biathlon","Biathlon","EUN","7.5km","W","Gold",TRUE
+1992,"Albertville","Ice Hockey","Ice Hockey","EUN","ice hockey","M","Gold",TRUE
+1992,"Albertville","Skating","Figure skating","EUN","ice dancing","X","Bronze",FALSE
+1992,"Albertville","Skating","Figure skating","EUN","ice dancing","X","Gold",TRUE
+1992,"Albertville","Skating","Figure skating","EUN","individual","M","Gold",TRUE
+1992,"Albertville","Skating","Figure skating","EUN","pairs","X","Gold",TRUE
+1992,"Albertville","Skating","Figure skating","EUN","pairs","X","Silver",FALSE
+1992,"Albertville","Skating","Short Track S.","EUN","3000m relay","W","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","15km mass start","W","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","15km mass start","W","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","EUN","30km","W","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","30km","W","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","4x5km relay","W","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","EUN","5km","W","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","5km","W","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","Combined 5km + 10km pursuit","W","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","EUN","Combined 5km + 10km pursuit","W","Gold",TRUE
+1992,"Albertville","Skiing","Freestyle Ski.","EUN","moguls","W","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","FIN","10km","M","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","FIN","15km mass start","W","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","FIN","4x10km relay","M","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","FIN","5km","W","Gold",TRUE
+1992,"Albertville","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Gold",TRUE
+1992,"Albertville","Skiing","Ski Jumping","FIN","K120 team (90m)","M","Gold",TRUE
+1992,"Albertville","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Bronze",FALSE
+1992,"Albertville","Biathlon","Biathlon","FRA","3x7.5km relay","W","Gold",TRUE
+1992,"Albertville","Skating","Figure skating","FRA","ice dancing","X","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","FRA","alpine combined","W","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","FRA","downhill","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","FRA","super-G","W","Silver",FALSE
+1992,"Albertville","Skiing","Freestyle Ski.","FRA","moguls","M","Gold",TRUE
+1992,"Albertville","Skiing","Freestyle Ski.","FRA","moguls","M","Silver",FALSE
+1992,"Albertville","Skiing","Nordic Combined","FRA","individual","M","Gold",TRUE
+1992,"Albertville","Skiing","Nordic Combined","FRA","individual","M","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","GER","10km","M","Gold",TRUE
+1992,"Albertville","Biathlon","Biathlon","GER","10km","M","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","GER","15km","W","Gold",TRUE
+1992,"Albertville","Biathlon","Biathlon","GER","20km","M","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","GER","3x7.5km relay","W","Silver",FALSE
+1992,"Albertville","Biathlon","Biathlon","GER","4x7.5km relay","M","Gold",TRUE
+1992,"Albertville","Biathlon","Biathlon","GER","7.5km","W","Silver",FALSE
+1992,"Albertville","Bobsleigh","Bobsleigh","GER","four-man","M","Silver",FALSE
+1992,"Albertville","Bobsleigh","Bobsleigh","GER","two-man","M","Bronze",FALSE
+1992,"Albertville","Bobsleigh","Bobsleigh","GER","two-man","M","Silver",FALSE
+1992,"Albertville","Luge","Luge","GER","doubles","X","Gold",TRUE
+1992,"Albertville","Luge","Luge","GER","doubles","X","Silver",FALSE
+1992,"Albertville","Luge","Luge","GER","singles","M","Gold",TRUE
+1992,"Albertville","Luge","Luge","GER","singles","W","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","GER","1000m","M","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","GER","1000m","W","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","GER","1500m","W","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","GER","1500m","W","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","GER","3000m","W","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","GER","3000m","W","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","GER","5000m","W","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","GER","5000m","W","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","GER","5000m","W","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","GER","500m","M","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","GER","500m","W","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","GER","super-G","W","Bronze",FALSE
+1992,"Albertville","Luge","Luge","ITA","doubles","X","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","ITA","alpine combined","M","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","ITA","alpine combined","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","ITA","giant slalom","M","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","ITA","slalom","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","ITA","super-G","W","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","ITA","10km pursuit","M","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","ITA","30km","W","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","ITA","4x10km relay","M","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","ITA","4x5km relay","W","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","ITA","50km","M","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","ITA","50km","M","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","ITA","Combined 10km + 15km pursuit","M","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","ITA","Combined 5km + 10km pursuit","W","Silver",FALSE
+1992,"Albertville","Skating","Figure skating","JPN","individual","W","Silver",FALSE
+1992,"Albertville","Skating","Short Track S.","JPN","5000m relay","M","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","JPN","1000m","M","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","JPN","1500m","W","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","JPN","500m","M","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","JPN","500m","M","Silver",FALSE
+1992,"Albertville","Skiing","Nordic Combined","JPN","Team","M","Gold",TRUE
+1992,"Albertville","Skating","Short Track S.","KOR","1000m","M","Bronze",FALSE
+1992,"Albertville","Skating","Short Track S.","KOR","1000m","M","Gold",TRUE
+1992,"Albertville","Skating","Short Track S.","KOR","5000m relay","M","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","KOR","1000m","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","LUX","giant slalom","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","LUX","super-G","M","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","NED","10000m","M","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","NED","1500m","M","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","NED","5000m","M","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","NOR","10000m","M","Bronze",FALSE
+1992,"Albertville","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","NOR","1500m","M","Silver",FALSE
+1992,"Albertville","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","NOR","giant slalom","M","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","NOR","slalom","M","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","NOR","super-G","M","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","NOR","super-G","M","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","NOR","10km pursuit","M","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","NOR","30km mass start","M","Bronze",FALSE
+1992,"Albertville","Skiing","Cross Country S","NOR","30km mass start","M","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","NOR","30km mass start","M","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","NOR","4x10km relay","M","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","NOR","4x5km relay","W","Silver",FALSE
+1992,"Albertville","Skiing","Cross Country S","NOR","50km","M","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","NOR","Combined 10km + 15km pursuit","M","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","NOR","Combined 10km + 15km pursuit","M","Silver",FALSE
+1992,"Albertville","Skiing","Freestyle Ski.","NOR","moguls","W","Bronze",FALSE
+1992,"Albertville","Skiing","Nordic Combined","NOR","Team","M","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","NZL","slalom","W","Silver",FALSE
+1992,"Albertville","Skating","Short Track S.","PRK","500m","W","Bronze",FALSE
+1992,"Albertville","Bobsleigh","Bobsleigh","SUI","four-man","M","Bronze",FALSE
+1992,"Albertville","Bobsleigh","Bobsleigh","SUI","two-man","M","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","SUI","alpine combined","M","Bronze",FALSE
+1992,"Albertville","Biathlon","Biathlon","SWE","20km","M","Bronze",FALSE
+1992,"Albertville","Biathlon","Biathlon","SWE","4x7.5km relay","M","Bronze",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","SWE","giant slalom","W","Gold",TRUE
+1992,"Albertville","Skiing","Cross Country S","SWE","10km pursuit","M","Bronze",FALSE
+1992,"Albertville","Ice Hockey","Ice Hockey","TCH","ice hockey","M","Bronze",FALSE
+1992,"Albertville","Skating","Figure skating","TCH","individual","M","Bronze",FALSE
+1992,"Albertville","Skiing","Ski Jumping","TCH","K120 team (90m)","M","Bronze",FALSE
+1992,"Albertville","Skating","Figure skating","USA","individual","M","Silver",FALSE
+1992,"Albertville","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+1992,"Albertville","Skating","Figure skating","USA","individual","W","Gold",TRUE
+1992,"Albertville","Skating","Short Track S.","USA","3000m relay","W","Silver",FALSE
+1992,"Albertville","Skating","Short Track S.","USA","500m","W","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","USA","1000m","W","Gold",TRUE
+1992,"Albertville","Skating","Speed skating","USA","500m","W","Gold",TRUE
+1992,"Albertville","Skiing","Alpine Skiing","USA","downhill","W","Silver",FALSE
+1992,"Albertville","Skiing","Alpine Skiing","USA","giant slalom","W","Silver",FALSE
+1992,"Albertville","Skiing","Freestyle Ski.","USA","moguls","M","Bronze",FALSE
+1992,"Albertville","Skiing","Freestyle Ski.","USA","moguls","W","Gold",TRUE
+1994,"Lillehammer","Skating","Short Track S.","AUS","5000m relay","M","Bronze",FALSE
+1994,"Lillehammer","Luge","Luge","AUT","singles","M","Silver",FALSE
+1994,"Lillehammer","Luge","Luge","AUT","singles","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","AUT","1500m","W","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","AUT","3000m","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","AUT","slalom","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","AUT","slalom","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Ski Jumping","AUT","K120 team (90m)","M","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","BLR","7.5km","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","BLR","1000m","M","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","CAN","15km","W","Gold",TRUE
+1994,"Lillehammer","Biathlon","Biathlon","CAN","7.5km","W","Gold",TRUE
+1994,"Lillehammer","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Silver",FALSE
+1994,"Lillehammer","Skating","Figure skating","CAN","individual","M","Silver",FALSE
+1994,"Lillehammer","Skating","Figure skating","CAN","pairs","X","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","CAN","1000m","M","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","CAN","1000m","W","Silver",FALSE
+1994,"Lillehammer","Skating","Short Track S.","CAN","3000m relay","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","CAN","500m","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","CAN","downhill","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","CAN","aerials","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","CAN","aerials","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","CAN","moguls","M","Gold",TRUE
+1994,"Lillehammer","Skating","Figure skating","CHN","individual","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","CHN","500m","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","CHN","1000m","W","Bronze",FALSE
+1994,"Lillehammer","Ice Hockey","Ice Hockey","FIN","ice hockey","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","FIN","30km","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","FIN","30km mass start","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","FIN","4x10km relay","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","FIN","50km","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","FIN","5km","W","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","FRA","15km","W","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","FRA","4x7.5km relay","M","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","FRA","4x7.5km relay","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Figure skating","FRA","individual","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","FRA","moguls","M","Bronze",FALSE
+1994,"Lillehammer","Skating","Figure skating","GBR","ice dancing","X","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","GBR","500m","M","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","GER","10km","M","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","GER","15km","W","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","GER","20km","M","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","GER","20km","M","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","GER","4x7.5km relay","M","Gold",TRUE
+1994,"Lillehammer","Biathlon","Biathlon","GER","4x7.5km relay","W","Silver",FALSE
+1994,"Lillehammer","Bobsleigh","Bobsleigh","GER","four-man","M","Bronze",FALSE
+1994,"Lillehammer","Bobsleigh","Bobsleigh","GER","four-man","M","Gold",TRUE
+1994,"Lillehammer","Luge","Luge","GER","doubles","X","Bronze",FALSE
+1994,"Lillehammer","Luge","Luge","GER","singles","M","Gold",TRUE
+1994,"Lillehammer","Luge","Luge","GER","singles","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","GER","1000m","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","GER","1500m","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","GER","3000m","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","GER","5000m","W","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","GER","5000m","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","GER","500m","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","GER","downhill","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","GER","giant slalom","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","GER","giant slalom","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","GER","super-G","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Ski Jumping","GER","K120 individual (90m)","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Ski Jumping","GER","K120 team (90m)","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Ski Jumping","GER","K90 individual (70m)","M","Bronze",FALSE
+1994,"Lillehammer","Bobsleigh","Bobsleigh","ITA","two-man","M","Bronze",FALSE
+1994,"Lillehammer","Luge","Luge","ITA","doubles","X","Gold",TRUE
+1994,"Lillehammer","Luge","Luge","ITA","doubles","X","Silver",FALSE
+1994,"Lillehammer","Luge","Luge","ITA","singles","M","Bronze",FALSE
+1994,"Lillehammer","Luge","Luge","ITA","singles","W","Gold",TRUE
+1994,"Lillehammer","Skating","Short Track S.","ITA","5000m relay","M","Gold",TRUE
+1994,"Lillehammer","Skating","Short Track S.","ITA","500m","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","ITA","downhill","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","ITA","giant slalom","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","ITA","slalom","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","ITA","super-G","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","10km pursuit","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","15km mass start","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","30km","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","4x10km relay","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","4x5km relay","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","5km","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","Combined 10km + 15km pursuit","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","Combined 5km + 10km pursuit","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","ITA","Combined 5km + 10km pursuit","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","JPN","5000m","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","JPN","500m","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Nordic Combined","JPN","individual","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Nordic Combined","JPN","Team","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Ski Jumping","JPN","K120 team (90m)","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","KAZ","10km pursuit","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","KAZ","50km","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","KAZ","Combined 10km + 15km pursuit","M","Silver",FALSE
+1994,"Lillehammer","Skating","Short Track S.","KOR","1000m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Short Track S.","KOR","1000m","M","Silver",FALSE
+1994,"Lillehammer","Skating","Short Track S.","KOR","1000m","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","KOR","1000m","W","Gold",TRUE
+1994,"Lillehammer","Skating","Short Track S.","KOR","3000m relay","W","Gold",TRUE
+1994,"Lillehammer","Skating","Short Track S.","KOR","500m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","NED","10000m","M","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","NED","1500m","M","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","NED","1500m","M","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","NED","5000m","M","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","NOR","10000m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","NOR","10000m","M","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","NOR","5000m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","NOR","5000m","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","NOR","alpine combined","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","NOR","alpine combined","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","NOR","alpine combined","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","NOR","downhill","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","NOR","super-G","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","10km pursuit","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","30km","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","30km mass start","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","30km mass start","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","4x10km relay","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","4x5km relay","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","50km","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","NOR","Combined 10km + 15km pursuit","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Freestyle Ski.","NOR","aerials","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","NOR","moguls","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Nordic Combined","NOR","individual","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Nordic Combined","NOR","Team","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Ski Jumping","NOR","K120 individual (90m)","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","RUS","10km","M","Bronze",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","RUS","10km","M","Gold",TRUE
+1994,"Lillehammer","Biathlon","Biathlon","RUS","20km","M","Gold",TRUE
+1994,"Lillehammer","Biathlon","Biathlon","RUS","4x7.5km relay","M","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","RUS","4x7.5km relay","W","Gold",TRUE
+1994,"Lillehammer","Skating","Figure skating","RUS","ice dancing","X","Gold",TRUE
+1994,"Lillehammer","Skating","Figure skating","RUS","ice dancing","X","Silver",FALSE
+1994,"Lillehammer","Skating","Figure skating","RUS","individual","M","Gold",TRUE
+1994,"Lillehammer","Skating","Figure skating","RUS","pairs","X","Gold",TRUE
+1994,"Lillehammer","Skating","Figure skating","RUS","pairs","X","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","RUS","1000m","M","Bronze",FALSE
+1994,"Lillehammer","Skating","Speed skating","RUS","1500m","W","Silver",FALSE
+1994,"Lillehammer","Skating","Speed skating","RUS","3000m","W","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","RUS","500m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","RUS","500m","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","RUS","super-G","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","RUS","15km mass start","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","RUS","15km mass start","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Cross Country S","RUS","4x5km relay","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","RUS","5km","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Cross Country S","RUS","Combined 5km + 10km pursuit","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Freestyle Ski.","RUS","moguls","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","RUS","moguls","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SLO","alpine combined","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SLO","slalom","M","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SLO","slalom","W","Bronze",FALSE
+1994,"Lillehammer","Bobsleigh","Bobsleigh","SUI","four-man","M","Silver",FALSE
+1994,"Lillehammer","Bobsleigh","Bobsleigh","SUI","two-man","M","Gold",TRUE
+1994,"Lillehammer","Bobsleigh","Bobsleigh","SUI","two-man","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SUI","alpine combined","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SUI","giant slalom","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SUI","giant slalom","W","Bronze",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","SUI","slalom","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Freestyle Ski.","SUI","aerials","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Nordic Combined","SUI","Team","M","Bronze",FALSE
+1994,"Lillehammer","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","SWE","alpine combined","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Freestyle Ski.","SWE","aerials","W","Silver",FALSE
+1994,"Lillehammer","Biathlon","Biathlon","UKR","7.5km","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Figure skating","UKR","individual","W","Gold",TRUE
+1994,"Lillehammer","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1994,"Lillehammer","Skating","Short Track S.","USA","3000m relay","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","USA","5000m relay","M","Silver",FALSE
+1994,"Lillehammer","Skating","Short Track S.","USA","500m","W","Bronze",FALSE
+1994,"Lillehammer","Skating","Short Track S.","USA","500m","W","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","USA","1000m","M","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","USA","1000m","W","Gold",TRUE
+1994,"Lillehammer","Skating","Speed skating","USA","500m","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","USA","downhill","M","Gold",TRUE
+1994,"Lillehammer","Skiing","Alpine Skiing","USA","downhill","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","USA","super-G","M","Silver",FALSE
+1994,"Lillehammer","Skiing","Alpine Skiing","USA","super-G","W","Gold",TRUE
+1994,"Lillehammer","Skiing","Freestyle Ski.","USA","moguls","W","Silver",FALSE
+1994,"Lillehammer","Skiing","Freestyle Ski.","UZB","aerials","W","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","AUS","slalom","W","Bronze",FALSE
+1998,"Nagano","Luge","Luge","AUT","singles","W","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","alpine combined","M","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","alpine combined","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","giant slalom","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","giant slalom","M","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","giant slalom","W","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","slalom","M","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","super-G","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","super-G","M","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","super-G","W","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","AUT","super-G","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","AUT","10km pursuit","M","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","AUT","50km","M","Bronze",FALSE
+1998,"Nagano","Skiing","Ski Jumping","AUT","K120 team (90m)","M","Bronze",FALSE
+1998,"Nagano","Skiing","Ski Jumping","AUT","K90 individual (70m)","M","Bronze",FALSE
+1998,"Nagano","Skiing","Snowboard","AUT","giant-slalom","W","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","BEL","5000m","M","Bronze",FALSE
+1998,"Nagano","Biathlon","Biathlon","BLR","20km","M","Bronze",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","BLR","aerials","M","Bronze",FALSE
+1998,"Nagano","Biathlon","Biathlon","BUL","15km","W","Gold",TRUE
+1998,"Nagano","Bobsleigh","Bobsleigh","CAN","two-man","M","Gold",TRUE
+1998,"Nagano","Curling","Curling","CAN","curling","M","Silver",FALSE
+1998,"Nagano","Curling","Curling","CAN","curling","W","Gold",TRUE
+1998,"Nagano","Ice Hockey","Ice Hockey","CAN","ice hockey","W","Silver",FALSE
+1998,"Nagano","Skating","Figure skating","CAN","individual","M","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","CAN","1000m","M","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","CAN","3000m relay","W","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","CAN","5000m relay","M","Gold",TRUE
+1998,"Nagano","Skating","Short Track S.","CAN","500m","W","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","CAN","1000m","W","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","CAN","500m","M","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","CAN","500m","M","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","CAN","500m","W","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","CAN","500m","W","Silver",FALSE
+1998,"Nagano","Skiing","Snowboard","CAN","giant-slalom","M","Gold",TRUE
+1998,"Nagano","Skating","Figure skating","CHN","individual","W","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","CHN","1000m","M","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","CHN","1000m","W","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","CHN","3000m relay","W","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","CHN","5000m relay","M","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","CHN","500m","M","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","CHN","500m","W","Silver",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","CHN","aerials","W","Silver",FALSE
+1998,"Nagano","Ice Hockey","Ice Hockey","CZE","ice hockey","M","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","CZE","5km","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","CZE","Combined 5km + 10km pursuit","W","Bronze",FALSE
+1998,"Nagano","Curling","Curling","DEN","curling","W","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","FIN","10km","M","Bronze",FALSE
+1998,"Nagano","Ice Hockey","Ice Hockey","FIN","ice hockey","M","Bronze",FALSE
+1998,"Nagano","Ice Hockey","Ice Hockey","FIN","ice hockey","W","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","FIN","10km pursuit","M","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","FIN","30km mass start","M","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","FIN","4x10km relay","M","Bronze",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","FIN","moguls","M","Bronze",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","FIN","moguls","M","Silver",FALSE
+1998,"Nagano","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+1998,"Nagano","Skiing","Nordic Combined","FIN","Team","M","Silver",FALSE
+1998,"Nagano","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Silver",FALSE
+1998,"Nagano","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Gold",TRUE
+1998,"Nagano","Bobsleigh","Bobsleigh","FRA","four-man","M","Bronze",FALSE
+1998,"Nagano","Skating","Figure skating","FRA","ice dancing","X","Bronze",FALSE
+1998,"Nagano","Skating","Figure skating","FRA","individual","M","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","FRA","downhill","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","FRA","downhill","W","Bronze",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","FRA","aerials","M","Silver",FALSE
+1998,"Nagano","Skiing","Nordic Combined","FRA","Team","M","Bronze",FALSE
+1998,"Nagano","Skiing","Snowboard","FRA","giant-slalom","W","Gold",TRUE
+1998,"Nagano","Bobsleigh","Bobsleigh","GBR","four-man","M","Bronze",FALSE
+1998,"Nagano","Biathlon","Biathlon","GER","15km","W","Bronze",FALSE
+1998,"Nagano","Biathlon","Biathlon","GER","4x7.5km relay","M","Gold",TRUE
+1998,"Nagano","Biathlon","Biathlon","GER","4x7.5km relay","W","Gold",TRUE
+1998,"Nagano","Biathlon","Biathlon","GER","7.5km","W","Bronze",FALSE
+1998,"Nagano","Biathlon","Biathlon","GER","7.5km","W","Silver",FALSE
+1998,"Nagano","Bobsleigh","Bobsleigh","GER","four-man","M","Gold",TRUE
+1998,"Nagano","Bobsleigh","Bobsleigh","GER","two-man","M","Bronze",FALSE
+1998,"Nagano","Luge","Luge","GER","doubles","X","Gold",TRUE
+1998,"Nagano","Luge","Luge","GER","singles","M","Bronze",FALSE
+1998,"Nagano","Luge","Luge","GER","singles","M","Gold",TRUE
+1998,"Nagano","Luge","Luge","GER","singles","W","Gold",TRUE
+1998,"Nagano","Luge","Luge","GER","singles","W","Silver",FALSE
+1998,"Nagano","Skating","Figure skating","GER","pairs","X","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","GER","1500m","W","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","GER","3000m","W","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","GER","3000m","W","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","GER","3000m","W","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","GER","5000m","W","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","GER","5000m","W","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","GER","alpine combined","W","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","GER","alpine combined","W","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","GER","alpine combined","W","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","GER","downhill","W","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","GER","giant slalom","W","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","GER","slalom","W","Gold",TRUE
+1998,"Nagano","Skiing","Freestyle Ski.","GER","moguls","W","Silver",FALSE
+1998,"Nagano","Skiing","Ski Jumping","GER","K120 team (90m)","M","Silver",FALSE
+1998,"Nagano","Skiing","Snowboard","GER","giant-slalom","W","Silver",FALSE
+1998,"Nagano","Skiing","Snowboard","GER","Half-pipe","W","Gold",TRUE
+1998,"Nagano","Biathlon","Biathlon","ITA","20km","M","Silver",FALSE
+1998,"Nagano","Bobsleigh","Bobsleigh","ITA","two-man","M","Gold",TRUE
+1998,"Nagano","Luge","Luge","ITA","singles","M","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","ITA","giant slalom","W","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","ITA","slalom","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","ITA","30km","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","ITA","30km mass start","M","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","ITA","4x10km relay","M","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","ITA","4x5km relay","W","Bronze",FALSE
+1998,"Nagano","Skiing","Snowboard","ITA","giant-slalom","M","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","JPN","500m","M","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","JPN","500m","M","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","JPN","1000m","M","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","JPN","500m","M","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","JPN","500m","W","Bronze",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","JPN","moguls","W","Gold",TRUE
+1998,"Nagano","Skiing","Ski Jumping","JPN","K120 individual (90m)","M","Bronze",FALSE
+1998,"Nagano","Skiing","Ski Jumping","JPN","K120 individual (90m)","M","Gold",TRUE
+1998,"Nagano","Skiing","Ski Jumping","JPN","K120 team (90m)","M","Gold",TRUE
+1998,"Nagano","Skiing","Ski Jumping","JPN","K90 individual (70m)","M","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","KAZ","5000m","W","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","KAZ","Combined 10km + 15km pursuit","M","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","KOR","1000m","M","Gold",TRUE
+1998,"Nagano","Skating","Short Track S.","KOR","1000m","W","Bronze",FALSE
+1998,"Nagano","Skating","Short Track S.","KOR","1000m","W","Gold",TRUE
+1998,"Nagano","Skating","Short Track S.","KOR","3000m relay","W","Gold",TRUE
+1998,"Nagano","Skating","Short Track S.","KOR","5000m relay","M","Silver",FALSE
+1998,"Nagano","Skating","Short Track S.","KOR","500m","W","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","NED","10000m","M","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","NED","10000m","M","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","NED","10000m","M","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","NED","1000m","M","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","NED","1000m","M","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","NED","1000m","W","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","NED","1500m","M","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","NED","1500m","M","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","NED","1500m","W","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","NED","5000m","M","Gold",TRUE
+1998,"Nagano","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","NOR","10km","M","Gold",TRUE
+1998,"Nagano","Biathlon","Biathlon","NOR","10km","M","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","NOR","20km","M","Gold",TRUE
+1998,"Nagano","Biathlon","Biathlon","NOR","4x7.5km relay","M","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","NOR","4x7.5km relay","W","Bronze",FALSE
+1998,"Nagano","Curling","Curling","NOR","curling","M","Bronze",FALSE
+1998,"Nagano","Skating","Speed skating","NOR","1500m","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","NOR","alpine combined","M","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","NOR","downhill","M","Silver",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","NOR","slalom","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","NOR","slalom","M","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","NOR","10km pursuit","M","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","NOR","15km mass start","W","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","NOR","30km mass start","M","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","NOR","4x10km relay","M","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","NOR","4x5km relay","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","NOR","50km","M","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","NOR","5km","W","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","NOR","Combined 10km + 15km pursuit","M","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","NOR","Combined 10km + 15km pursuit","M","Silver",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","NOR","moguls","W","Bronze",FALSE
+1998,"Nagano","Skiing","Nordic Combined","NOR","individual","M","Gold",TRUE
+1998,"Nagano","Skiing","Nordic Combined","NOR","Team","M","Gold",TRUE
+1998,"Nagano","Skiing","Snowboard","NOR","Half-pipe","M","Silver",FALSE
+1998,"Nagano","Skiing","Snowboard","NOR","Half-pipe","W","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","RUS","4x7.5km relay","M","Bronze",FALSE
+1998,"Nagano","Biathlon","Biathlon","RUS","4x7.5km relay","W","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","RUS","7.5km","W","Gold",TRUE
+1998,"Nagano","Ice Hockey","Ice Hockey","RUS","ice hockey","M","Silver",FALSE
+1998,"Nagano","Skating","Figure skating","RUS","ice dancing","X","Gold",TRUE
+1998,"Nagano","Skating","Figure skating","RUS","ice dancing","X","Silver",FALSE
+1998,"Nagano","Skating","Figure skating","RUS","individual","M","Gold",TRUE
+1998,"Nagano","Skating","Figure skating","RUS","pairs","X","Gold",TRUE
+1998,"Nagano","Skating","Figure skating","RUS","pairs","X","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","RUS","15km mass start","W","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","RUS","15km mass start","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","RUS","30km","W","Bronze",FALSE
+1998,"Nagano","Skiing","Cross Country S","RUS","30km","W","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","RUS","4x5km relay","W","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","RUS","5km","W","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","RUS","Combined 5km + 10km pursuit","W","Gold",TRUE
+1998,"Nagano","Skiing","Cross Country S","RUS","Combined 5km + 10km pursuit","W","Silver",FALSE
+1998,"Nagano","Skiing","Nordic Combined","RUS","individual","M","Bronze",FALSE
+1998,"Nagano","Bobsleigh","Bobsleigh","SUI","four-man","M","Silver",FALSE
+1998,"Nagano","Curling","Curling","SUI","curling","M","Gold",TRUE
+1998,"Nagano","Skiing","Alpine Skiing","SUI","giant slalom","M","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","SUI","super-G","M","Silver",FALSE
+1998,"Nagano","Skiing","Freestyle Ski.","SUI","aerials","W","Bronze",FALSE
+1998,"Nagano","Skiing","Snowboard","SUI","giant-slalom","M","Bronze",FALSE
+1998,"Nagano","Skiing","Snowboard","SUI","Half-pipe","M","Gold",TRUE
+1998,"Nagano","Curling","Curling","SWE","curling","W","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","SWE","downhill","W","Silver",FALSE
+1998,"Nagano","Skiing","Cross Country S","SWE","50km","M","Silver",FALSE
+1998,"Nagano","Biathlon","Biathlon","UKR","15km","W","Silver",FALSE
+1998,"Nagano","Ice Hockey","Ice Hockey","USA","ice hockey","W","Gold",TRUE
+1998,"Nagano","Luge","Luge","USA","doubles","X","Bronze",FALSE
+1998,"Nagano","Luge","Luge","USA","doubles","X","Silver",FALSE
+1998,"Nagano","Skating","Figure skating","USA","individual","W","Gold",TRUE
+1998,"Nagano","Skating","Figure skating","USA","individual","W","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","USA","1000m","W","Silver",FALSE
+1998,"Nagano","Skating","Speed skating","USA","1500m","W","Bronze",FALSE
+1998,"Nagano","Skiing","Alpine Skiing","USA","super-G","W","Gold",TRUE
+1998,"Nagano","Skiing","Freestyle Ski.","USA","aerials","M","Gold",TRUE
+1998,"Nagano","Skiing","Freestyle Ski.","USA","aerials","W","Gold",TRUE
+1998,"Nagano","Skiing","Freestyle Ski.","USA","moguls","M","Gold",TRUE
+1998,"Nagano","Skiing","Snowboard","USA","Half-pipe","M","Bronze",FALSE
+1998,"Nagano","Skiing","Snowboard","USA","Half-pipe","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","AUS","1000m","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","AUS","aerials","W","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","AUT","10km","M","Bronze",FALSE
+2002,"Salt Lake City","Bobsleigh","Skeleton","AUT","individual","M","Silver",FALSE
+2002,"Salt Lake City","Luge","Luge","AUT","singles","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","alpine combined","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","alpine combined","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","downhill","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","downhill","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","downhill","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","giant slalom","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","slalom","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","super-G","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","AUT","super-G","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","AUT","30km mass start","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","AUT","30km mass start","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Nordic Combined","AUT","individual","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Nordic Combined","AUT","sprint","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Nordic Combined","AUT","Team","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","BLR","aerials","M","Bronze",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","BUL","10km pursuit","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","BUL","1500m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","BUL","500m","W","Silver",FALSE
+2002,"Salt Lake City","Curling","Curling","CAN","curling","M","Silver",FALSE
+2002,"Salt Lake City","Curling","Curling","CAN","curling","W","Bronze",FALSE
+2002,"Salt Lake City","Ice Hockey","Ice Hockey","CAN","ice hockey","M","Gold",TRUE
+2002,"Salt Lake City","Ice Hockey","Ice Hockey","CAN","ice hockey","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Figure skating","CAN","pairs","X","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","CAN","1000m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CAN","1500m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CAN","3000m relay","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CAN","5000m relay","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","CAN","500m","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","CAN","500m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","CAN","3000m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","CAN","5000m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","CAN","500m","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","CAN","5km pursuit","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","CAN","aerials","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","CAN","aerials","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Figure skating","CHN","pairs","X","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","1000m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","1000m","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","1500m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","3000m relay","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","5000m relay","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","500m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","CHN","500m","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","CRO","alpine combined","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","CRO","giant slalom","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","CRO","slalom","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","CRO","super-G","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","CZE","15km mass start","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","CZE","5km pursuit","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","CZE","aerials","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","EST","15km","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","EST","15km","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","EST","50km","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","FIN","moguls","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Nordic Combined","FIN","individual","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Nordic Combined","FIN","individual","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Nordic Combined","FIN","sprint","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Nordic Combined","FIN","Team","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Ski Jumping","FIN","K120 individual (90m)","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Ski Jumping","FIN","K120 team (90m)","M","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","FRA","12.5km pursuit","M","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","FRA","4x7.5km relay","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Figure skating","FRA","ice dancing","X","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","FRA","downhill","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","FRA","slalom","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","FRA","slalom","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","FRA","slalom","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","FRA","moguls","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","FRA","Giant parallel slalom","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Snowboard","FRA","Giant parallel slalom","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","FRA","Half-pipe","W","Silver",FALSE
+2002,"Salt Lake City","Bobsleigh","Skeleton","GBR","individual","W","Bronze",FALSE
+2002,"Salt Lake City","Curling","Curling","GBR","curling","W","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","10km","M","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","10km pursuit","W","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","12.5km pursuit","M","Bronze",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","15km","W","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","20km","M","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","4x7.5km relay","M","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","4x7.5km relay","W","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","7.5km","W","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","GER","7.5km","W","Silver",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","GER","four-man","M","Gold",TRUE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","GER","two-man","M","Gold",TRUE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","GER","two-man","W","Bronze",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","GER","two-man","W","Silver",FALSE
+2002,"Salt Lake City","Luge","Luge","GER","doubles","X","Gold",TRUE
+2002,"Salt Lake City","Luge","Luge","GER","singles","M","Silver",FALSE
+2002,"Salt Lake City","Luge","Luge","GER","singles","W","Bronze",FALSE
+2002,"Salt Lake City","Luge","Luge","GER","singles","W","Gold",TRUE
+2002,"Salt Lake City","Luge","Luge","GER","singles","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","GER","1000m","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","GER","1500m","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","GER","1500m","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","GER","3000m","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","GER","5000m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","GER","5000m","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","GER","500m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","GER","500m","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","GER","alpine combined","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","GER","4x10km relay","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","GER","4x5km relay","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","GER","5km pursuit","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","GER","Sprint 1,5km","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","GER","sprint 1.5km","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Nordic Combined","GER","sprint","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Nordic Combined","GER","Team","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Ski Jumping","GER","K120 team (90m)","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Ski Jumping","GER","K90 individual (70m)","M","Silver",FALSE
+2002,"Salt Lake City","Luge","Luge","ITA","singles","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Figure skating","ITA","ice dancing","X","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","ITA","5000m relay","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","ITA","downhill","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","ITA","super-G","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","ITA","super-G","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","ITA","10km","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","ITA","15km mass start","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","ITA","30km","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","ITA","30km","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","ITA","4x10km relay","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","ITA","Sprint 1,5km","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","ITA","Giant parallel slalom","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","JPN","500m","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","JPN","moguls","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","KOR","1000m","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","KOR","1500m","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","KOR","1500m","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","KOR","3000m relay","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","NED","10000m","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","NED","10000m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","NED","1000m","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","NED","1000m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","NED","1500m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","NED","3000m","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","NED","5000m","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","NED","5000m","W","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","NOR","10km","M","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","NOR","12.5km pursuit","M","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","NOR","15km","W","Silver",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","NOR","20km","M","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","NOR","4x7.5km relay","M","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","NOR","4x7.5km relay","W","Silver",FALSE
+2002,"Salt Lake City","Curling","Curling","NOR","curling","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","NOR","10000m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","NOR","1500m","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","NOR","alpine combined","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","NOR","downhill","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","NOR","giant slalom","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","NOR","super-G","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","10km","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","10km pursuit","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","10km pursuit","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","15km","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","30km","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","30km mass start","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","4x10km relay","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","4x5km relay","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","50km","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","Sprint 1,5km","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","NOR","sprint 1.5km","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","NOR","moguls","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Ski Jumping","POL","K120 individual (90m)","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Ski Jumping","POL","K90 individual (70m)","M","Bronze",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","RUS","10km pursuit","W","Gold",TRUE
+2002,"Salt Lake City","Biathlon","Biathlon","RUS","20km","M","Bronze",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","RUS","4x7.5km relay","W","Bronze",FALSE
+2002,"Salt Lake City","Ice Hockey","Ice Hockey","RUS","ice hockey","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Figure skating","RUS","ice dancing","X","Silver",FALSE
+2002,"Salt Lake City","Skating","Figure skating","RUS","individual","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Figure skating","RUS","individual","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Figure skating","RUS","individual","W","Silver",FALSE
+2002,"Salt Lake City","Skating","Figure skating","RUS","pairs","X","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","RUS","10km","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","RUS","15km mass start","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","RUS","50km","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Cross Country S","RUS","sprint 1.5km","W","Gold",TRUE
+2002,"Salt Lake City","Skiing","Ski Jumping","SLO","K120 team (90m)","M","Bronze",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","SUI","two-man","M","Bronze",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","SUI","two-man","M","Silver",FALSE
+2002,"Salt Lake City","Bobsleigh","Skeleton","SUI","individual","M","Bronze",FALSE
+2002,"Salt Lake City","Curling","Curling","SUI","curling","M","Bronze",FALSE
+2002,"Salt Lake City","Curling","Curling","SUI","curling","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","SUI","giant slalom","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","SUI","4x5km relay","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Ski Jumping","SUI","K120 individual (90m)","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Ski Jumping","SUI","K90 individual (70m)","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Snowboard","SUI","Giant parallel slalom","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Snowboard","SUI","Half-pipe","W","Bronze",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","SWE","15km","W","Bronze",FALSE
+2002,"Salt Lake City","Biathlon","Biathlon","SWE","7.5km","W","Bronze",FALSE
+2002,"Salt Lake City","Ice Hockey","Ice Hockey","SWE","ice hockey","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","SWE","giant slalom","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","SWE","slalom","W","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Cross Country S","SWE","10km pursuit","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","SWE","Giant parallel slalom","M","Silver",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","USA","four-man","M","Bronze",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","USA","four-man","M","Silver",FALSE
+2002,"Salt Lake City","Bobsleigh","Bobsleigh","USA","two-man","W","Gold",TRUE
+2002,"Salt Lake City","Bobsleigh","Skeleton","USA","individual","M","Gold",TRUE
+2002,"Salt Lake City","Bobsleigh","Skeleton","USA","individual","W","Gold",TRUE
+2002,"Salt Lake City","Bobsleigh","Skeleton","USA","individual","W","Silver",FALSE
+2002,"Salt Lake City","Ice Hockey","Ice Hockey","USA","ice hockey","M","Silver",FALSE
+2002,"Salt Lake City","Ice Hockey","Ice Hockey","USA","ice hockey","W","Silver",FALSE
+2002,"Salt Lake City","Luge","Luge","USA","doubles","X","Bronze",FALSE
+2002,"Salt Lake City","Luge","Luge","USA","doubles","X","Silver",FALSE
+2002,"Salt Lake City","Skating","Figure skating","USA","individual","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Figure skating","USA","individual","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Figure skating","USA","individual","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","USA","1000m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Short Track S.","USA","1500m","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Short Track S.","USA","500m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","USA","1000m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","USA","1000m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","USA","1000m","W","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","USA","1500m","M","Gold",TRUE
+2002,"Salt Lake City","Skating","Speed skating","USA","1500m","W","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","USA","5000m","M","Silver",FALSE
+2002,"Salt Lake City","Skating","Speed skating","USA","500m","M","Bronze",FALSE
+2002,"Salt Lake City","Skating","Speed skating","USA","500m","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Alpine Skiing","USA","alpine combined","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Alpine Skiing","USA","giant slalom","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","USA","aerials","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","USA","moguls","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Freestyle Ski.","USA","moguls","W","Silver",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","USA","Giant parallel slalom","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","USA","Half-pipe","M","Bronze",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","USA","Half-pipe","M","Gold",TRUE
+2002,"Salt Lake City","Skiing","Snowboard","USA","Half-pipe","M","Silver",FALSE
+2002,"Salt Lake City","Skiing","Snowboard","USA","Half-pipe","W","Gold",TRUE
+2006,"Turin","Skiing","Freestyle Ski.","AUS","aerials","W","Bronze",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","AUS","moguls","M","Gold",TRUE
+2006,"Turin","Luge","Luge","AUT","doubles","X","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","AUT","Alpine combined","M","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","Alpine combined","W","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","downhill","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","downhill","W","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","AUT","giant slalom","M","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","giant slalom","M","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","AUT","slalom","M","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","slalom","M","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","AUT","slalom","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","slalom","W","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","slalom","W","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","super-G","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","super-G","W","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","AUT","super-G","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","AUT","50km","M","Bronze",FALSE
+2006,"Turin","Skiing","Nordic Combined","AUT","Individual","M","Silver",FALSE
+2006,"Turin","Skiing","Nordic Combined","AUT","Individual sprint","M","Gold",TRUE
+2006,"Turin","Skiing","Nordic Combined","AUT","Team","M","Gold",TRUE
+2006,"Turin","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Gold",TRUE
+2006,"Turin","Skiing","Ski Jumping","AUT","K120 individual (90m)","M","Silver",FALSE
+2006,"Turin","Skiing","Ski Jumping","AUT","K120 team (90m)","M","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","AUT","Giant parallel slalom","M","Bronze",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","BLR","aerials","M","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","BUL","500m","W","Silver",FALSE
+2006,"Turin","Bobsleigh","Bobsleigh","CAN","two-man","M","Silver",FALSE
+2006,"Turin","Bobsleigh","Skeleton","CAN","individual","M","Gold",TRUE
+2006,"Turin","Bobsleigh","Skeleton","CAN","individual","M","Silver",FALSE
+2006,"Turin","Bobsleigh","Skeleton","CAN","individual","W","Bronze",FALSE
+2006,"Turin","Curling","Curling","CAN","curling","M","Gold",TRUE
+2006,"Turin","Curling","Curling","CAN","curling","W","Bronze",FALSE
+2006,"Turin","Ice Hockey","Ice Hockey","CAN","ice hockey","W","Gold",TRUE
+2006,"Turin","Skating","Figure skating","CAN","individual","M","Bronze",FALSE
+2006,"Turin","Skating","Short Track S.","CAN","3000m relay","W","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","CAN","5000m relay","M","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","CAN","500m","M","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","CAN","500m","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","CAN","1000m","W","Silver",FALSE
+2006,"Turin","Skating","Speed skating","CAN","1500m","W","Gold",TRUE
+2006,"Turin","Skating","Speed skating","CAN","1500m","W","Silver",FALSE
+2006,"Turin","Skating","Speed skating","CAN","3000m","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","CAN","5000m","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","CAN","5000m","W","Gold",TRUE
+2006,"Turin","Skating","Speed skating","CAN","Team pursuit","M","Silver",FALSE
+2006,"Turin","Skating","Speed skating","CAN","Team pursuit","W","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","CAN","sprint 1.5km","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","CAN","Team sprint","W","Silver",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","CAN","moguls","W","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","CAN","Snowboard Cross","W","Bronze",FALSE
+2006,"Turin","Skating","Figure skating","CHN","pairs","X","Bronze",FALSE
+2006,"Turin","Skating","Figure skating","CHN","pairs","X","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","CHN","1000m","W","Bronze",FALSE
+2006,"Turin","Skating","Short Track S.","CHN","1000m","W","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","CHN","1500m","M","Bronze",FALSE
+2006,"Turin","Skating","Short Track S.","CHN","1500m","W","Bronze",FALSE
+2006,"Turin","Skating","Short Track S.","CHN","500m","W","Gold",TRUE
+2006,"Turin","Skating","Speed skating","CHN","500m","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","CHN","500m","W","Silver",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","CHN","aerials","M","Gold",TRUE
+2006,"Turin","Skiing","Freestyle Ski.","CHN","aerials","W","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","CRO","Alpine combined","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","CRO","Alpine combined","W","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","CRO","super-G","W","Silver",FALSE
+2006,"Turin","Ice Hockey","Ice Hockey","CZE","ice hockey","M","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","CZE","15km","M","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","CZE","30km","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","CZE","Combined 7.5 + 7.5km mass start","W","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","EST","10km","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","EST","15km","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","EST","Combined 7.5 + 7.5km mass start","W","Gold",TRUE
+2006,"Turin","Curling","Curling","FIN","curling","M","Silver",FALSE
+2006,"Turin","Ice Hockey","Ice Hockey","FIN","ice hockey","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","FIN","giant slalom","W","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","FIN","Team sprint","W","Bronze",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","FIN","moguls","M","Silver",FALSE
+2006,"Turin","Skiing","Nordic Combined","FIN","Team","M","Bronze",FALSE
+2006,"Turin","Skiing","Ski Jumping","FIN","K120 team (90m)","M","Silver",FALSE
+2006,"Turin","Skiing","Ski Jumping","FIN","K90 individual (70m)","M","Silver",FALSE
+2006,"Turin","Skiing","Snowboard","FIN","Half-pipe","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","FRA","12.5km pursuit","M","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","FRA","4x6km relay","W","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","FRA","4x7.5km relay","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","FRA","7.5km","W","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","FRA","downhill","M","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","FRA","giant slalom","M","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","FRA","Sprint 1,5km","M","Silver",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","FRA","moguls","W","Bronze",FALSE
+2006,"Turin","Skiing","Snowboard","FRA","Snowboard Cross","M","Bronze",FALSE
+2006,"Turin","Bobsleigh","Skeleton","GBR","individual","W","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","10km","M","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","GER","10km pursuit","W","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","GER","10km pursuit","W","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","12,5km mass start","W","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","12,5km mass start","W","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","12.5km pursuit","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","15km","W","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","15km mass start","M","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","GER","20km","M","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","GER","4x6km relay","W","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","GER","4x7.5km relay","M","Gold",TRUE
+2006,"Turin","Bobsleigh","Bobsleigh","GER","four-man","M","Gold",TRUE
+2006,"Turin","Bobsleigh","Bobsleigh","GER","two-man","M","Gold",TRUE
+2006,"Turin","Bobsleigh","Bobsleigh","GER","two-man","W","Gold",TRUE
+2006,"Turin","Luge","Luge","GER","doubles","X","Silver",FALSE
+2006,"Turin","Luge","Luge","GER","singles","W","Bronze",FALSE
+2006,"Turin","Luge","Luge","GER","singles","W","Gold",TRUE
+2006,"Turin","Luge","Luge","GER","singles","W","Silver",FALSE
+2006,"Turin","Skating","Speed skating","GER","1000m","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","GER","5000m","W","Silver",FALSE
+2006,"Turin","Skating","Speed skating","GER","Team pursuit","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","GER","15km","M","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","GER","4x10km relay","M","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","GER","4x5km relay","W","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","GER","sprint 1.5km","W","Silver",FALSE
+2006,"Turin","Skiing","Nordic Combined","GER","Individual","M","Gold",TRUE
+2006,"Turin","Skiing","Nordic Combined","GER","Individual sprint","M","Bronze",FALSE
+2006,"Turin","Skiing","Nordic Combined","GER","Team","M","Silver",FALSE
+2006,"Turin","Skiing","Snowboard","GER","Giant parallel slalom","W","Silver",FALSE
+2006,"Turin","Bobsleigh","Bobsleigh","ITA","two-man","W","Bronze",FALSE
+2006,"Turin","Luge","Luge","ITA","doubles","X","Bronze",FALSE
+2006,"Turin","Luge","Luge","ITA","singles","M","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","ITA","3000m relay","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","ITA","1500m","M","Gold",TRUE
+2006,"Turin","Skating","Speed skating","ITA","5000m","M","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","ITA","Team pursuit","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","ITA","4x10km relay","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","ITA","4x5km relay","W","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","ITA","50km","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","ITA","Combined 15 + 15km mass start","M","Bronze",FALSE
+2006,"Turin","Skating","Figure skating","JPN","individual","W","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","1000m","M","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","1000m","M","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","KOR","1000m","W","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","1500m","M","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","1500m","M","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","KOR","1500m","W","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","1500m","W","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","KOR","3000m relay","W","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","5000m relay","M","Gold",TRUE
+2006,"Turin","Skating","Short Track S.","KOR","500m","M","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","KOR","500m","M","Bronze",FALSE
+2006,"Turin","Luge","Luge","LAT","singles","M","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","NED","10000m","M","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","NED","10000m","M","Gold",TRUE
+2006,"Turin","Skating","Speed skating","NED","1000m","M","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","NED","1000m","W","Gold",TRUE
+2006,"Turin","Skating","Speed skating","NED","1500m","W","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","NED","3000m","W","Gold",TRUE
+2006,"Turin","Skating","Speed skating","NED","3000m","W","Silver",FALSE
+2006,"Turin","Skating","Speed skating","NED","5000m","M","Silver",FALSE
+2006,"Turin","Skating","Speed skating","NED","Team pursuit","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","NOR","10km","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","NOR","10km","M","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","NOR","12.5km pursuit","M","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","NOR","15km mass start","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","NOR","20km","M","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","NOR","20km","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","NOR","super-G","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","NOR","10km","W","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","NOR","10km","W","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","NOR","Combined 15 + 15km mass start","M","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","NOR","Team sprint","M","Silver",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","NOR","moguls","W","Silver",FALSE
+2006,"Turin","Skiing","Nordic Combined","NOR","Individual","M","Bronze",FALSE
+2006,"Turin","Skiing","Nordic Combined","NOR","Individual sprint","M","Silver",FALSE
+2006,"Turin","Skiing","Ski Jumping","NOR","K120 individual (90m)","M","Bronze",FALSE
+2006,"Turin","Skiing","Ski Jumping","NOR","K120 team (90m)","M","Bronze",FALSE
+2006,"Turin","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Bronze",FALSE
+2006,"Turin","Skiing","Ski Jumping","NOR","K90 individual (70m)","M","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","NOR","Half-pipe","W","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","POL","15km mass start","M","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","POL","30km","W","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","RUS","10km pursuit","W","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","RUS","15km","W","Bronze",FALSE
+2006,"Turin","Biathlon","Biathlon","RUS","15km","W","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","RUS","4x6km relay","W","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","RUS","4x7.5km relay","M","Silver",FALSE
+2006,"Turin","Bobsleigh","Bobsleigh","RUS","four-man","M","Silver",FALSE
+2006,"Turin","Luge","Luge","RUS","singles","M","Silver",FALSE
+2006,"Turin","Skating","Figure skating","RUS","ice dancing","X","Gold",TRUE
+2006,"Turin","Skating","Figure skating","RUS","individual","M","Gold",TRUE
+2006,"Turin","Skating","Figure skating","RUS","individual","W","Bronze",FALSE
+2006,"Turin","Skating","Figure skating","RUS","pairs","X","Gold",TRUE
+2006,"Turin","Skating","Speed skating","RUS","500m","M","Silver",FALSE
+2006,"Turin","Skating","Speed skating","RUS","500m","W","Gold",TRUE
+2006,"Turin","Skating","Speed skating","RUS","Team pursuit","W","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","RUS","30km","W","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","RUS","4x5km relay","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","RUS","50km","M","Silver",FALSE
+2006,"Turin","Skiing","Cross Country S","RUS","Combined 15 + 15km mass start","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","RUS","Combined 7.5 + 7.5km mass start","W","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","RUS","sprint 1.5km","W","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","RUS","Team sprint","M","Bronze",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","RUS","aerials","M","Bronze",FALSE
+2006,"Turin","Bobsleigh","Bobsleigh","SUI","four-man","M","Bronze",FALSE
+2006,"Turin","Bobsleigh","Bobsleigh","SUI","two-man","M","Bronze",FALSE
+2006,"Turin","Bobsleigh","Skeleton","SUI","individual","M","Bronze",FALSE
+2006,"Turin","Bobsleigh","Skeleton","SUI","individual","W","Gold",TRUE
+2006,"Turin","Curling","Curling","SUI","curling","W","Silver",FALSE
+2006,"Turin","Skating","Figure skating","SUI","individual","M","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SUI","downhill","M","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SUI","downhill","W","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SUI","super-G","M","Bronze",FALSE
+2006,"Turin","Skiing","Freestyle Ski.","SUI","aerials","W","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","SUI","Giant parallel slalom","M","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","SUI","Giant parallel slalom","M","Silver",FALSE
+2006,"Turin","Skiing","Snowboard","SUI","Giant parallel slalom","W","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","SUI","Snowboard Cross","W","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","SVK","Snowboard Cross","M","Silver",FALSE
+2006,"Turin","Biathlon","Biathlon","SWE","12,5km mass start","W","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","SWE","7.5km","W","Silver",FALSE
+2006,"Turin","Curling","Curling","SWE","curling","W","Gold",TRUE
+2006,"Turin","Ice Hockey","Ice Hockey","SWE","ice hockey","M","Gold",TRUE
+2006,"Turin","Ice Hockey","Ice Hockey","SWE","ice hockey","W","Silver",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SWE","Alpine combined","W","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SWE","downhill","W","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SWE","giant slalom","W","Bronze",FALSE
+2006,"Turin","Skiing","Alpine Skiing","SWE","slalom","W","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","SWE","4x10km relay","M","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","SWE","Sprint 1,5km","M","Bronze",FALSE
+2006,"Turin","Skiing","Cross Country S","SWE","Sprint 1,5km","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","SWE","Team sprint","M","Gold",TRUE
+2006,"Turin","Skiing","Cross Country S","SWE","Team sprint","W","Gold",TRUE
+2006,"Turin","Biathlon","Biathlon","UKR","7.5km","W","Bronze",FALSE
+2006,"Turin","Skating","Figure skating","UKR","ice dancing","X","Bronze",FALSE
+2006,"Turin","Bobsleigh","Bobsleigh","USA","two-man","W","Silver",FALSE
+2006,"Turin","Curling","Curling","USA","curling","M","Bronze",FALSE
+2006,"Turin","Ice Hockey","Ice Hockey","USA","ice hockey","W","Bronze",FALSE
+2006,"Turin","Skating","Figure skating","USA","ice dancing","X","Silver",FALSE
+2006,"Turin","Skating","Figure skating","USA","individual","W","Silver",FALSE
+2006,"Turin","Skating","Short Track S.","USA","1000m","M","Bronze",FALSE
+2006,"Turin","Skating","Short Track S.","USA","5000m relay","M","Bronze",FALSE
+2006,"Turin","Skating","Short Track S.","USA","500m","M","Gold",TRUE
+2006,"Turin","Skating","Speed skating","USA","10000m","M","Silver",FALSE
+2006,"Turin","Skating","Speed skating","USA","1000m","M","Gold",TRUE
+2006,"Turin","Skating","Speed skating","USA","1000m","M","Silver",FALSE
+2006,"Turin","Skating","Speed skating","USA","1500m","M","Bronze",FALSE
+2006,"Turin","Skating","Speed skating","USA","1500m","M","Silver",FALSE
+2006,"Turin","Skating","Speed skating","USA","5000m","M","Gold",TRUE
+2006,"Turin","Skating","Speed skating","USA","500m","M","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","USA","Alpine combined","M","Gold",TRUE
+2006,"Turin","Skiing","Alpine Skiing","USA","giant slalom","W","Gold",TRUE
+2006,"Turin","Skiing","Freestyle Ski.","USA","moguls","M","Bronze",FALSE
+2006,"Turin","Skiing","Snowboard","USA","Giant parallel slalom","W","Bronze",FALSE
+2006,"Turin","Skiing","Snowboard","USA","Half-pipe","M","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","USA","Half-pipe","M","Silver",FALSE
+2006,"Turin","Skiing","Snowboard","USA","Half-pipe","W","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","USA","Half-pipe","W","Silver",FALSE
+2006,"Turin","Skiing","Snowboard","USA","Snowboard Cross","M","Gold",TRUE
+2006,"Turin","Skiing","Snowboard","USA","Snowboard Cross","W","Silver",FALSE

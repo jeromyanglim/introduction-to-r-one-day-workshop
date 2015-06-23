@@ -1,0 +1,1353 @@
+---
+title: "Introduction to R: Core Language Tutorial"
+author: "Dr Jeromy Anglim"
+output: pdf_document
+---
+
+
+```{r load_project, message = FALSE, warning = FALSE}
+library(ProjectTemplate); load.project()
+```             
+
+
+
+# Basic Arithmetic and Logical Operations
+```{r basic_multiplication}
+# You can use R like a calculator
+1 + 1 # addition
+10 - 9 # subtraction
+10 * 10 # multiplcation
+100 / 10 # division
+10 ^ 2 # exponentiation
+
+abs(-10) # absolute value
+ceiling(3.5) # round up to next integer
+floor(3.5) # round down to next integer
+sqrt(100) # square roots
+exp(2) # exponents
+pi # mathematical constant pi
+exp(1) # mathematical constant e
+log(100) # natural logs (i.e., base e)
+log(100, base= 10) # base 10 logs
+
+
+# Use parentheses to clarify order of operations
+(1 + 1 ) * 2
+1 + (1 * 2)
+
+# You can test for equality
+# TRUE and FALSE are keywords
+# T and F are synonyms, but are generally discouraged
+TRUE
+FALSE
+1 == 2 # Equality (Return TRUE if equal)
+1 != 2 # Inequality (Return FALSE if unequal)
+10 > 9 # Greater than
+9 < 10 # Less than
+10 <= 10 # Less than or equal
+2 %in% c(1, 2 ,3) # is the number in the vector
+
+# TRUE and FALSE coerces to 1 and 0 respectively
+as.numeric(TRUE)
+as.numeric(FALSE)
+
+# Logical converting to 0, 1 is useful
+x <- c(2, 5 ,7 ,10, 15)
+x > 5
+sum(x > 5)  # sum of a 0-1 variable is a count
+mean(x > 5) # mean of a 0-1 variable is a proportion
+```
+
+
+
+# Basic language features
+```{r basic language features, error = TRUE}
+########################################################
+# Assignment:
+# To assign values to a variable either use <- or =
+# <- is the more common convention in R
+x <- 1 + 1
+x
+
+# = is the common assignment operator in other programming 
+# languages. It does work in R, but is not the convention.
+y = 1 + 1
+y
+
+########################################################
+# Variable name rules:
+# Variable names generally
+# 1. Start with a letter (lower or uppercase)
+# 2. Followed by letters, numbers, underscore (_), or period (.)
+# 3. No spaces
+
+# These do not work
+# my variable <- 1234
+# 1234variable <- 1234
+# 1234 <- 1234
+
+# This works
+myvariable <- 1234
+my_variable <- 1234
+my_variable <- 1234
+myvariable123 <- 1234
+myVariable <- 1234
+my.variable <- 1234
+
+# R has many naming conventions
+# As a matter of preference, style, and convenience, I prefer:
+# 1. Short but descriptive names
+#    * Less than 8 characters for names of lists and data.frames
+#    * Less than 15 characters for variables names in data.frames
+# 2. Use underscore to separate words within a variable name
+# 3. Avoid upper case letters
+
+# Names starting with a period are hidden
+.myvariable <- 1234
+ls()
+ls(all.names = TRUE)
+
+
+########################################################
+# Comments:
+# Comments are any text on a line following a hash #
+# 1. They often appear as the first character of a line
+#    to present a whole line comment
+# 2. At the end of a common on a line
+mean(c(1,2,3,4)) # Example of end of line comment
+
+# 3. Half way through a command at the end of a line
+c(1, # Example comment
+  2,3,   # Another comment
+  4)
+  
+
+########################################################
+# Spaces: 
+# R will generally permits zero, one or more spaces between
+# variables, operators, and other syntactic elements. 
+# However, appropriate and consistent spacing improves
+# the readability of you scripts.
+# See Hadley Wickham's style guide:
+# http://adv-r.had.co.nz/Style.html
+
+# This is bad but works
+x<-c(1,2,3,400)*2
+x<-    c (   1,2,3,      400)*   2
+
+# This is more readable:
+# Add spaces after variables, operators, commas
+x <- c(1, 2, 3, 400) * 2
+
+
+######################################################
+# Multipline line commands
+# Commands can generally span multiple lines
+# as long as R does not think the command has finished 
+
+# This works
+x <- c("apple", 
+       "banana") 
+x
+y <- 10 + 
+    10  #this works
+y
+
+# This does not work
+y <- 10
+    + 10 
+y
+
+
+########################################################
+# Multiple commands on one line
+# You can include more than one command on one line 
+# by separat the commands by a semicolon.
+# But generally, you should avoid doing this as it is not
+# very readable.
+x <- c(1, 2); y  <- c(3, 4); z <- rnorm(10)
+x;y;z
+
+
+########################################################
+# # R is case sensitive
+test <- "lower case"
+TEST <- "upper case"
+TEST 
+test # The original value was not lost
+     # because test is different to TEST
+Test # This variable does not exist
+
+Test <- "title case"
+Test
+
+
+# tip: It's often simpler to make variables lower case
+#      so that you don't have to think about case.
+```
+
+
+# Understanding directories
+```{r directories}
+# R has a working directory.
+# This is important when loading and saving files to disk
+getwd() # show the current working directory
+
+# you can use setwd to change the working directory
+# setwd("~/blah/myproject")
+
+# Tip: Open RStudio with the Rproj file then the working directory
+# will be the directory containing the Rproj file.
+
+# Tips: 
+# * Try to avoid spaces in file names 
+#   (use hyphen or underscore instead)
+# * If on Windows, then disable "hide extensions of 
+#   known file types" (see folder options )
+# * If you do use spaces, then you'll need to escape the space with
+#   a slash  (e.g., ("my\ documents")
+# * Use backslash as the directory separator 
+# * Store all relevant files for a project within 
+#   the project working directory
+```
+
+# The Workspace
+```{r workspace}
+###############################################
+# R Sessions:
+
+# Quitting R
+# You can end the R Session using the q function
+# q() 
+
+# But if you are in Rstudio, it is simpler to:
+# * Just quit RStudio and this will quit the R session
+# * Use the session menu in RStudio to Restart or Terminate
+#   an R session
+
+
+################################################
+# Workspaces and environments:
+# list environments 
+search()
+
+# Create some objects in the global environment
+x <- 1:10
+y <- 1:20
+data(mtcars) # Add a built-in datset mtcars
+
+# Show objects in the global environment
+ls() 
+
+# or look at the environment pane in RStudio
+
+###############################################
+# Removing objects:
+# Removing named objects with the rm function
+rm(x)
+ls()
+rm(y, mtcars)
+
+# Remove all objects from global workspace
+# Option 1. Use the following command
+rm(list = ls())
+# Option 2. Click the broom object in RStudio Environment pane
+
+##############################################
+# Saving objects
+# Save all objects in the workspace
+save.image() 
+
+x <- 30
+y <- 1:10
+# Save specific named objects using save function.
+# rdata or RData is the standard file exetnsion.
+save(x, y, file = "output/y.rdata") 
+
+# Let's remove x and change y
+rm(x) 
+y <- "changed"
+y
+
+# load variables stored in rdata file 
+load(file = "output/y.rdata")
+x
+y
+
+# Tips: 
+# * Try to avoid using save.image() to store temporary calculations
+# * Instead, try to write scripts that can be run to return you to 
+#   your current state of analyses.
+```
+
+ 
+# Data types: Logical, character, numeric
+```{r data types}
+#######################################################
+# Basic data types
+# The most common basic vector types are
+x <- c(FALSE, TRUE) # logical vector
+y <- c("a", "b", "cat", "dog") # character vector
+z1 <- c(100, 1, 2, 3) # numeric integer vector
+z2 <- c(100.2, 0.4, 0.9) # numeric real/double vector
+class(x);  typeof(x); mode(x)
+class(y);  typeof(y); mode(y)
+class(z1);  typeof(z1); mode(z1)
+class(z2);  typeof(z2); mode(z2)
+
+# Checking type of object
+# there are a range of "is." functions for that return TRUE
+# if object is of corresponding type
+# apropos("^is\\.")
+is.logical(c(TRUE, TRUE))
+is.numeric(c("a", "b"))
+is.character(c(1, 2, 3))
+
+#############################################################
+# Conversion of Types:
+# R has functions that explicitly convert data types
+# apropos("^as\\.")
+as.character(c(1, 2, 3, 4))
+as.numeric(c("1", "2a", "3", "four"))
+as.numeric(c(FALSE, FALSE, TRUE, TRUE))
+
+# R often performs conversions implicitly
+sum(c(FALSE, TRUE, TRUE)) # converts logical to 0, 1 numeric
+paste0("v", c(1, 2, 3)) # converts numeric vector to character
+```
+
+# Basic data structures: Vectors, Matrices, Lists, Data.frames
+```{r basic data structures}
+###########################################################
+# Vectors:
+# In R, a single value (scalar) is a vector.
+x <- 1 # I.e., x is a vector of length 1
+
+
+# In addition to importing data,
+# R has various functions for creating vectors.
+c(1, 2, 3, 4) # c stands for combine
+1:10 # create an integer sequence 1 to 10
+seq(1, 10) # alternative way of creating a sequence 
+seq(1, 10, by = 2) # The function has additional options
+rep(1, 5) # repeat a value a certain number of times
+rep(c(1,2,3), 5) # repeat a value a certain number of times
+
+# as well as many simulation functions which we'll cover later
+# Initial examples:
+# Sample 10 items with replacement from 
+sample(x = c("happy", "funny", "silly"), size = 10, replace = TRUE)
+
+# Sample 20 values from a normal distribution
+y <- rnorm(n = 20, mean = 0, sd = 1) 
+hist(y) # show values in histogram
+
+
+# Vectors can have names
+x <- c(1,2,3,4,5)
+names(x) <- c("a", "b", "c", "d", "e")
+x
+
+# Extracting vectors
+x[c(1,2)] # by numeric position
+x[x < 3] # by logical vector
+x[c("b", "c")] # by name
+
+
+
+
+###########################################################
+# Matrices:
+# All data must be of same type (e.g., numeric, character, logical)
+y <- matrix(c(1, 2, 
+             4, 5, 
+             7, 8 ),
+           byrow = TRUE, ncol = 2)
+y
+
+class(y)
+
+# number of rows and columns
+dim(y)  # Number of rows and columns
+nrow(y) # Number of rows
+ncol(y) # Number of columns
+
+# Rows and columns can be given names
+rownames(y) <- c("a", "b", "c")
+colnames(y) <- c("col1", "col2")
+
+# Rows and columns can be indexed
+y["a", ] # By rowname
+y[, "col1"] # By column name 
+y["a", "col1"] # By both
+
+y[c(1,2), ] # By row position
+y[,1] # By column position
+y[c(2,3), 2] # By column position
+
+###########################################################
+# Lists
+# Store arbitrary structures of one or more named elements.
+# Elements can be of different lengths
+# Lists can contain lists can be nested to create tree like structures
+# Lists are commonly used for representing results of analyses
+
+w <- list(apple = c("a", "b", "c"), 
+          banana = c(1,2), 
+          carrot = FALSE,
+          animals = list(dog = c("dog1", "dog2"), 
+                         cat = c(TRUE, FALSE)))
+
+class(w)
+
+# Accessing one element of list
+w$apple # using dollar notation
+w[[1]] # by position
+w[["apple"]] # by name (double brackets)
+
+# Accessing subset of list
+w[c(1, 2)]  # by position (single bracket)
+w[c("apple", "banana")] # by name
+w[c(FALSE, FALSE, TRUE, TRUE)] # by logical vector
+
+# Quick illustration of a list object returned by
+# a statistical function
+
+# We'll simulate some data for two hypothetical groups x and y
+# and perform an independent samples t-test.
+x <- rnorm(10, mean = 0, sd = 1) 
+y <- rnorm(10, mean = 1, sd = 1)
+fit <- t.test(x, y)  
+
+# The function 
+class(fit) # class does not say list, but it is a list
+mode(fit)
+str(fit) # show structure of object
+names(fit) # show names of elements
+# we can view particular elements
+fit$statistic 
+fit$parameter
+fit$p.value
+# or extract subsets of the list
+fit[c("statistic", "parameter", "p.value")]
+
+
+###########################################################
+# Data Frames:
+# Data frames are the standard data strucure used for storing
+# data. If you have used other software (e.g., SPSS, Excel, etc.), 
+# this is what you may think of as a "dataset".
+# Columns can be of different data types (e.g., character, numeric, logical, etc.)
+z <- data.frame(var1 = 1:9, var2 = letters[1:9])
+z
+
+# Tip: Some functions work with matrices, 
+#   some work with data.frames, 
+#   and some work with both.
+# * If you are wanting to store data like you might store in 
+#   a database, then you'll generaly want a data.frame.
+# * If you are dealing with a mathematical object that you
+#   you want to perform a mathematical operation on, then you generally
+#   want a matrix (e.g., correlation matrix, covariance matrix, 
+#   distance matrix in MDS, matrices used for matrix algebra).
+```
+
+
+
+
+
+# Working with data frames
+```{r exploring data frames}
+# Let's use the built-in survey data.frame dataset
+library(MASS)
+data(survey)
+?survey
+mydata <- na.omit(survey) # for simplicity I'll exclude missing data
+shortdata <- mydata[1:6, 1:5] 
+shortdata
+
+################################################
+# Extracting observations (i.e., rows) and 
+# variables (i.e., columns).
+# There are similarities to matrices and lists
+# Select observations
+shortdata[1:5, ] # by row number
+shortdata[c(5,4,3,2,1), ] # re-order
+shortdata[ shortdata$Sex == "Female", ] # by logical vector
+shortdata[c("1", "2"), ] # by rownames
+
+# Select variables 
+shortdata[, c(1,2)] # by position like a matrix
+shortdata[c(1,2)] # by position like a list
+shortdata[ ,c("Sex", "Fold")] # by name like a matrix
+shortdata[c("Sex", "Fold")] #
+shortdata$Sex # by name to get a single variable
+
+
+#################################################
+# Names
+names(shortdata) # get variable names
+colnames(shortdata) # but this also works
+rownames(shortdata) # rows can also have names
+
+# Tip: Avoid row names.
+# Add another variable to the data.frame to store this information.
+
+
+# Examine first few rows
+head(mydata) # first 6 rows
+head(mydata, n = 10) # first 7 rows
+tail(mydata) # last few rows
+# View(mydata) # Rstudio function to open data in viewer
+# or click on the icon in the Environment pane
+
+# How many rows and columns?
+dim(mydata) # rows and column counts
+nrow(mydata) # row count
+ncol(mydata) # column count
+
+# Examine structure
+str(mydata)
+```
+
+# Getting help
+```{r getting help}
+# Use question mark (i.e., ?) followed by command name
+# to lookup specific command
+?mean 
+help(mean) # or use help function
+
+# to look up package
+help(package = "MASS")
+
+# Press F1 in RStudio on the command name
+# mean 
+
+# Use double question mark to do a full-text search on R help
+??"factor analysis"
+
+# Search google
+# e.g., how to get the mean of a vector using r
+
+# Ask question on Stackoverflow with the R tag
+# http://stackoverflow.com/questions/tagged/r
+```
+
+# Exercise 1 
+```{r Exercises 1}
+# 1. Working with vectors
+# 1.1 Create a variable called x with 10 values drawn from a 
+#    normal distribution (see rnorm)
+
+# 1.2 Use the sum and > operator to work out how many values in x
+#    are larger than 1
+
+
+# 3. Using the cats dataset in the MASS package
+library(MASS)
+data(cats)
+# 3.1 Look up the help file on cats
+
+# 3.2 How many observations are there?
+
+# 3.3 Show the first 10 rows of the cats data.frame
+
+# 3.4 Show the structure of cats using the str function
+
+# 3.5 Extract the female cats and assign to variable fcats
+
+# 3.6 How many rows is in fcats?
+
+```
+
+# Answers 1
+```{r Answers for Exercises 1}
+# 1. Working with vectors
+# 1.1 Create a variable called x with 10 values drawn from a 
+#    normal distribution (see rnorm)
+x <- rnorm(10)
+
+# 1.2 Use the sum and > operator to work out how many values in x
+#    are larger than 1
+sum(x > 1)
+
+# 3. Using the cats dataset in the MASS package
+library(MASS)
+data(cats)
+# 3.1 Look up the help file on cats
+?cats
+
+# 3.2 How many observations are there?
+nrow(cats)
+
+# 3.3 Show the first 10 rows of the cats data.frame
+head(cats, 10)
+
+# 3.4 Show the structure of cats using the str function
+str(cats)
+
+# 3.5 Extract the female cats and assign to variable fcats
+fcats <- cats[ cats$Sex == "F", ]
+
+# 3.6 How many rows is in fcats?
+nrow(fcats)
+
+```
+
+
+
+
+# Packages
+```{r packages, error = TRUE}
+# R has many additional packages 
+# To use a package it needs to be installed. 
+# You only need to install a package once.
+# To use a package, you need to load the package each time
+# you use R.
+
+
+##############################################################
+# Installation
+# Option 1. Use the install.packages function.
+# install.packages("psych")
+# Note that some packages rely on other packages.
+# depencies = TRUE ensures that dependencies are also installed.
+# install.packages("psych", dependencies = TRUE)
+
+# Option 2. Use the package tab in R Studio
+# Click install and enter package details
+
+
+
+
+
+##############################################################
+# Loading an installed package
+# Option 1. Use the library function
+library(psych) # I.e., put this at the start of your script
+
+# Other options 
+# 2. We'll talk about ProjectTemplate later
+#
+# 3. Put it in your R startup file 
+#    (not recommended as it reduces reproducibility)
+
+##############################################################
+# Common errors
+# Not having a package installed is a common error
+# If you try to load a package that is not installed.
+# e.g., 
+library(foo)
+# You will get an error
+# Error in library(foo) : there is no package called ‘foo’
+# This means:
+# 1. You mistyped the name of the package, or
+# 2. You need to install the pakcage
+#     install.packages("foo")
+# Note foo is just an example. There is no package called foo.
+
+# Not having a package loaded is a common error
+# E.g., there is a function you want to use
+detach(package:psych) # used for example to ensure psych is not attached 
+# say we wanted to use the fisherz function from the psych package
+# but the psych package is not loaded
+fisherz(.3)
+# We get the error:
+#   "Error: object 'fisherz' not found"
+# Thus we need to run
+library(psych)
+fisherz(.3)
+
+
+##############################################################
+# Packages contain additional functions.
+# Once the package is loaded, functions are added to the workspace
+# list workspace
+search()
+
+# To make it clear that a function comes from a particular package
+# or to overcome the issue where two packages have functions with the same names
+# use double colon (i.e., package::function).
+# RStudio also permits auto-completion of function names.
+# psych::alpha() # alpha is a funtion in the psych package
+
+```
+
+
+
+# Missing data
+```{r missing data}
+# Missing data is represented in R by NA
+x <- c(1, 2, NA, 4)
+y <- c("a", "b", NA, "c")
+x
+y
+
+# To see whether a value is missing
+is.na(x)
+
+# If you have missing data, some functions will return NA by default
+# rather than returning a value
+mean(x)
+sd(x)
+
+# Many functions have a na.rm argument
+mean(x, na.rm=TRUE)
+sd(x, na.rm=TRUE)
+
+# or you remove the missing data
+na.omit(x)
+mean(na.omit(x))
+
+# na.omit also works on data frames performing listwise deletion
+head(survey)
+dim(survey)
+cleaned_survey <-na.omit(survey)
+dim(cleaned_survey)
+```
+
+# Getting summaries of data frames
+```{r data.frame summaries, warning = FALSE}
+library(MASS) # user survey data from MASS package
+data(survey) # load an internal dataset
+mydata <- survey
+
+# Variable Names
+names(mydata)
+
+# Show structure
+str(mydata)
+
+# Useful summary of numeric and categorical variables
+Hmisc::describe(mydata)
+
+# Common univariate statistics for numeric variables
+psych::describe(mydata)
+summary(mydata)
+```
+
+# Summaries of numeric vectors (or data frame variables)
+```{r summaries of numeric vectors}
+x <- c(1, 2, 3, 4,5)
+
+# Total
+sum(x) # sum of vector
+prod(x) # product of vector
+
+# Central tendency
+mean(x) # mean of vector
+median(x) # median of vector
+length(x) # length of vector
+
+# Spread
+sd(x) # standard deviation
+var(x) # variance
+range(x) # min and max of vector
+min(x) # minimum of vector
+max(x) # max of vector
+
+# Other distributional features
+psych::skew(x) # skewness 
+psych::kurtosi(x) # kurtosis
+```
+
+```{r vector operations}
+dat <- data.frame(x = c(1, 2, 3, 4, 5), 
+                  y = c(0, 0, 1, 1, 1))
+dat
+
+# Vector operations typically operate element wise
+dat$z <-  dat$x + dat$y
+dat
+
+dat$z <-  dat$x * dat$y
+dat
+
+# A single value is recyled through the vector
+dat$z <- dat$x + 10
+dat
+```
+
+# Exercise 2 - Data.frames
+```{r exercise 2}
+# For this exercise will use the GSS7402 dataset
+library(AER)
+help(package = AER)
+data("GSS7402")
+?GSS7402 # to learn about the dataset
+# It might be easier to work with a shorter variable name 
+gss <- GSS7402
+
+# 1. List the variable names in the gss dataset
+
+# 2. Show the first few rows (hint: the head) of the dataset?
+
+# 3. How many cases are there?
+
+# 4. What is the mean, sd, and range age of the sample
+
+# 5. Use the psych and Hmisc describe functions to describe the samples
+
+# 6. Extract a data.frame with only people over the age of 80
+
+# 7. Get the mean number of children ("kids") for participants 
+#    over the age of 80
+
+# 8. Use the mean function to get the mean age at first birth.
+#    Hint: there is missing data.
+```
+
+
+# Answers Exercise 2 - Data.frames
+```{r answers for exercise 2, warning = FALSE}
+# For this exercise will use the GSS7402 dataset
+library(AER)
+help(package = AER)
+data("GSS7402")
+?GSS7402 # to learn about the dataset
+# It might be easier to work with a shorter variable name 
+gss <- GSS7402
+
+# 1. List the variable names in the gss dataset
+names(gss)
+
+# 2. Show the first few rows (hint: the head) of the dataset?
+head(gss)
+
+# 3. How many cases are there?
+nrow(gss)
+
+# 4. What is the mean, sd, and range age of the sample
+mean(gss$age)
+sd(gss$age)
+range(gss$age)
+
+# 5. Use the psych and Hmisc describe functions to describe the samples
+psych::describe(gss)
+Hmisc::describe(gss)
+
+# 6. Extract a data.frame with only people over the age of 80
+gss_over80 <- gss[ gss$age > 80, ]
+
+
+# 7. Get the mean number of children ("kids") for participants 
+#    over the age of 80
+mean(gss[ gss$age > 80, "kids"])
+
+# 8. Use the mean function to get the mean age at first birth.
+#    Hint: there is missing data.
+mean(gss$agefirstbirth) # doesn't work because there is missing data
+mean(gss$agefirstbirth, na.rm = TRUE) # doesn't work because there is missing data
+```
+
+
+# String functions
+```{r string functions}
+paste("hello", "how", "are", "You") # defaults to space separator
+paste0("hello", "how", "are", "You") # no separator
+paste("apple", "banana", "carrot", "date", sep =", ") # specify arbitrary separator
+paste0("v", 1:10) # paticularly useful with vectors
+
+# Extract substring
+substr("abcdefghijklmnop", 4, 6)
+
+# Change case
+toupper("abcd") # make upper case
+tolower("ABCD") # make lower case
+
+mystring <- c("apple", "banana", "carrot", "date", "egg", "fig")
+# Identify which strings match a pattern
+grep("a", mystring) # index of objects with "a"
+grep("a", mystring, value = TRUE) # value of objects with "a"
+
+# get count of number of characters
+nchar(mystring)
+data.frame(mystring, nchar(mystring))
+
+# Substitute a mystringreplacement text that matches a pattern
+questions <- c("How are you?", "What is going on?")
+gsub(" ", "_", questions) # replace space with underscore
+
+
+# R  string manipulation tools are very powerful
+# For more information see
+?grep
+?"regular expression"
+
+
+# see also Hadley Wickham's package for string manipulation
+# It attempts to introduce greater consistency in notation.
+# install.packages("stringr")
+library(stringr)
+help(package = "stringr")
+# all functions begin with str_
+str_length(mystring) # see nchar
+str_sub(mystring, start = 1, end = 3)
+
+
+# writing output to the console
+cat("Hello World!")
+
+# Tab is \t and new line is \n
+cat("Hello\t World\nSome more text")
+
+```
+
+
+# Importing data
+```{r reading data}
+# A simple option is to export data from your external data
+# in csv format and then import the data using csv
+# csv
+medals <- read.csv("data/practice/medals.csv")
+head(medals)
+tail(medals)
+dim(medals)
+
+# Other delimited formats
+medals <- read.table("data/practice/medals.tsv", sep ="\t")
+
+# Read Excel: 
+# Read xls files using xls
+# Requires that Perl is installed and on the path
+# You may need to install Perl if on Windows
+# https://www.perl.org/get.html
+# library(gdata) 
+# medals <- gdata::read.xls("data/practice/medals.xls")
+
+# requires Java
+# library(xlsx)
+# x <- xlsx::read.xlsx("data/practice/medals.xlsx", sheetIndex = 1)
+
+# More recent package that has no dependencies on external packages 
+# readxl
+library(readxl)
+medals <- readxl::read_excel("data/practice/medals.xls")
+medals <- readxl::read_excel("data/practice/medals.xlsx")
+
+
+# SPSS
+library(foreign)
+cas <- foreign::read.spss("data/practice/cas.sav", to.data.frame = TRUE)
+attr(cas, "variable.labels")
+# tip: You may need to think about value labels in your SPSS file
+# Specifically, if you have numeric variables that have variable labels, you may
+# want to remove the value labels in SPSS or 
+
+# import stata
+?read.dta
+?read.sas
+
+
+# General purpose packages 
+# The haven package also can read and write SPSS, SAS, and Stata files
+
+# rio package: General purpose import and export
+# General purpose import and export tools
+# It's a fairly new package so there may still be a few bugs.
+# https://github.com/leeper/rio
+# github version is currently a little bit ahead of the CRAN version
+library(rio)
+cas <- rio::import(file="data/practice/cas.sav")
+rio::export(cas, file="output/cas.xlsx")
+medals <- rio::import(file="data/practice/medals.csv")
+
+# Use ProjectTemplate to auto-import (see discussion later)
+```
+
+# Exporting data 
+```{r exporting data}
+mydata <- data.frame(a = c(1,2,3), b = c("a", "b", "c"))
+
+# Interal R format
+# Good option if you need to re-open data in R
+save(mydata, file="output/mydata.rdata")
+#  load("output/mydata.rdata")
+
+
+# csv
+# Good option if you need to get data into other software
+# This should open in almost all other software (e.g. Excel, SPSS, etc.)
+write.csv(mydata, file = "output/mydata.csv")
+write.csv(mydata, file = "output/mydata-2.csv", row.names = FALSE) # exclude row.names
+
+# If you need more flexibility in terms of delimiters, etc.
+write.table(mydata, file = "output/mydata.tsv", sep = "\t") # e.g., tab delimiter
+
+# Exporting to other formats
+# There are a range of options for exporting to other formats
+# Functionality is often spread around
+# Given that the csv option is usually sufficient
+library(foreign)
+?foreign::write.foreign  # options for exporting to SAS, SPSS, and Stata directly
+
+?rio::export
+```
+
+# Exercise 3
+```{r Exercise 3}
+# 1. Open medals.csv in the data/practice/ directory 
+#    and assign to variable medals
+
+# 2. Check that the file imported correctled
+#    (a) look at the first few rows, 
+#    (b) look at the last few rows,
+#    (b) check the structure (i.e., str),
+#    (c) Use the Hmisc describe function to check basic properties
+
+# 3. Create a new variable in medals that indicates
+#    whether the medals was Gold (TRUE) or Silver/Bronze (FALSE)
+#    and call it isgold
+
+# 4. How the number of sum of gold medals 
+
+# 5. Export the medals data.frame to the output folder
+#    (a) as a csv file
+#    (b) as a native rdata file
+
+# 6. Remove the medals dataset from the workspace 
+#    and then load it again from the csv file.
+#    Check that it imported correctly. 
+# Then remove medals and repeat for the rdata file
+
+```
+
+# Answers for Exercise 3
+```{r Answers for Exercise 3}
+# 1. Open medals.csv in the data/practice/ directory 
+#    and assign to variable medals
+medals <- read.csv("data/practice/medals.csv")
+
+# 2. Check that the file imported correctled
+#    (a) look at the first few rows, 
+#    (b) look at the last few rows,
+#    (b) check the structure (i.e., str),
+#    (c) Use the Hmisc describe function to check basic properties
+head(medals)
+tail(medals)
+str(medals)
+Hmisc::describe(medals)
+
+# 3. Create a new variable in medals that indicates
+#    whether the medals was Gold (TRUE) or Silver/Bronze (FALSE)
+#    and call it isgold
+medals$isgold <- medals$Medal == "Gold"
+
+# 4. How the number of sum of gold medals 
+sum(medals$isgold)
+
+# 5. Export the medals data.frame to the output folder
+#    (a) as a csv file
+#    (b) as a native rdata file
+write.csv(medals, "output/medals.csv")
+# or technically you may want to do
+write.csv(medals, "output/medals.csv", row.names = FALSE)
+save(medals, file = "output/medals.rdata")
+
+# 6. Remove the medals dataset from the workspace 
+#    and then load it again from the csv file.
+#    Check that it imported correctly. 
+# Then remove medals and repeat for the rdata file
+rm(medals)
+medals <- read.csv("output/medals.csv")
+head(medals)
+
+rm(medals)
+load("output/medals.rdata")
+head(medals)
+```
+
+
+# Random variables and distributions
+```{r random variables and distributions}
+# In statistics, we often want to generate random data with certain properties
+# or looking up features of statistical distributions.
+# See the following help for list of common distributions is base R
+?Distributions
+
+# and see http://cran.r-project.org/web/views/Distributions.html for many more distributions
+
+# Each distribution has four functions that differ in terms of the first letter
+# For example, for the normal distribution, you have
+dnorm(1) # Density of the value 1 of a standard normal distribution
+pnorm(1) # Cumulative distribution function for value of 1 on standard normal distribution
+qnorm(.975) # Inverse cumulative distribution function for value of .975
+rnorm(5) # Generate 5 random draws from normal distribution
+
+# 
+dunif(1) # Density of the value 1 of a uniform distribution (0, 1)
+punif(.5) # Cumulative distribution function for value of 1 on uniform distribution
+qunif(.975) # Inverse cumulative distribution function for value of .975
+runif(5) # Generate 5 random draws from uniform distribution
+
+
+# Distributions have parameters that can be specified
+x <- rnorm(10, mean = 10, sd = 1) # draw 10 from mean of 10
+y <- rnorm(10, mean = 11, sd = 1) # draw 10 from mean of 11
+dat <- data.frame(x=x, y=y)
+dat
+boxplot(dat)
+```
+
+
+# Functions
+```{r functions}
+# You can write functions and these are generally the same as
+# the functions you use in R
+
+# For example, I could create a function that printed some text
+print_some_text <- function(x = "Hello World") {
+    print(x)
+}
+
+# If I run the above command, I can then use it
+print_some_text() # using the default argument
+print_some_text("blah blah blah")  # or to print some other text
+
+# Anatomy of a function 
+# Functions have a name
+# They take one or more arguments
+# Arguments may have default values
+
+
+# Let's take a more interesting example: Power analysis
+# The following data simulates data for two groups and
+# examines whether there is a significant difference at .05
+# It repeats the process 1000 times and calculates the
+# proportion of times it is statistically significant
+# (i.e., simluation estimate of the statistical power)
+
+significant <- NULL
+for (i in 1:1000) {
+    x <- rnorm(30, mean = 0.0, sd = 1) 
+    y <- rnorm(30, mean = 0.3, sd = 1) 
+    fit <- t.test(x, y)
+    fit
+    significant[i] <- (fit$p.value < .05)
+}
+statistical_power <- mean(significant)
+statistical_power
+
+# we could convert this to a function
+power_group_dif1 <- function() {
+    significant <- NULL
+    for (i in 1:1000) {
+        x <- rnorm(30, mean = 0.0, sd = 1) 
+        y <- rnorm(30, mean = 0.3, sd = 1) 
+        fit <- t.test(x, y)
+        fit
+        significant[i] <- (fit$p.value < .05)
+    }
+    statistical_power <- mean(significant)
+    statistical_power
+}
+
+power_group_dif1()
+
+# but the beauty of function is that they can make things general
+# Let's make the mean of group 2 an argument that can be specified
+power_group_dif2 <- function(mean2 = 0.3) {
+    significant <- NULL
+    for (i in 1:1000) {
+        x <- rnorm(30, mean = 0.0, sd = 1)
+        y <- rnorm(30, mean = mean2, sd = 1) 
+        fit <- t.test(x, y)
+        fit
+        significant[i] <- (fit$p.value < .05)
+    }
+    statistical_power <- mean(significant)
+    statistical_power
+}
+
+# now we can specify different values
+power_group_dif2(0) 
+power_group_dif2(.3) 
+power_group_dif2(.5) 
+power_group_dif2(.8) 
+power_group_dif2(1) 
+
+settings <- seq(from = 0, to = 2, by = .1)
+results <- data.frame(mean2= settings)
+results$power <- sapply(results$mean2, function(X) power_group_dif2(X))
+plot(results, type = "b")
+
+
+# obviously it could be made a whole lot more general
+power_group_dif3 <- function(mean1 = 0, mean2 = 0.3, sd1 = 1, sd2 = 1, 
+                             n1 = 30 , n2 = 30, ksimulations = 1000,
+                             alpha_criterion = .05) {
+    significant <- NULL
+    for (i in 1:ksimulations) {
+        x <- rnorm(30, mean = mean1, sd = sd1)
+        y <- rnorm(30, mean = mean2, sd = sd2) 
+        fit <- t.test(x, y)
+        fit
+        significant[i] <- (fit$p.value < alpha_criterion)
+    }
+    statistical_power <- mean(significant)
+    statistical_power
+}
+
+power_group_dif3(mean1 = 10, mean2 = 11, sd1 = 1, sd2 = 1, 
+                             n1 = 100 , n2 = 100, ksimulations = 1000,
+                             alpha_criterion = .01)
+
+```
+
+# Debugging functions
+```{r debugging functions}
+# debugging functions
+print_some_text <- function(x = "Hello World") {
+    print(x)
+}
+debugonce(print_some_text) # activates debugging on the function
+print_some_text()
+
+# many other useful functions
+?traceback # provide further information when an error occurs
+?browser # place in function 
+```
+
+
+# Viewing source code for internal functions
+```{r viewing source code, error = TRUE, results = "hide"}
+# Option 1: type function name
+t.test
+cor
+power.t.test
+
+
+# Option 2: 
+# S3 Methods
+# Some functions are generic and operate differently depending
+# on the class of the first argument
+# mean
+# print
+# summary
+
+#  Methods will list the actual function names called
+methods(mean)
+methods(print)
+methods(summary)
+
+mean.default
+summary.table
+
+
+# Option 3:
+# Some functions are part of packages but are not exported
+# I.e., they are intended for internal use, but
+# they are often quite useful
+library(ProjectTemplate)
+
+# Double colon shows the functions exported from a package
+# i.e., packagename::function
+ProjectTemplate::run.project
+    
+# Triple colon shows internal functions
+# i.e., packagename:::function
+ProjectTemplate:::xls.reader
+
+# Also, see the getAnywhere function
+xls.reader # this doesn't work
+getAnywhere(xls.reader) # this does work
+```
+
+
+# Exercise 4
+```{r Exercise 4}
+library(MASS)
+data(mammals)
+?mammals
+head(mammals)
+# 1. Create a function that takes a single argument x
+#    and prints that value twice.
+#    use the function to print "hello world" twice
+
+
+# 2. Divide mammall brain weight (g) by body weight (kg) and 
+#    get the mean of this value
+
+
+# 3. Write a function that takes arguments x and y
+#    and returns the mean of x divided by y
+
+
+# 4. Apply the function to get the mean ratio of brain to body size
+
+
+# 5. Modify the ratio function to return a list with 
+#    (a) the mean of x divided by y, and
+#    (b) the sd of x divided by y. 
+#    Then apply to mammals data as above.
+
+
+# 6. Step through the code for the correlation function 
+
+
+# 7. Show the source code for 
+#    (a) the t.test function, 
+#    (b) the summary method for lm objects
+#    (c) the alpha function in the psych package
+
+```
+
+# Answers 4
+```{r Answers for Exercise 4}
+library(MASS)
+data(mammals)
+?mammals
+head(mammals)
+# 1. Create a function that takes a single argument x
+#    and prints that value twice.
+#    use the function to print "hello world" twice
+print_twice <- function(x) {
+    print(x)
+    print(x)
+}
+print_twice("hello world")
+
+
+# 2. Divide mammall brain weight (g) by body weight (kg) and 
+#    get the mean of this value
+mean(mammals$brain / mammals$body )
+
+# 3. Write a function that takes arguments x and y
+#    and returns the mean of x divided by y
+mean_ratio <- function(x, y) {
+    mean(x / y)
+}
+
+# 4. Apply the function to get the mean ratio of brain to body size
+mean_ratio(mammals$brain, mammals$body)
+
+# 5. Modify the ratio function to return a list with 
+#    (a) the mean of x divided by y, and
+#    (b) the sd of x divided by y. 
+#    Then apply to mammals data as above.
+mean_ratio <- function(x, y) {
+    ratioxy <- x / y
+    list(mean_ratio = mean(ratioxy),
+         sd_ratio = sd(ratioxy))
+}
+
+# 6. Step through the code for the correlation function 
+# debugonce(cor)
+cor(mammals$brain, mammals$body, method = "spearman")
+
+
+# 7. Show the source code for 
+#    (a) the t.test function, 
+#    (b) the summary method for lm objects
+#    (c) the alpha function in the psych package
+# t.test
+# summary.lm
+# psych::alpha
+```
+
+
+
+
+
+
+

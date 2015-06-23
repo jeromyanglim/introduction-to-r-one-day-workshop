@@ -1,0 +1,99 @@
+---
+title: "Introduction to R Workshop: RMarkdown Example"
+author: "Dr Jeromy Anglim"
+output: html_document
+---
+
+# Overview of Markdown
+
+
+# Heading 1 with a hash
+## Heading 2 with a double hash
+### Heading 3 with a triple hash
+
+You can type normal text and insert line breaks as you like.
+
+To indicate a new paragraph, leave an empty line.
+
+You can include dot points by adding an empty line and then using the
+star * symbol.
+
+* Example dot point
+* Another example
+
+You can also create numbered dot points.
+
+1. My first point that I want to make
+2. My second point that I want to make
+3. Another point
+
+You can format text:
+
+* Enclose text in backticks to indicate code: e.g., `mycode`
+* Enclose text in double stars for bold: e.g., **bolded text**
+* Enclose text in single stars for italics: e.g., *bolded text*
+
+Hyperlinks can be included:
+
+* Put text to display in brackets followed by url in parentheses
+  [text to display](http://jeromyanglim.blogspot.com)
+* Or you can just put a url: http://jeromyanglim.blogspot.com  
+
+If you forget this, you can access the Markdown Quick Reference in Rstudio.
+
+
+# RMarkdown
+* RMarkdown is a document format that involves interspersing Markdown 
+with R Code chunks.
+
+* `knitr` then runs the R code and intersperses the resulting output (e.g., tables, figures, text) in the document.
+
+
+The easiest way to create an R code chunk is to go to "code - insert chunk" in RStudio.
+
+* R code chunks begin with triple backtick, open brace, r, and then close back tick.
+  They can also includes some display options.
+* R code chunks end with a triple backtick.
+
+
+It's generally a good idea to put all your library, data loading, and 
+data manipulation, code in the first chunk. 
+This allows you to minimise the dependencies between code chunks.
+
+```{r import_libraries, warning=FALSE, message=FALSE}
+library(foreign) # read.spss
+library(psych) # describe 
+
+cars_raw <- foreign::read.spss('cars.sav', to.data.frame=TRUE)
+# get rid of missing data listwise
+cars <- na.omit(cars_raw[,c('accel', 'mpg', 'engine', 'horse', 'weight')])
+```
+
+
+
+# Quick look at data
+```{r quick_look}
+# What's my sample size
+nrow(cars)
+
+# Descriptive statistics
+psych::describe(cars)
+
+# Basic correlations
+round(cor(cars), 2)
+```
+
+# You can also include plots
+```{r}
+psych::pairs.panels(cars)
+```
+
+## Summary of model
+```{r}
+fit <- lm(accel ~ mpg + engine + horse + weight, data=cars)
+# r-square, adjusted r-square, std. error of estimate,
+# overall ANOVA, df, p, 
+# unstandardised coefficients, sig tests
+summary(fit)
+
+```
