@@ -1,7 +1,7 @@
 # Introduction to R: One Day Workshop
 # Workshop Materials
 
-* Download workshop materials and unzip them to a place on your computer:
+* Download workshop materials and unzip them to a folder on your computer:
   https://github.com/jeromyanglim/introduction-to-r-one-day-workshop/archive/master.zip
 * Once you have installed the software below, the workshop files include a file
   called "check-r-installation.r". If you open that file in RStudio and run the
@@ -16,7 +16,7 @@ If you have not already done this, go to the following sites.
 * R: http://cran.rstudio.com/
 * Rstudio: http://www.rstudio.com/products/RStudio/
 
-If you have trouble installing R and Rstudio, then check out these additional
+If you have trouble installing R and Rstudio, then [check out these additional
 instructions](http://jeromyanglim.tumblr.com/post/122207626236/installing-r-and-rstudio)
 
 # Install RTools if on Windows OS
