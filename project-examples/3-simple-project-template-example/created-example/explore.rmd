@@ -1,8 +1,4 @@
 # Initialise Project
-```{r knitr_configuration}
-library(knitr)
-opts_knit$set(root.dir = normalizePath('../')) # required when rmd is in subdirectory
-```
 
 ```{r load_project}
 library(ProjectTemplate); load.project()

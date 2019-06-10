@@ -1,14 +1,9 @@
 # Preliminary analysies
 
 
-```{r knitr_configuration}
-# If you compile this rmd file in place, then the following line ensures that it treats the parent folder as the home directory.
-library(knitr)
-opts_knit$set(root.dir = normalizePath('../')) # required when rmd is in subdirectory
-```
-
-
 ```{r}
+library(devtools)
+install_github('personalityfacets', username='jeromyanglim')
 library("ProjectTemplate"); load.project()
 #  QUICK_ANALYSIS=TRUE means that bootstrap operation will be run 
 # on many fewer iterations than the paper; set to 

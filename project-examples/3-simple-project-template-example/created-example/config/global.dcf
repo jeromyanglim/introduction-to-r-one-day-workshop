@@ -7,5 +7,10 @@ libraries: psych, lattice, Hmisc
 as_factors: FALSE
 data_tables: FALSE
 recursive_loading: TRUE
-version: 0.6
+version: 0.8.2
 attach_internal_libraries: FALSE
+data_loading_header: TRUE
+data_ignore:
+logging_level: INFO
+cache_loaded_data: FALSE
+sticky_variables: NONE

@@ -3,9 +3,14 @@ cache_loading: FALSE
 munging: TRUE
 logging: FALSE
 load_libraries: TRUE
-libraries: psych, lattice, Hmisc
+libraries: psych, lattice, Hmisc, AER, MASS, DAAG, dplyr, lme4, lavvaan, metafor, boot, car
 as_factors: FALSE
 data_tables: FALSE
 recursive_loading: FALSE
-version: 0.6
+version: 0.8.2
 attach_internal_libraries: FALSE
+data_loading_header: TRUE
+data_ignore:
+logging_level: INFO
+cache_loaded_data: FALSE
+sticky_variables: NONE
